@@ -42,7 +42,7 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
         holder.title.setText(topic.getTitle());
         holder.description.setText(topic.getDescription());
         Glide.with(context)
-                .load(R.drawable.intro)
+                .load(topic.getImage())
                 .override(400,400)
                 .into(holder.image);
     }

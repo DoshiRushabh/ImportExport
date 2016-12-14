@@ -1,23 +1,29 @@
 package com.rushabh.importandexport.dataObject;
 
+import android.graphics.drawable.Drawable;
+
+import com.bumptech.glide.load.engine.Resource;
+
 /**
  * Created by Rushabh on 12/14/2016.
  */
 
 public class topic {
-    private String image,title,description;
+    private String title,description;
+    private int image;
 
-    public topic(String image, String title, String description) {
+
+    public topic(int image, String title, String description) {
         this.image = image;
         this.title = title;
         this.description = description;
     }
 
-    public String getImage() {
+    public int getImage() {
         return image;
     }
 
-    public void setImage(String image) {
+    public void setImage(int image) {
         this.image = image;
     }
 

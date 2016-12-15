@@ -13,10 +13,17 @@ public class introActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
+        overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Introduction");
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.trans_right_in, R.anim.trans_right_out);
     }
 }

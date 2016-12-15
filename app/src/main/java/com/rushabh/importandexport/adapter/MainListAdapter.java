@@ -8,6 +8,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.Switch;
 import android.widget.TextView;
@@ -43,6 +45,16 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
 
     @Override
     public void onBindViewHolder(MainListAdapter.PersonViewHolder holder, int position) {
+//        Clear animation
+        holder.itemView.clearAnimation();
+//        Creating new animation
+        int lastPosition = -1;
+        Animation animation = AnimationUtils.loadAnimation(context,
+                (position > lastPosition) ? R.anim.up_from_bottom
+                        : R.anim.down_from_top);
+        holder.itemView.startAnimation(animation);
+        lastPosition = position;
+
         topic topic = topicList.get(position);
         holder.title.setText(topic.getTitle());
         holder.description.setText(topic.getDescription());

@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.rushabh.importandexport.R;
+import com.rushabh.importandexport.activities.ModeOfTransActivity;
 import com.rushabh.importandexport.activities.introActivity;
 import com.rushabh.importandexport.dataObject.topic;
 
@@ -87,6 +88,7 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
             case 3:
                 return;
             case 4:
+                context.startActivity(new Intent(context,ModeOfTransActivity.class));
                 return;
             case 5:
                 return;

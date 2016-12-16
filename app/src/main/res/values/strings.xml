@@ -42,4 +42,139 @@
         In most countries, such trade represents a significant share of gross domestic product (GDP).
         While international trade has existed throughout history (for example Uttarapatha, Silk Road, Amber Road, salt roads), its economic, social, and political importance has been on the rise in recent centuries.
     </string>
+    <string name="mode_of_transtitle1">Modes of transportation</string>
+    <string name="mode_of_tran_detail1">
+            \t - Sea-freight\n
+                \t\t\t\t - Containerized, Full Container Load (FCL) / Less-	than-full Container Load (LCL)\n
+                \t\t\t\t - Conventional (general cargo)\n
+                \t\t\t\t - Charter Shipping (bulk)\n
+                \t\t\t\t - Roll on (RO)/Roll off (RO) Vessels and LASHING\n
+            \t - Airfreight\n
+            \t - Overland / Truck / Rail\n
+            \t - Post\n
+            \t - Multimodal Transportation\n
+    </string>
+    <string name="mode_of_trans_title2">Selection of the Methods of Dispatch</string>
+    <string name="mode_of_trans_detail2">
+            \t - Rule of thumb\n
+            \t\t\t\t - Relatively high value / low volume: use airfreight\n
+            \t\t\t\t - Relatively low value / high volume: use sea freight\n
+            \t - Type of supplies\n
+            \t - Geography\n
+            \t - Time element\n
+            \t - Cost\n
+            \t - Safety\n
+            \t - Weight and Volume\n
+    </string>
+    <string name="mode_or_trans_title3">Sea Freight</string>
+    <string name="mode_of_trans_detail3">
+        \t - Sea-Freight Containerized\n
+            \t\t\t\t - Full Container Load (FCL): It is a “door to door” concept.\n
+            \t\t\t\t - Less than a Container Load (LCL): It is a “Terminal to Terminal” concept.\n
+        \t - Sea-Freight Conventional Cargo (General Cargo)\n
+        \t - Sea-Freight Chartering\n
+        \t - Sea-Freight Roll on / Roll off (RO/RO)\n
+        \t - Sea-Freight LASH (Lighter Aboard Ship)\n
+    </string>
+    <string name="mode_or_trans_title4">Method of quoting freight rates</string>
+    <string name="mode_of_trans_detail4">
+        \t - Case: Assuming that an ocean carrier or a freight consolidator offers an exporter $65 W/M (weight or measurement) for the shipment of 665 cartons of product DX. The specified weight is per 1,000 kg and measure is per cubic meter (m³). The gross weight of each carton is 10.5 kg and the dimensions are 0.45 x 0.30 x 0.30 m (LxWxH) which is 0.04 m³ per carton.\n
+        \t - The consignment has a weight of 6,982.5 kg (i.e., 10.5 kg x 665) and a measure of 26.30 m³ (i.e., 0.04m³ x 665)\n
+        \t - The freight cost by weight is: $65 x (6,982.5/1,000) = $ 453.86\n
+        \t - The freight cost by measurement is: $65 x 26.30 = $ 1,729.00\n
+        \t - The volume of product DX is large in relation to its weight; the freight cost by volume gives the carrier or the consolidator a higher revenue and thus the exporter pays $1,729,00\n
+    </string>
+    <string name="mode_or_trans_title5">Air Freight</string>
+    <string name="mode_of_trans_detail5">
+        \t - Used for high value/low volume shipments.\n
+        \t - Benefits of air freight:\n
+            \t\t\t\t - Faster delivery\n
+            \t\t\t\t - Better security\n
+            \t\t\t\t - Less packaging\n
+            \t\t\t\t - Lower insurance\n
+    </string>
+    <string name="mode_or_trans_title6">Calculating Airfreight</string>
+    <string name="mode_of_trans_detail6">
+        \t - The basis of calculation of airfreight charges is normally weight per kilo, the weight being rounded off to the nearest higher 0.5 kg. When the ratio between weight and measurement exceeds 6, however (in the UK, it is 5), the basis for calculating cost will be on volumetric weight.\n
+        Example:\n
+            \t\t\t\t - A 9.8 kg package – volume 40 cm3 = charged at 10.0 kg\n
+            \t\t\t\t - A 9.8 kg package – volume 75 cm3 = charged at 75/6 = 12.5 kg\n
+        \t - Chargeable Weight for a shipment is the greater of the actual weight and the volumetric weight. It is proper and customary for the figure to be rounded up to the next 0.5 kg.\n
+    </string>
+    <string name="mode_or_trans_title7">Calculating Airfreight -1</string>
+    <string name="mode_of_trans_detail7">
+        Shipment 1\n
+        \t - Gross weight =750kgs\n
+        \t - Measurement of cargo = 102cm X 98cm X 106cm = 1 box\n
+        \t - 80cm X 65cm X 103cm = 3 boxes\n
+        \t - Total volume = 1059576 + (535600X3) = 2666376 cubic centimeter\n
+        \t - Total chargeable weight = 2666376 / 6000 = 444.396kgs\n
+        \t - Here in shipment No: 1, the gross weight is 750kgs and chargeable weight is 444.396kgs. Hence, actual gross weight of 750kgs (which is greater) is charged airfreight.\n
+    </string>
+    <string name="mode_or_trans_title8">Calculating Airfreight -2</string>
+    <string name="mode_of_trans_detail8">
+       Shipment 2\n
+        \t - Gross weight = 850kgs\n
+        \t - Measurement of cargo = 120cm X 160cm X 115cm = 2 boxes\n
+        \t - 75cm X 130cm X 125cm = 2 boxes\n
+        \t - Total volume = 4416000 + 2437500 = 6853500 cubic centimeter\n
+        \t - Total chargeable weight = 6853500 / 6000 = 1142.25kgs\n
+        \t - Here in shipment No:2, the gross weight is 850kgs and chargeable weight is 1142.25kgs. Hence, airfreight is charged on the basis of chargeable weight of 1142.25kgs.    </string>\n
+    <string name="mode_or_trans_title9">Calculating Airfreight -3</string>
+    <string name="mode_of_trans_detail9">
+        Shipment 3\n
+        \t - Gross weight : 950kgs.\n
+        \t - Measurement of cargo = 1 meter X 1.05 meter X 0.85 meter = 2 boxes\n
+        \t - 0.7 meter X 1.50 meter X 0.60 meter= 3 boxes\n
+        \t - Total volume = (0.8925 X 2) + ( 0.63 X 3)\n
+        \t - 1.785 + 1.89 = 3.675 cubic meter\n
+        \t - Total chargeable weight = 3.675 / .006 = 612.50kgs\n
+    </string>
+    <string name="mode_or_trans_title10">Other modes</string>
+    <string name="mode_of_trans_detail10">
+        \t - Overland (Truck/Rail)\n
+        \t - Post\n
+        \t - Multimodal Transportation\n
+            \t\t\t\t\t - An example of multimodal transportation: Containers loaded in ICD Ahmedabad travel by train to Mumbai, then ship on a vessel to Dar-Es-Salaam, then are delivered inland in Tanzania by truck.\n
+    </string>
+    <string name="mode_or_trans_title11">Packing</string>
+    <string name="mode_of_trans_detail11">
+        \t - Packing\n
+        \t - Kind of product\n
+        \t - Mode of transportation\n
+        \t - Route and final destination\n
+        \t - Climatic conditions\n
+        \t - Customs duties and freight rates\n
+        \t - Cost of packing materials\n
+        \t - Pallets\n
+    </string>
+    <string name="mode_or_trans_title12">Markings</string>
+    <string name="mode_of_trans_detail12">
+        \t - Markings or Known as “shipping marks”\n
+        \t - It is preferable to replace ‘Marks’ with ‘Symbols’ such as the broken glass for fragile items or arrows for a package to be kept upright.\n
+        \t - Example\n
+            \t\t\t\tIdentification of the consignee\t\t\t\t 	UNDP\n
+            \t\t\t\tDestination 	\t\t\t\t			ADDIS ABABA\n
+            \t\t\t\tPort of unloading 	\t\t\t\t		VIA ASSAB\n
+            \t\t\t\tProject identification 	\t\t\t\t		HH/…/…\n
+            \t\t\t\tOrder number \t\t\t\t		XO/ETH-1234/…\n
+            \t\t\t\tCase number 	\t\t\t\t			1/10…2/10…3/10\n
+    </string>
+    <string name="mode_or_trans_title13">Addresses</string>
+    <string name="mode_of_trans_detail13">
+        	\t - While shipping marks are usually abbreviated designations of the consignee and its location, the full address is written on shipping documents, as well as the address to which correspondence and shipping documents will be sent.\n
+    </string>
+    <string name="mode_or_trans_title14">Parties Involved in the Chain of Transport</string>
+    <string name="mode_of_trans_detail14">
+        \t -  Carriers\n
+            \t\t\t\t -  Inland carrier can be either rail or road transport, or often a combination of both.\n
+            \t\t\t\t -  Overseas carriers are either shipping or airline companies.\n
+        \t -  Forwarding Agents/Forwarders\n
+        \t -  Dock Authorities\n
+        \t -  Customs Authorities\n
+        \t -  Insurers\n
+        \t -  Others: container handling, warehousing/stevedoring, lighterage services, tally clerks, surveyors, banks, etc.\n
+    </string>
+
+
 </resources>

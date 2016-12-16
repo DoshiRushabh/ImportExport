@@ -1,5 +1,6 @@
 package com.rushabh.importandexport;
 
+import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -17,6 +18,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.rushabh.importandexport.activities.CurrencyConverter;
 import com.rushabh.importandexport.fragments.MainFragment;
 
 
@@ -92,7 +94,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.currancyconverter) {
-            // Handle the camera action
+            startActivity(new Intent(MainActivity.this, CurrencyConverter.class));
         } else if (id == R.id.rateapp) {
 
         } else if (id == R.id.feedback) {

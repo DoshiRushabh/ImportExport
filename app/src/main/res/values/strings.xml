@@ -10,4 +10,36 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="header_main_text">Header Main Text</string>
     <string name="header_other_details">Header Other Details</string>
+    <string name="introduction_title1">OPPORTUNITIES IN EXPORT IMPORT SECTOR</string>
+    <string name="introduction_detail1">
+        \t - Economical Growth\n
+        \t - Employment Generation\n
+        \t - Purchasing Power\n
+        \t - Infrastructure Development\n
+        \t - World Recognition\n
+        \t - FDI\n
+        \t - Most happening \u0026 Emerging Country\n
+        \t - Transit from Under Developed to Developed Country\n
+    </string>
+    <string name="intro_title2">MYTHS</string>
+    <string name="intro_detail2">
+        \t - Can’t search for buyer \u0026 product\n
+        \t - Inquiries but no response\n
+        \t\t\t\t - Quoting price\n
+		\t\t\t\t - Sending samples\n
+        \t - Safety of payment\n
+        \t\t\t\t - Lack of Communication\n
+		\t\t\t\t - Money\n
+        \t - Lack of\n
+		\t\t\t\t - Education\n
+		\t\t\t\t - Available time  –  24*7*365\n
+		\t\t\t\t - IT Knowledge\n
+        \t\t\t\t - -Export Import Knowledge\<n></n>
+    </string>
+    <string name="introduction_title">
+        International trade is the exchange of capital, goods, and services across international borders or territories.
+        It is the exchange of goods and services among nations of the world.
+        In most countries, such trade represents a significant share of gross domestic product (GDP).
+        While international trade has existed throughout history (for example Uttarapatha, Silk Road, Amber Road, salt roads), its economic, social, and political importance has been on the rise in recent centuries.
+    </string>
 </resources>

@@ -1,5 +1,7 @@
 package com.rushabh.importandexport.activities;
 
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,6 +19,14 @@ public class introActivity extends AppCompatActivity {
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Introduction");
+
+        final Drawable upArrow = getResources().getDrawable(R.drawable.back);
+        upArrow.setAlpha(100);
+        upArrow.setColorFilter(getResources().getColor(R.color.white), PorterDuff.Mode.SRC_ATOP);
+        actionBar.setHomeAsUpIndicator(upArrow);
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
 
     }

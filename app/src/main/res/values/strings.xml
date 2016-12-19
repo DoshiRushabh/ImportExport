@@ -34,7 +34,7 @@
 		\t\t\t\t - Education\n
 		\t\t\t\t - Available time  –  24*7*365\n
 		\t\t\t\t - IT Knowledge\n
-        \t\t\t\t - -Export Import Knowledge\<n></n>
+        \t\t\t\t - -Export Import Knowledge\
     </string>
     <string name="introduction_title">
         International trade is the exchange of capital, goods, and services across international borders or territories.
@@ -178,5 +178,306 @@
     </string>
     <string name="link">Link</string>
 
+    //forign Trade
+<string name="forign_trade">
+    </string>
+    <string name="forign_title1">Why Exports?</string>
+    <string name="forigtn_detail1">
+        \t - Increases the sales and profits of company,\n
+        \t - Enables company to benchmark with their competitors and know their strategies and what they have done to increase their market share globally,\n
+        \t - Reduces the risk of market fluctuations by depending on many markets,\n
+        \t - Diminishes unit cost by adopting mass production strategy,\n
+        \t - Enhances firms and countries’ competitive advantage by gaining new technologies,\n
+        \t - Support countries' balance of trade.\n
+        
+    </string>
+
+    <string name="Export_pro_title2">Export Process</string>
+    <string name="Export_pro_detail2">
+        \t - Identify Country\n
+        \t - Identify Buyer\n
+        \t - Send Sample/Offer\n
+        \t - Engage Buyer\n
+        \t - Meet Specifications\n
+        \t - Ask for order\n
+        
+    </string>
+
+    <string name="Buyer_want_title3">What buyer wants?</string>
+    <string name="Buyer_want_detail3">
+        \t - Fair price\n
+        \t - Honor fundamentals of agreement\n
+        \t - Value added or Branded or specified products\n
+        \t - Quality products &amp; consistency in quality\n
+        \t - On time shipment\n
+        \t - Longtime  business relationship\n
+        \t - Trust is the thread which connects all people!\n
+        
+    </string>
+
+    <string name="International_Institution_title4">International Institution</string>
+    <string name="International_Institution_detail4">
+        \t - ICC (Int. Chamber of Commerce - The WBO)\n
+        \t - International Monetary Fund\n
+        \t - World Bank\n
+        \t - World Trade Organization\n
+        \t - ITC (International Trade Centre)\n
+        \t - UNCTAD (United nations conference on trade and development)(http://dgff.unctad.org/chapter1/1.1.html)\n
+        \t - UNCITRAL (United Nations Commission on International Trade Law)\n
+        \t - WIPO (World Intellectual Property Organization)\n
+        \t - Institute of International Commercial Law (Pace)\n
+        \t - Lex Mercatoria\n
+        
+    </string>
+
+
+    <string name="National_Institutions_title5">National Institutions – Govt.</string>
+    <string name="National_Institutions_detail5">
+        \t - Ministry of Commerce and Industry \n
+        \t - Directorate General of Foreign Trade (DGFT)\n
+        \t - Central Board of Excises Customs (CBEC)\n
+        \t - RBI\n
+        \t - EXIM BANK\n
+        \t - NCDPD (National Centre for Product &amp; Design Development)\n
+        
+    </string>
+
+    <string name="Trade_Institutions_title6">Trade Institutions </string>
+    <string name="Trade_Institutions_detail6">
+        \t - CII\n
+        \t - FICCI\n
+        \t - Chambers of Commerce\n
+        \t - FIEO\n
+        \t - EPCs\n
+        \t - Commodities Boards\n
+        
+    </string>
+
+
+    <string name="Various_Rules_title7">Various Rules &amp; Acts</string>
+    <string name="Various_Rules_detail7">
+        \t - Foreign Trade (Development and Regulation) Act, 1992\n
+        \t - FTP (Export and Import (EXIM) Policy) \n
+        \t - FEMA 1999\n
+        \t - The Central Excise Act 1944  http://www.cbec.gov.in/excise/cx-act/cx-act-idx.htm\n
+        \t - The Customs Act, 1962\n
+        \t - The Customs Tariff Act, 1975\n
+        \t - The Customs, Central Excise Duties and Service Tax Drawback (Amendment) Rules, 2006.\n
+
+        
+    </string>
+
+
+    <string name="Career_Opportunities_title8">Career Opportunities</string>
+    <string name="Career_Opportunities_detail8">
+        \t -The following are the areas where students get employment:\n
+        \t - Executives in Documentation, \n
+        \t - Custom House Agents,\n
+        \t - Shipping Executives, \n
+        \t - Port Executives,\n
+        \t - All type of manufacturing concerns,\n
+        \t - ExIm Consultancy, etc.\n
+
+        
+    </string>
+
+
+    <string name="Challenge_title9">Challenge</string>
+    <string name="Challenge_detail9">
+        \t - A key challenge exporters face is the scarcity of reliable trade intelligence on markets.\n
+        \t - Exporters need to stay abreast of \n
+            \t\t\t\t - competitive conditions in their current markets, \n
+            \t\t\t\t - scan opportunities for new or emerging markets,\n
+            \t\t\t\t - look for opportunities to diversify or value-add to your existing product range.\n
+        
+    </string>
+
+
+    //Payment Terms
+<string name="Payment_Terms">
+    </string>
+    <string name="Payment_Terms_title">Payment Terms</string>
+    <string name="Payment_Terms_detail1">
+        \t - Payment terms depend on the credit standing of the importer i.e. buyer and exporter (Seller).\n
+        \t - Today’s International Trade &amp; competition is no longer  confined only to price, quality or delivery schedule, but payment term as well.\n
+        \t - More export orders come due to attractive payment terms.\n
+        
+    </string>
+
+
+    <string name="Types_Payment_Terms_title">Tyeps of Payment Terms</string>
+    <string name="Types_Payment_Terms_detail1">
+        \t - Advance\n
+        \t\t - Under Export:-\n
+                 \t\t\t\t - Supplier can call advance payment for export. The export is required to be made with one year time period. If the same could not be done, advance can be returned to buyer with interest at LIBOR prevailing on date of refund plus 2%. Seller is allowed to send documents directly to buyer in case of 100% advance received.\n
+                 \t\t\t\t - LIBOR IS LONDON INTERBANK OFFERING RATE
+
+
+        \t - At sight (L/C) / DP (Document against payment) / CAD (Cash against document)\n
+           \t\t - Purpose for all above is same. Under this term documents are delivered to buyer against payment only.\n
+           \t\t - DP vs. DAP\n
+                \t\t\t\t - Term ‘DP’ must not be used as ‘DAP’. ‘DP’ is a payment term and ‘DAP’ is shipping term.\n
+           \t\t - CAD (Cash against document)\n
+                \t\t\t\t - It is an old usage.\n
+                \t\t\t\t - This is still commonly used.\n
+           \t\t - Risk involved (Under collection document under CAD)\n
+                \t\t\t\t - Buyer may or may not release documents\n
+
+        \t - Usance / DA (documents against acceptance)\n
+             \t\t - Here some Credit period is allowed for payment to buyer. Under this buyer accepts bills of exchange to pay on maturity date. i.e. some days from date of shipment / bill of lading or invoice or exchange or any fixed date as agreed etc.\n
+             \t\t - Under DA documents\n
+                \t\t\t\t - Bank presents bills of exchange to buyer. Buyer signs bills of exchange in token of acceptance to pay on due date. Bank deliver documents to buyer.\n
+             \t\t - Risk involved (under collection document)\n
+                \t\t\t\t - This is very high risk. Bank has no responsibility to pay if buyer refuses to pay. Bank merely will hand over bill of exchange to seller for their furtherance. \n
+                \t\t\t\t - As far as risk is involved, this is not at all recommended for new exporter.\n
+
+        \t - Deferred (more than one type or types)\n
+             \t\t - An arrangement in which the buyer is allowed to make partial payments i.e. more than one time in future dates.\n
+             \t\t - For example :\n
+                    \t\t\t\t- - 50% at sight,\n
+                    \t\t\t\t - 30% at 30 days from date of shipment and \n
+                    \t\t\t\t - 20% balance at 60 days from date of shipment, etc.\n
+        
+        <string name="Other_type_of_Payment_title">Other type of Payment :</string>
+        <string name="Other_type_of_Payment_detail1">
+        \t - Free of Cost – allowed up to Rs.5 lacs for non-status Holders and Rs.10 lacs for Status holders.\n
+        \t - Status holders\n
+                \t\t\t\t- - Export House            \t\t - 20\n
+                \t\t\t\t- - Star Export House       \t\t - 100\n
+                \t\t\t\t- - Trading House           \t\t - 500\n
+                \t\t\t\t- - Star Trading House      \t\t - 2500\n
+                \t\t\t\t- - Premier Trading House   \t\t - 7500 and Above\n
+        
+    </string>
+    </string>
+
+    //Identifying Buyers
+<string name="Identifying_Buyers">
+    </string>
+    <string name="Identifying_Buyers_title1">Identifying Buyers</string>
+    <string name="Identifying_Buyers_detail1">
+        \t - There are two ways available for Identifying Buyers :- \n
+             \t\t - Offline \n
+             \t\t - Online \n
+        
+    </string>
+
+    <string name="Identifying_Buyers_Offline_title1">Identifying Buyers Offline</string>
+    <string name="Identifying_Buyers_Offline_detail1">
+    \t - Sources to Find Buyers Offline\n
+        \t\t - Participation in Exhibition / Trade Fairs – http://www.tradefairdates.com/ \n
+        \t\t - Databases from Govt. Trade Promotion Bodies - http://commerce.gov.in/DOC/index.aspx \n
+        \t\t - Help of Trade Magazines / News Paper \n
+        \t\t - List of Trade Directories World Wide \n
+        \t\t - Yellow Pages - http://www.yellowpages.com/ \n
+
+        \t - Indian Embassy Abroad “OUR FIRST RELATIVE” - http://www.indiaonlinepages.com/indian-embassies-abroad.html\n
+        \t\t - Support Provided By Indian Embassy\n
+                    \t\t\t\t - 1. List of Buyers / Concern Associations\n
+                    \t\t\t\t - 2. List of Important Govt. Departments \n
+                    \t\t\t\t - 3. List and Authentication of Documents Provided by Importers\n
+                    \t\t\t\t - 4. Verification of Buyers \n
+                    \t\t\t\t - 5. Support for any Trade Disputes \n
+                    \t\t\t\t - 6. Details of Trade Agreements\n
+
+         \t\t - Keep in Mind before sending Emails to any Indian Embassy:\n
+                    \t\t\t\t - To Contact their Commerce Department\n
+                    \t\t\t\t - No attachments – As their Email Accounts are Sensitive\n
+
+        \t\t - Personal Visits\n
+    
+    </string>
+
+    <string name="Identifying_Buyers_Online_title1">Identifying Buyers Online</string>
+    <string name="Identifying_Buyers_Online_detail1">
+        \t - B2B Websites/ Portals \n
+             \t\t - www.alibaba.com \n
+             \t\t - www.tradeindia.com \n
+             \t\t - www.indiamart.com \n
+             \t\t - www.fiber2fashion.com \n
+             \t\t - www.exportersindia.com \n
+
+        \t - List of Top B2B Websites Worldwide -http://dragon-guide.net/ \n
+        
+    </string>
+
+    <string name="find_Buyers_Online_title1">How to Find Online Buyers</string>
+    <string name="find_Buyers_Online_detail1">
+        \t - Search For \n
+             \t\t - Trading Companies \n
+             \t\t - Try to find Distributors \n
+             \t\t - Trade Agents \n
+             \t\t - Find the list of Companies Registered as a Manufacturer of your used Products    \n
+             \t\t - Search for Importers List \n
+
+        \t - Authenticated Directories \n
+             \t\t - Trade Associations Directories in Targeted Countries \n
+             \t\t - Exhibition / Trade Fairs Exhibitors Directory - http://www.tradefairdates.com/ \n
+             \t\t - Local Chamber of Commerce in your Targeted Countries \n
+        
+    </string>
+
+    <string name="Importance_of_Communication_title1">Importance of Communication</string>
+    <string name="Importance_of_Communication_detail1">
+        \t - Reach to the Right Person \n
+             \t\t - Difficulties you will face to reach the right Person \n
+                    \t\t\t\t - Non English Communication on Reception – Use of Google Translate\n
+                    \t\t\t\t - Not Transfer of call to the Purchase Department \n
+                    \t\t\t\t - Use of Social Networking Websites \n
+             \t\t - Important Points require to be consider before starting the Communication \n
+                    \t\t\t\t - Visit Companies Website  \n
+                    \t\t\t\t - Understand about their Products \n
+                    \t\t\t\t - List out Matching Products \n
+             \t\t - How to Communicate \n
+                    \t\t\t\t - Start Communication with Right Reference  \n
+                    \t\t\t\t - Create the Interest of the Buyer to know more about you \n
+                    \t\t\t\t - Be clear in Communication \n
+                    \t\t\t\t - Don’t give Lengthy Description of your Company \n
+                    \t\t\t\t - Don’t forget to take Direct Number &amp; Email address of the Concern Person \n
+             \t\t - How to Write an Email  \n
+                    \t\t\t\t - Clear Attention \n
+                    \t\t\t\t - Draft an Email with Clear Reference \n
+                    \t\t\t\t - Content or Message should be Short &amp; Clear \n
+                    \t\t\t\t - Don’t send your detailed Companies Profile instead link your website \n
+                    \t\t\t\t - Don’t send Photographs or Brochures in First Email \n
+                    \t\t\t\t - No Grammatical Mistakes \n
+                    \t\t\t\t - Use Google Translate \n
+                    \t\t\t\t - Use of Google Analytics \n
+             \t\t - Points to be Considered before sending Samples \n
+                    \t\t\t\t - Use Covering Letter \n
+                    \t\t\t\t - Packaging of the Samples \n
+                    \t\t\t\t - Prepare Pro-forma Invoice showing “SAMPLES FOR EVALUATION PURPOSE NOT FOR SELL” \n
+
+        
+    </string>
+
+
+    <string name="Genuinity_of_Buyers_title1">Genuinity of Buyers</string>
+    <string name="Genuinity_of_Buyers_detail1">
+        \t - How to Verify Genuine Buyer (Buyer Authentication) \n
+             \t\t - Visit Companies website and Membership Details with Any Associations \n
+             \t\t - Ask for Govt. Registration Documents \n
+             \t\t - Take Support from Indian Embassy \n
+             \t\t - Check Credit Reports \n
+        
+    </string>
+
+
+    <string name="Online_Marketing_title1">What is Online Marketing?</string>
+    <string name="Online_Marketing_detail1">
+        \t - Online marketing refers to a set of powerful tools and methodologies used for promoting products and services through the Internet.  \n
+        \t - Online marketing includes a wider range of marketing elements than traditional business marketing due to the extra channels and marketing mechanisms available on the Internet.\n
+        \t - Online marketing can deliver benefits such as: \n
+             \t\t - Growth in potential \n
+             \t\t - Reduced expenses \n
+             \t\t - Elegant communications \n
+             \t\t - Better control \n
+             \t\t - Improved customer service \n
+             \t\t - Competitive advantage \n
+         \t - Online marketing is also known as Internet marketing, Web marketing, digital marketing and search engine marketing (SEM). \n
+        
+    </string>
+
 
 </resources>
+

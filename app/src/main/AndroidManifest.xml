@@ -24,7 +24,11 @@
         <activity android:name=".activities.introActivity" />
         <activity android:name=".activities.CurrencyConverter" />
         <activity android:name=".activities.ModeOfTransActivity" />
-        <activity android:name=".activities.WebViewActivity"></activity>
+        <activity android:name=".activities.WebViewActivity" />
+        <activity android:name=".activities.ForignTradeActivity" />
+        <activity android:name=".activities.IncotermsActivity" />
+        <activity android:name=".activities.PaymentTermsActivity" />
+        <activity android:name=".activities.IdentifyingBuyersPaymentActivity"></activity>
     </application>
 
 </manifest>

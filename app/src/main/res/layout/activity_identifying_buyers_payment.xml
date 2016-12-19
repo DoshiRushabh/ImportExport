@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_identifying_buyers_payment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rushabh.importandexport.activities.IdentifyingBuyersPaymentActivity">
+    <ScrollView
+        android:layout_margin="@dimen/scroll_view_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Identifying_Buyers_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Identifying_Buyers_detail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Identifying_Buyers_Offline_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Identifying_Buyers_Offline_detail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Identifying_Buyers_Online_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Identifying_Buyers_Online_detail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/find_Buyers_Online_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/find_Buyers_Online_detail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Importance_of_Communication_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Importance_of_Communication_detail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Genuinity_of_Buyers_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Genuinity_of_Buyers_detail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Online_Marketing_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Online_Marketing_detail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

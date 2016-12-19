@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_forign_trade"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rushabh.importandexport.activities.ForignTradeActivity">
+    <ScrollView
+        android:layout_margin="@dimen/scroll_view_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/style_title"
+                android:text="@string/forign_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/forigtn_detail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Export_pro_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Export_pro_detail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Buyer_want_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Buyer_want_detail3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/International_Institution_title4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/International_Institution_detail4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/National_Institutions_title5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/National_Institutions_detail5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Trade_Institutions_title6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Trade_Institutions_detail6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Various_Rules_title7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Various_Rules_detail7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Career_Opportunities_title8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Career_Opportunities_detail8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/Challenge_title9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/Challenge_detail9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

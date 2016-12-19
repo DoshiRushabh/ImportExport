@@ -17,7 +17,11 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.rushabh.importandexport.R;
+import com.rushabh.importandexport.activities.ForignTradeActivity;
+import com.rushabh.importandexport.activities.IdentifyingBuyersPaymentActivity;
+import com.rushabh.importandexport.activities.IncotermsActivity;
 import com.rushabh.importandexport.activities.ModeOfTransActivity;
+import com.rushabh.importandexport.activities.PaymentTermsActivity;
 import com.rushabh.importandexport.activities.introActivity;
 import com.rushabh.importandexport.dataObject.topic;
 
@@ -91,16 +95,20 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
                 context.startActivity(new Intent(context,ModeOfTransActivity.class));
                 return;
             case 5:
+                context.startActivity(new Intent(context,ForignTradeActivity.class));
                 return;
             case 6:
+                context.startActivity(new Intent(context,IncotermsActivity.class));
                 return;
             case 7:
                 return;
             case 8:
+                context.startActivity(new Intent(context,PaymentTermsActivity.class));
                 return;
             case 9:
                 return;
             case 10:
+                context.startActivity(new Intent(context,IdentifyingBuyersPaymentActivity.class));
                 return;
             case 11:
                 return;

@@ -188,7 +188,7 @@
         \t - Reduces the risk of market fluctuations by depending on many markets,\n
         \t - Diminishes unit cost by adopting mass production strategy,\n
         \t - Enhances firms and countries’ competitive advantage by gaining new technologies,\n
-        \t - Support countries' balance of trade.\n
+        \t - Support countries\' balance of trade.\n
         
     </string>
 
@@ -306,7 +306,7 @@
 
 
     <string name="Types_Payment_Terms_title">Tyeps of Payment Terms</string>
-    <string name="Types_Payment_Terms_detail1">
+    <string name="Types_Payment_Terms_detail1" formatted="false">
         \t - Advance\n
         \t\t - Under Export:-\n
                  \t\t\t\t - Supplier can call advance payment for export. The export is required to be made with one year time period. If the same could not be done, advance can be returned to buyer with interest at LIBOR prevailing on date of refund plus 2%. Seller is allowed to send documents directly to buyer in case of 100% advance received.\n
@@ -331,13 +331,13 @@
                 \t\t\t\t - This is very high risk. Bank has no responsibility to pay if buyer refuses to pay. Bank merely will hand over bill of exchange to seller for their furtherance. \n
                 \t\t\t\t - As far as risk is involved, this is not at all recommended for new exporter.\n
 
-        \t - Deferred (more than one type or types)\n
+        \t - Deferred (more than one type or types)\n
              \t\t - An arrangement in which the buyer is allowed to make partial payments i.e. more than one time in future dates.\n
              \t\t - For example :\n
                     \t\t\t\t- - 50% at sight,\n
                     \t\t\t\t - 30% at 30 days from date of shipment and \n
                     \t\t\t\t - 20% balance at 60 days from date of shipment, etc.\n
-        
+        </string>
         <string name="Other_type_of_Payment_title">Other type of Payment :</string>
         <string name="Other_type_of_Payment_detail1">
         \t - Free of Cost – allowed up to Rs.5 lacs for non-status Holders and Rs.10 lacs for Status holders.\n
@@ -347,8 +347,7 @@
                 \t\t\t\t- - Trading House           \t\t - 500\n
                 \t\t\t\t- - Star Trading House      \t\t - 2500\n
                 \t\t\t\t- - Premier Trading House   \t\t - 7500 and Above\n
-        
-    </string>
+
     </string>
 
     //Identifying Buyers

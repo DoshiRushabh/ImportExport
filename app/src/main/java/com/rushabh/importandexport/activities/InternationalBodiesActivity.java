@@ -18,7 +18,7 @@ public class InternationalBodiesActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Introduction");
+        actionBar.setTitle("International bodies");
 
         final Drawable upArrow = getResources().getDrawable(R.drawable.back_arrow);
         upArrow.setColorFilter(getResources().getColor(R.color.white), PorterDuff.Mode.SRC_ATOP);

@@ -21,10 +21,6 @@
             android:id="@+id/aboutus"
             android:icon="@drawable/aboutus"
             android:title="About us" />
-        <item
-            android:id="@+id/contactus"
-            android:icon="@drawable/contactus"
-            android:title="Contact us" />
     </group>
 
 

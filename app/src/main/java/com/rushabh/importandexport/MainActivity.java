@@ -101,8 +101,6 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.aboutus) {
 
-        } else if (id == R.id.contactus) {
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

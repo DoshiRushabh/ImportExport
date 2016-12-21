@@ -20,13 +20,16 @@ import com.rushabh.importandexport.R;
 import com.rushabh.importandexport.activities.ForignTradeActivity;
 import com.rushabh.importandexport.activities.GovermentBenefitsActivity;
 import com.rushabh.importandexport.activities.IdentifyingBuyersPaymentActivity;
+import com.rushabh.importandexport.activities.ImportDocumentActivity;
 import com.rushabh.importandexport.activities.ImportExportBasicsActivity;
 import com.rushabh.importandexport.activities.ImportExportCycleSctivity;
 import com.rushabh.importandexport.activities.IncotermsActivity;
 import com.rushabh.importandexport.activities.InsuAndRiskActivity;
 import com.rushabh.importandexport.activities.InternationalBodiesActivity;
+import com.rushabh.importandexport.activities.LcChecklistActivity;
 import com.rushabh.importandexport.activities.ModeOfTransActivity;
 import com.rushabh.importandexport.activities.PaymentTermsActivity;
+import com.rushabh.importandexport.activities.ProductMarcetSelectActivity;
 import com.rushabh.importandexport.activities.introActivity;
 import com.rushabh.importandexport.dataObject.topic;
 
@@ -109,15 +112,13 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
                 context.startActivity(new Intent(context,IncotermsActivity.class));
                 return;
             case 7:
-//                LC checklist and import documents
-//                context.startActivity(new Intent(context,introActivity.class));
+                context.startActivity(new Intent(context,LcChecklistActivity.class));
                 return;
             case 8:
                 context.startActivity(new Intent(context,PaymentTermsActivity.class));
                 return;
             case 9:
-//                Product and market selection
-//                context.startActivity(new Intent(context,PaymentTermsActivity.class));
+                context.startActivity(new Intent(context,ProductMarcetSelectActivity.class));
                 return;
             case 10:
                 context.startActivity(new Intent(context,IdentifyingBuyersPaymentActivity.class));
@@ -129,8 +130,7 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
                 context.startActivity(new Intent(context,GovermentBenefitsActivity.class));
                 return;
             case 13:
-//                Import Documents
-//                context.startActivity(new Intent(context,PaymentTermsActivity.class));
+                context.startActivity(new Intent(context,ImportDocumentActivity.class));
                 return;
             default:
                 return;

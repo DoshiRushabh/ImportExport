@@ -37,6 +37,10 @@ public class CurrencyConverter extends AppCompatActivity {
         setContentView(R.layout.activity_currency_converter);
         overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out);
 
+        if (!isNetwokAvailable()){
+            onBackPressed();
+            Toast.makeText(this, "Internet not avalable", Toast.LENGTH_SHORT).show();
+        }
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Currency converter");
 

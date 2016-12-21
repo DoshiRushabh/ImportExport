@@ -33,7 +33,10 @@
         <activity android:name=".activities.ImportExportCycleSctivity" />
         <activity android:name=".activities.InsuAndRiskActivity" />
         <activity android:name=".activities.GovermentBenefitsActivity" />
-        <activity android:name=".activities.ImportExportBasicsActivity"></activity>
+        <activity android:name=".activities.ImportExportBasicsActivity" />
+        <activity android:name=".activities.LcChecklistActivity" />
+        <activity android:name=".activities.ProductMarcetSelectActivity" />
+        <activity android:name=".activities.ImportDocumentActivity"></activity>
     </application>
 
 </manifest>

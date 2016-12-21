@@ -617,4 +617,126 @@
 
     <string name="title_activity_international_bodies">InternationalBodies</string>
 
+    <string name="Product_Market_Selection">
+    </string>
+    <string name="Product_Market_Selection_title1">Product Selection</string>
+    <string name="Product_Market_Selection_detail1">
+        \t - Points to be considered while selecting the Product :\n
+            \t\t - General Parameters :  \n
+             \t\t\t\t - Don’t send Photographs or Brochures in First Email \n
+                    \t\t\t\t - Demand \n
+                    \t\t\t\t - Supply \n
+                    \t\t\t\t - Quality \n
+                    \t\t\t\t - Price / Margin \n
+
+         \t - Extra Precautions for Export :\n
+            \t\t - Govt. Permission for Export  \n
+                    \t\t\t\t - Don’t send Photographs or Brochures in First Email \n
+                    \t\t\t\t - Prohibited Products – http://dgft.gov.in/exim/2000/download-ftp1213.htm  \n
+                    \t\t\t\t - Restricted Products - http://dgft.gov.in/exim/2000/download-ftp1213.htm \n
+             \t\t - Repeat Orders – Any kind of Raw Material  \n
+              \t\t - Govt. Incentive &amp; Benefits  \n
+
+        \t - If, Selecting According to Market\n
+            \t\t - Cultural &amp; Social Parameters  \n
+             \t\t - Time of Launching the Product  \n
+
+        \t - Resources to Finding out New Products:\n
+            \t\t - Trade Magazine / News Paper \n
+             \t\t - Exhibition &amp; Trade Fairs - http://10times.com/india/tradeshows  \n
+            \t\t - Export Import Statistics - http://commerce.nic.in/eidb/default.asp  \n
+                    \t\t\t\t - Export Data for the Products Exported by Chinese \n
+                    \t\t\t\t - Import Data for other countries \n
+                    \t\t\t\t - Export Data of Indian Products \n
+                    \t\t\t\t - Search for more Labor intensive Product \n
+            \t\t - Trade Promotional Bodies - Click \n
+             \t\t - Conference &amp; Seminars  \n
+
+        \t - MEIS - Merchandise Export from India Scheme - http://dgft.gov.in/\n
+         \t - MEIS - Product Research &amp; Knowledge\n
+            \t\t - Search for H.S. Code - http://www.eximguru.com/hs-codes/default.aspx \n
+            \t\t - Govt. Benefits on selected  \n
+            \t\t - Techno Commercial Knowledge (Mainly Focus on Featured Knowledge of your Product)  \n
+            \t\t - Knowledge of Competitors \n
+            \t\t - Product Pricing \n
+            \t\t - Comparison of Prices with Chinese Suppliers \n
+
+         \t - Sources to Get Product Knowledge \n
+            \t\t - Any Local Yellow Pages \n
+            \t\t - Put your Buying Requirement on Web portal  \n
+            \t\t - Check with Chinese Suppliers \n
+            \t\t - Check with your Competitors \n
+            \t\t - Visit Market / Exhibitions - http://www.tradefairdates.com/ \n
+
+
+        <n></n>
+    </string>
+    <string name="Product_Market_Selection_title2">Market Selection</string>
+    <string name="Product_Market_Selection_detail2">
+         \t - Role of FIEO - http://www.fieo.org/\n
+         \t - Export Promotion Councils – http://www.eximguru.com/traderesources/exportpromotion.aspx\n
+            \t\t - Engineering Goods – https://www.eepcindia.org/  \n
+            \t\t - Chemicals &amp; Cosmetics – https://chemexcil.in/  \n
+            \t\t - Chemicals &amp; Allied Products – http://www.capexil.com/  \n
+            \t\t - Leather Products – http://leatherindia.org/  \n
+            \t\t - Gems &amp; Jewellery Products – http://gjepc.org/  \n
+            \t\t - Shellac Products – http://www.shellactrade.com/  \n
+            \t\t - Cashew Products – http://www.cashewindia.org/  \n
+            \t\t - Plastic Industry Products – http://www.plexconcil.org/  \n
+            \t\t - Sports Goods Products – http://www.sportsgoodsindia.org/  \n
+            \t\t - Pharmaceuticals Products - http://www.pharmexcil.com/  \n
+        \t - Commodity Board – Click  \n
+            \t\t - Rubber Board – http://rubberboard.org.in/  \n
+            \t\t - Coffee Board – http://www.indiacoffee.org/  \n
+            \t\t - Tea Board – http://www.teaboard.gov.in/  \n
+            \t\t - Tobacco Board – http://tobaccoboard.com/  \n
+            \t\t - Spices Board – http://www.indianspices.com/  \n
+            \t\t - Jute Board - http://jute.com/  \n
+        \t - Development Authorities  \n
+            \t\t - Agricultural and Processed Food Products Export – APEDA (http://apeda.gov.in/apedawebsite/index.html)  \n
+            \t\t - Marine Products Export Development Authority - MPEDA (http://mpeda.gov.in/MPEDA/)  \n
+        </string>
+    <string name="Product_Market_Selection_title3">Benefits of Registration</string>
+    <string name="Product_Market_Selection_detail3">
+        \t - Trade Fairs - http://www.tradefairdates.com/ \n
+         \t - Country Reports \n
+         \t - Delegation Meet / Buyer – Seller Meet \n
+         \t - MDA: Market Development Assistance \n
+            \t\t - Benefits on Participation in Trade Fair \n
+            \t\t - Benefits on Visiting Buyer – Seller Meet  \n
+        \t - Monthly News Letters / Magazines \n
+        \t - Export Import Statistics - http://commerce.gov.in/DOC/index.aspx \n
+        \t - Conferences &amp; Seminars \n
+        \t - International Resources  \n
+        \t - Trade Inquiries \n
+    </string>
+
+    <string name="Product_Market_Selection_title4">What is RCMC?</string>
+    <string name="Product_Market_Selection_detail4">
+    \t - Registration cum Membership Certificate \n
+    </string>
+
+    <string name="Product_Market_Selection_title5">Export Import Statistics</string>
+    <string name="Product_Market_Selection_detail5">
+        \t - Major Importing Countries \n
+        \t - Major Exporting Countries \n
+    </string>
+
+    <string name="Product_Market_Selection_title6">Other Trade Associations</string>
+    <string name="Product_Market_Selection_detail6">
+        \t - FICCI (Federation of Indian Chambers of Commerce and Industry) – http://ficci.in/ \n
+        \t - Inter Country Chamber of Commerce \n
+            \t\t - Indo – China Chamber of Commerce \n
+            \t\t - Indo – Korea Chamber of Commerce  \n
+            \t\t - Indo – Africa Chamber of Commerce  \n
+        \t - CII (Confederation of Indian Industry) - http://www.cii.in/ \n
+    </string>
+
+    <string name="Product_Market_Selection_title7">Importance of Free Trade Agreements</string>
+    <string name="Product_Market_Selection_detail7">
+        \t - Benefits to the Importer \n
+        \t - Countries Covered under Free Trade Agreements \n
+            \t\t - SAARC (South Asian Association for Regional Cooperation) \n
+            \t\t - BRICS \n
+    </string>
 </resources>

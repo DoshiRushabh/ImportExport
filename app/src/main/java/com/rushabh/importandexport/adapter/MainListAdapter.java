@@ -109,12 +109,14 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
                 context.startActivity(new Intent(context,IncotermsActivity.class));
                 return;
             case 7:
+//                LC checklist and import documents
 //                context.startActivity(new Intent(context,introActivity.class));
                 return;
             case 8:
                 context.startActivity(new Intent(context,PaymentTermsActivity.class));
                 return;
             case 9:
+//                Product and market selection
 //                context.startActivity(new Intent(context,PaymentTermsActivity.class));
                 return;
             case 10:
@@ -127,6 +129,7 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
                 context.startActivity(new Intent(context,GovermentBenefitsActivity.class));
                 return;
             case 13:
+//                Import Documents
 //                context.startActivity(new Intent(context,PaymentTermsActivity.class));
                 return;
             default:

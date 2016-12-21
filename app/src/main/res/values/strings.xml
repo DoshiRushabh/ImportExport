@@ -592,11 +592,11 @@
 
     <string name="ins_risk_manage_title3">FOREIGN EXCHANGE RISK</string>
 
-    <string name="ins_risk_manage_detail3"> \t - FORWARD CONTRACT \t\t\t\t - What is Forward Contract? \t\t\t\t - How to Book Forward Contract/ \t\t\t\t - What is Spot Rate? \t - EEFC ACCOUNT \t\t\t\t - What is EEFC Account? \t\t\t\t - How to Open &amp; Manage EEFC Account/ </string>
+    <string name="ins_risk_manage_detail3"> \t - FORWARD CONTRACT\n \t\t\t\t - What is Forward Contract?\n \t\t\t\t - How to Book Forward Contract\n \t\t\t\t - What is Spot Rate?\n \t - EEFC ACCOUNT\n \t\t\t\t - What is EEFC Account?\n \t\t\t\t - How to Open &amp; Manage EEFC Account\n </string>
 
     <string name="ins_risk_manage_title4">CREDIT RISK – PAYMENT RISK</string>
 
-    <string name="ins_risk_manage_detail4"> \t ECGC- Export Credit Guarantee Council \t\t\t\t - Role of ECGC in International Market \t\t\t\t - Categories of Countries \t\t\t\t - Procedure for Credit Policy \t\t\t\t - Types of Policies \t\t\t\t - Procedure for Claim \t\t\t\t - Credit Rating Agency – http://www.dnb.com/ </string>
+    <string name="ins_risk_manage_detail4"> \t - ECGC- Export Credit Guarantee Council\n \t\t\t\t - Role of ECGC in International Market\n \t\t\t\t - Categories of Countries\n \t\t\t\t - Procedure for Credit Policy\n \t\t\t\t - Types of Policies\n \t\t\t\t - Procedure for Claim\n \t\t\t\t - Credit Rating Agency – http://www.dnb.com/\n </string>
 
     <!-- Goverment benefits -->
     <string name="gov_ben_inc_title1">Government Benefits on Exports</string>

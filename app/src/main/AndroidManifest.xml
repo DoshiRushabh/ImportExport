@@ -36,7 +36,8 @@
         <activity android:name=".activities.ImportExportBasicsActivity" />
         <activity android:name=".activities.LcChecklistActivity" />
         <activity android:name=".activities.ProductMarcetSelectActivity" />
-        <activity android:name=".activities.ImportDocumentActivity"></activity>
+        <activity android:name=".activities.ImportDocumentActivity" />
+        <activity android:name=".activities.AboutUsActivity"></activity>
     </application>
 
 </manifest>

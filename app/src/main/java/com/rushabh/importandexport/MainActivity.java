@@ -18,6 +18,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.rushabh.importandexport.activities.AboutUsActivity;
 import com.rushabh.importandexport.activities.CurrencyConverter;
 import com.rushabh.importandexport.fragments.MainFragment;
 
@@ -100,7 +101,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.feedback) {
 
         } else if (id == R.id.aboutus) {
-
+            startActivity(new Intent(MainActivity.this, AboutUsActivity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

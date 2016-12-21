@@ -18,8 +18,13 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.rushabh.importandexport.R;
 import com.rushabh.importandexport.activities.ForignTradeActivity;
+import com.rushabh.importandexport.activities.GovermentBenefitsActivity;
 import com.rushabh.importandexport.activities.IdentifyingBuyersPaymentActivity;
+import com.rushabh.importandexport.activities.ImportExportBasicsActivity;
+import com.rushabh.importandexport.activities.ImportExportCycleSctivity;
 import com.rushabh.importandexport.activities.IncotermsActivity;
+import com.rushabh.importandexport.activities.InsuAndRiskActivity;
+import com.rushabh.importandexport.activities.InternationalBodiesActivity;
 import com.rushabh.importandexport.activities.ModeOfTransActivity;
 import com.rushabh.importandexport.activities.PaymentTermsActivity;
 import com.rushabh.importandexport.activities.introActivity;
@@ -86,10 +91,13 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
                 context.startActivity(new Intent(context,introActivity.class));
                 return;
             case 1:
+                context.startActivity(new Intent(context,InternationalBodiesActivity.class));
                 return;
             case 2:
+                context.startActivity(new Intent(context,ImportExportCycleSctivity.class));
                 return;
             case 3:
+                context.startActivity(new Intent(context,ImportExportBasicsActivity.class));
                 return;
             case 4:
                 context.startActivity(new Intent(context,ModeOfTransActivity.class));
@@ -101,22 +109,25 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
                 context.startActivity(new Intent(context,IncotermsActivity.class));
                 return;
             case 7:
+//                context.startActivity(new Intent(context,introActivity.class));
                 return;
             case 8:
                 context.startActivity(new Intent(context,PaymentTermsActivity.class));
                 return;
             case 9:
+//                context.startActivity(new Intent(context,PaymentTermsActivity.class));
                 return;
             case 10:
                 context.startActivity(new Intent(context,IdentifyingBuyersPaymentActivity.class));
                 return;
             case 11:
+                context.startActivity(new Intent(context,InsuAndRiskActivity.class));
                 return;
             case 12:
+                context.startActivity(new Intent(context,GovermentBenefitsActivity.class));
                 return;
             case 13:
-                return;
-            case 14:
+//                context.startActivity(new Intent(context,PaymentTermsActivity.class));
                 return;
             default:
                 return;

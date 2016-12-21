@@ -338,7 +338,7 @@
                     \t\t\t\t - 30% at 30 days from date of shipment and \n
                     \t\t\t\t - 20% balance at 60 days from date of shipment, etc.\n
         </string>
-        <string name="Other_type_of_Payment_title">Other type of Payment :</string>
+    <string name="Other_type_of_Payment_title">Other type of Payment :</string>
         <string name="Other_type_of_Payment_detail1">
         \t - Free of Cost – allowed up to Rs.5 lacs for non-status Holders and Rs.10 lacs for Status holders.\n
         \t - Status holders\n
@@ -477,138 +477,144 @@
         
     </string>
 
-<!-- New data -->
-<string name="intl_bodies_title1">International Bodies</string>
+    <!-- New data -->
+    <string name="intl_bodies_title1">International Bodies</string>
 
-<string name="intl_bodies_detail1"> \t - ICC – International Chamber of Commerce\n \t\t\t\t - Role\n \t\t\t\t - Framework\n \t\t\t\t - UCP – Uniform Customs &amp; Practice\n \t\t\t\t - What is H.S Code? - Click\n \t\t\t\t - Indian Trade Classifications (ITC-H.S CODE) - Click\n \t - WORLD TRADE ORGANIZATION – Click\n \t\t\t\t A. Role in World Trade\n \t\t\t\t B. Frame Work\n \t\t\t\t C. Achievements\n </string>
+    <string name="intl_bodies_detail1"> \t - ICC – International Chamber of Commerce\n \t\t\t\t - Role\n \t\t\t\t - Framework\n \t\t\t\t - UCP – Uniform Customs &amp; Practice\n \t\t\t\t - What is H.S Code? - Click\n \t\t\t\t - Indian Trade Classifications (ITC-H.S CODE) - Click\n \t - WORLD TRADE ORGANIZATION – Click\n \t\t\t\t A. Role in World Trade\n \t\t\t\t B. Frame Work\n \t\t\t\t C. Achievements\n </string>
 
-<string name="intl_bodies_title2">Local Bodies</string>
+    <string name="intl_bodies_title2">Local Bodies</string>
 
-<string name="intl_bodies_detail2"> \t\t\t\t - Ministry of Commerce &amp; Finance – Click\n \t\t\t\t - DGFT – Director General of Foreign Trade – Click\n \t\t\t\t - RBI – Click\n \t\t\t\t - Central Excise &amp; Customs Act - Click\n \t\t\t\t - Shipping Lines\n \t\t\t\t - Airlines\n \t\t\t\t - Insurance Companies\n \t\t\t\t - Inspection Agencies\n \t\t\t\t - Test Laboratories\n </string>
+    <string name="intl_bodies_detail2"> \t\t\t\t - Ministry of Commerce &amp; Finance – Click\n \t\t\t\t - DGFT – Director General of Foreign Trade – Click\n \t\t\t\t - RBI – Click\n \t\t\t\t - Central Excise &amp; Customs Act - Click\n \t\t\t\t - Shipping Lines\n \t\t\t\t - Airlines\n \t\t\t\t - Insurance Companies\n \t\t\t\t - Inspection Agencies\n \t\t\t\t - Test Laboratories\n </string>
 
-<string name="intl_bodies_title3">Trade Promotion Agencies</string>
+    <string name="intl_bodies_title3">Trade Promotion Agencies</string>
 
-<string name="intl_bodies_detail3"> \t - CII – Confederation of Indian Industries - Click\n \t - Trade Associations - Click\n \t - FICCI – Federation of Indian Chamber of Commerce &amp; Industries – Click\n \t - FIEO – Federation of Indian Exporter Organization - Click\n \t - Export Promotion Councils – Click\n \t\t\t\t - Engineering Goods – Click\n \t\t\t\t - Chemicals &amp; Cosmetics – Click\n \t\t\t\t - Chemicals &amp; Allied Products – Click\n \t\t\t\t - Leather Products – Click\n \t\t\t\t - Gems &amp; Jewellery Products – Click\n \t - Shellac Products – Click\n \t\t\t\t - Cashew Products – Click\n \t\t\t\t - Plastic Industry Products – Click\n \t\t\t\t - Sports Goods Products – Click\n \t\t\t\t - Pharmaceuticals Products - Click\n \t - Commodity Board – Click\n \t\t\t\t - Rubber Board – Click\n \t\t\t\t - Coffee Board – Click\n \t\t\t\t - Tea Board – Click\n \t\t\t\t - Tobacco Board – Click\n \t\t\t\t - Spices Board – Click\n \t\t\t\t - Jute Board - Click\n </string>
+    <string name="intl_bodies_detail3"> \t - CII – Confederation of Indian Industries - Click\n \t - Trade Associations - Click\n \t - FICCI – Federation of Indian Chamber of Commerce &amp; Industries – Click\n \t - FIEO – Federation of Indian Exporter Organization - Click\n \t - Export Promotion Councils – Click\n \t\t\t\t - Engineering Goods – Click\n \t\t\t\t - Chemicals &amp; Cosmetics – Click\n \t\t\t\t - Chemicals &amp; Allied Products – Click\n \t\t\t\t - Leather Products – Click\n \t\t\t\t - Gems &amp; Jewellery Products – Click\n \t - Shellac Products – Click\n \t\t\t\t - Cashew Products – Click\n \t\t\t\t - Plastic Industry Products – Click\n \t\t\t\t - Sports Goods Products – Click\n \t\t\t\t - Pharmaceuticals Products - Click\n \t - Commodity Board – Click\n \t\t\t\t - Rubber Board – Click\n \t\t\t\t - Coffee Board – Click\n \t\t\t\t - Tea Board – Click\n \t\t\t\t - Tobacco Board – Click\n \t\t\t\t - Spices Board – Click\n \t\t\t\t - Jute Board - Click\n </string>
 
-<string name="intl_bodies_title4">Development Authoroties</string>
+    <string name="intl_bodies_title4">Development Authoroties</string>
 
-<string name="intl_bodies_detail4"> \t - Agricultural and Processed Food Products Export – APEDA\n \t - Marine Products Export Development Authority - MPEDA\n </string>
+    <string name="intl_bodies_detail4"> \t - Agricultural and Processed Food Products Export – APEDA\n \t - Marine Products Export Development Authority - MPEDA\n </string>
 
-<string name="intl_bodies_title5">Indian Government Laws</string>
+    <string name="intl_bodies_title5">Indian Government Laws</string>
 
-<string name="intl_bodies_detail5"> \t - Foreign Trade Act – Click\n \t - FEMA – Foreign Exchange Management Act – Click\n </string>
+    <string name="intl_bodies_detail5"> \t - Foreign Trade Act – Click\n \t - FEMA – Foreign Exchange Management Act – Click\n </string>
 
-<string name="intl_bodies_title6">Foreign Trade Policy and Framework</string>
+    <string name="intl_bodies_title6">Foreign Trade Policy and Framework</string>
 
-<string name="intl_bodies_detail6"> \t - Foreign Trade Policy 2014–2019 – Click\n \t - Handbook of Procedures – Click\n \t - Appendices &amp; Aayat Niryat Forms – Click\n \t - SION - Standard Input Output Norms - Click\n </string>
+    <string name="intl_bodies_detail6"> \t - Foreign Trade Policy 2014–2019 – Click\n \t - Handbook of Procedures – Click\n \t - Appendices &amp; Aayat Niryat Forms – Click\n \t - SION - Standard Input Output Norms - Click\n </string>
 
-<string name="imp_exp_cycle_title1">Issuance of Import Exxport Cycle - IE Code</string>
+    <!-- Import Export Cycle -->
+    <string name="imp_exp_cycle_title1">Issuance of Import Exxport Cycle - IE Code</string>
 
-<string name="imp_exp_cycle_detail1"> \t Importance of IE Code\n </string>
+    <string name="imp_exp_cycle_detail1"> \t Importance of IE Code\n </string>
 
-<string name="imp_exp_cycle_title2">Types of Exporter</string>
+    <string name="imp_exp_cycle_title2">Types of Exporter</string>
 
-<string name="imp_exp_cycle_detail2"> \t 1.Merchant Exporter\n \t 2.Manufacturer Exporter\n \t 3.Merchant cum Manufacturer Exporter\n \t 4.Service Providers\n </string>
+    <string name="imp_exp_cycle_detail2"> \t 1.Merchant Exporter\n \t 2.Manufacturer Exporter\n \t 3.Merchant cum Manufacturer Exporter\n \t 4.Service Providers\n </string>
 
-<string name="imp_exp_cycle_title3">Name Selection</string>
+    <string name="imp_exp_cycle_title3">Name Selection</string>
 
-<string name="imp_exp_cycle_detail3"> \t Parameters for Selecting your Company Name\n \t\t\t\t - Industry Specific Names\n \t\t\t\t - Easy to Speak and Understand\n \t\t\t\t - Use End Names like EXIM, IMPEX,International\n \t Issuing Authority\n \t Formalities &amp; Procedures\n \t Documents Required\n \t\t\t\t - Pan Card\n \t\t\t\t - If Proprietor then Proprietor’s Pan Card\n \t\t\t\t - Else Companies Pan Card\n \t\t\t\t - Bank Account\n \t\t\t\t - 5 Photographs\n \t\t\t\t - Local Body Registration Certificate\n </string>
+    <string name="imp_exp_cycle_detail3"> \t Parameters for Selecting your Company Name\n \t\t\t\t - Industry Specific Names\n \t\t\t\t - Easy to Speak and Understand\n \t\t\t\t - Use End Names like EXIM, IMPEX,International\n \t Issuing Authority\n \t Formalities &amp; Procedures\n \t Documents Required\n \t\t\t\t - Pan Card\n \t\t\t\t - If Proprietor then Proprietor’s Pan Card\n \t\t\t\t - Else Companies Pan Card\n \t\t\t\t - Bank Account\n \t\t\t\t - 5 Photographs\n \t\t\t\t - Local Body Registration Certificate\n </string>
 
-<string name="imp_exp_cycle_title4">Export Cycle</string>
+    <string name="imp_exp_cycle_title4">Export Cycle</string>
 
-<string name="imp_exp_cycle_detail4"> \t 1. Issuance of IE Code -Export Import License\n \t 2. Selection of Product\n \t 3. Selection of Market\n \t 4. Identifying Buyers/Generating Inquiries\n \t 5. Sending Quotation/ Sampling/ Negotiation\n \t 6. Sales Contract/ Pro-Forma Invoice\n \t 7. Payment Terms\n \t 8. Production &amp; Packing\n \t 9. Excise Clearance\n \t 10. Arrangement of Local Transportation\n \t 11. Custom Clearance\n \t 12. Arranging Shipping Line/ Airlines Activity\n \t 13. Issuance of Transport Documentation\n \t 14. B/L – Bill of Landing – By Sea\n \t 15. AWB – Air Way Bill – By Air\n \t 16. LR – Lorry Receipt – By Road\n \t 17. Preparing Bank Documentation\n \t 18. Payment Formalities with Bank\n \t 19. Claiming Government Benefits\n </string>
+    <string name="imp_exp_cycle_detail4"> \t 1. Issuance of IE Code -Export Import License\n \t 2. Selection of Product\n \t 3. Selection of Market\n \t 4. Identifying Buyers/Generating Inquiries\n \t 5. Sending Quotation/ Sampling/ Negotiation\n \t 6. Sales Contract/ Pro-Forma Invoice\n \t 7. Payment Terms\n \t 8. Production &amp; Packing\n \t 9. Excise Clearance\n \t 10. Arrangement of Local Transportation\n \t 11. Custom Clearance\n \t 12. Arranging Shipping Line/ Airlines Activity\n \t 13. Issuance of Transport Documentation\n \t 14. B/L – Bill of Landing – By Sea\n \t 15. AWB – Air Way Bill – By Air\n \t 16. LR – Lorry Receipt – By Road\n \t 17. Preparing Bank Documentation\n \t 18. Payment Formalities with Bank\n \t 19. Claiming Government Benefits\n </string>
 
-<string name="imp_exp_cycle_title5">Import Cycle</string>
+    <string name="imp_exp_cycle_title5">Import Cycle</string>
 
-<string name="imp_exp_cycle_detail5"> \t 1. Product Selection\n \t 2. Identification of Suppliers\n \t 3. Quotation/ Sampling/ Negotiation\n \t 4. Contracting with Suppliers\n \t 5. Payment Formalities\n \t 6. Onsite Inspection\n \t 7. Shipment Follow up with Supplier\n \t 8. Releasing Documents from Bank\n \t 9. Import Custom Clearance\n \t 10. Payment of Import Duty\n \t 11. Releasing Cargo from Shipping Lines/ Air Lines\n \t 12. Local Transportation\n </string>
+    <string name="imp_exp_cycle_detail5"> \t 1. Product Selection\n \t 2. Identification of Suppliers\n \t 3. Quotation/ Sampling/ Negotiation\n \t 4. Contracting with Suppliers\n \t 5. Payment Formalities\n \t 6. Onsite Inspection\n \t 7. Shipment Follow up with Supplier\n \t 8. Releasing Documents from Bank\n \t 9. Import Custom Clearance\n \t 10. Payment of Import Duty\n \t 11. Releasing Cargo from Shipping Lines/ Air Lines\n \t 12. Local Transportation\n </string>
 
-<string name="preli_impexp_title1">INCOTERMS</string>
+    <!-- ?????? -->
+    <string name="preli_impexp_title1">INCOTERMS</string>
 
-<string name="preli_impexp_detail1"> \t -Importance of INCOTERMS\n \t\t\t\t - Port of Loading\n \t\t\t\t - Port of Destination\n \t - Types of INCOTERMS\n \t\t\t\t 1. Ex Works – Cost Up to Factory\n \t\t\t\t 2. FOB – Free On Board – Cost Up to Port of Loading\n \t\t\t\t (Cost Up to Factory + Local Transportation + Custom Clearance Charges)\n \t\t\t\t 3. C&amp;F / CFR / CNF – Cost &amp; Freight – Cost Up to Port of Destination\n \t\t\t\t (FOB + Shipping Line / Airline Freight Charges Up to Port of Destination)\n \t\t\t\t 4. CIF – Cost Insurance &amp; Freight –\n \t\t\t\t (C&amp;F + Insurance Charges)\n \t\t\t\t 5. DDU – Delivery Duty Unpaid –\n \t\t\t\t (CIF + Import Clearance Charges at Port of Destination)\n \t\t\t\t 6. DDP – Delivery Duty Paid –\n \t\t\t\t (Door Delivery Charges without Import Duty)\n </string>
+    <string name="preli_impexp_detail1"> \t -Importance of INCOTERMS\n \t\t\t\t - Port of Loading\n \t\t\t\t - Port of Destination\n \t - Types of INCOTERMS\n \t\t\t\t 1. Ex Works – Cost Up to Factory\n \t\t\t\t 2. FOB – Free On Board – Cost Up to Port of Loading\n \t\t\t\t (Cost Up to Factory + Local Transportation + Custom Clearance Charges)\n \t\t\t\t 3. C&amp;F / CFR / CNF – Cost &amp; Freight – Cost Up to Port of Destination\n \t\t\t\t (FOB + Shipping Line / Airline Freight Charges Up to Port of Destination)\n \t\t\t\t 4. CIF – Cost Insurance &amp; Freight –\n \t\t\t\t (C&amp;F + Insurance Charges)\n \t\t\t\t 5. DDU – Delivery Duty Unpaid –\n \t\t\t\t (CIF + Import Clearance Charges at Port of Destination)\n \t\t\t\t 6. DDP – Delivery Duty Paid –\n \t\t\t\t (Door Delivery Charges without Import Duty)\n </string>
 
-<string name="preli_impexp_title2">Types of Ports</string>
+    <string name="preli_impexp_title2">Types of Ports</string>
 
-<string name="preli_impexp_detail2"> \t A. SEA PORT - http://www.worldportsource.com/countries.php\n \t B. AIR PORT - http://www.cybex.in/Indian-Ports-Data.aspx\n \t C. DRY PORT - http://commerce.nic.in/trade/icd_list.pdf\n \t\t\t\t - CFS – Container Freight Station\n \t\t\t\t - ICD – Inland Container Depot\n \t - Trans-shipment\n \t - Partial Shipment\n </string>
+    <string name="preli_impexp_detail2"> \t A. SEA PORT - http://www.worldportsource.com/countries.php\n \t B. AIR PORT - http://www.cybex.in/Indian-Ports-Data.aspx\n \t C. DRY PORT - http://commerce.nic.in/trade/icd_list.pdf\n \t\t\t\t - CFS – Container Freight Station\n \t\t\t\t - ICD – Inland Container Depot\n \t - Trans-shipment\n \t - Partial Shipment\n </string>
 
-<string name="preli_impexp_title3">Types of Containers</string>
+    <string name="preli_impexp_title3">Types of Containers</string>
 
-<string name="preli_impexp_detail3"> \t - 20’ft - Size\n \t - 40’ft - Size\n \t - 40’ft HQ - Size\n \t - Drum Containers\n \t - Open Top Containers\n \t - Flat Track Containers\n \t - Referrer Containers\n </string>
+    <string name="preli_impexp_detail3"> \t - 20’ft - Size\n \t - 40’ft - Size\n \t - 40’ft HQ - Size\n \t - Drum Containers\n \t - Open Top Containers\n \t - Flat Track Containers\n \t - Referrer Containers\n </string>
 
-<string name="preli_impexp_title4">What is FCL &amp; LCL?</string>
+    <string name="preli_impexp_title4">What is FCL &amp; LCL?</string>
 
-<string name="preli_impexp_detail4"> \t - How to Calculate Freight Charges in LCL - Weight or Volume\n </string>
+    <string name="preli_impexp_detail4"> \t - How to Calculate Freight Charges in LCL - Weight or Volume\n </string>
 
-<string name="preli_impexp_title5">Types of Packing</string>
+    <string name="preli_impexp_title5">Types of Packing</string>
 
-<string name="preli_impexp_detail5"> \t - Primary Packing\n \t - Secondary Packing\n \t - Importance of Marks &amp; Numbers on Boxes\n \t - Preference of Marks &amp; Numbers on Boxes\n \t - Types of Material being used in Packing\n \t\t\t\t - Bag Packing\n \t\t\t\t - Carton / Corrugated box Packing\n \t\t\t\t - Drum Packing\n \t\t\t\t - Wooden Box / Pallets\n \t\t\t\t\t\t\t\t - What is fumigation?\n </string>
+    <string name="preli_impexp_detail5"> \t - Primary Packing\n \t - Secondary Packing\n \t - Importance of Marks &amp; Numbers on Boxes\n \t - Preference of Marks &amp; Numbers on Boxes\n \t - Types of Material being used in Packing\n \t\t\t\t - Bag Packing\n \t\t\t\t - Carton / Corrugated box Packing\n \t\t\t\t - Drum Packing\n \t\t\t\t - Wooden Box / Pallets\n \t\t\t\t\t\t\t\t - What is fumigation?\n </string>
 
-<string name="preli_impexp_title6">International Payment Terms</string>
+    <string name="preli_impexp_title6">International Payment Terms</string>
 
-<string name="preli_impexp_detail6"> \t - 100% Advance\n \t - Part Advance Balance Against Proof of Export\n \t - CAD - Cash Against Documents / D/P – Documents Against Payment\n \t\t\t\t - Transactional Cycle under CAD (*)\n \t - D/A: Documents Against Acceptance\n \t\t\t\t - Transactional Cycle under D/A (*)\n \t - Risk involved under Above Payment Terms\n \t\t\t\t - Advances – Risk For Importer\n \t\t\t\t - CAD or D/A – Risk For Exporter\n </string>
+    <string name="preli_impexp_detail6"> \t - 100% Advance\n \t - Part Advance Balance Against Proof of Export\n \t - CAD - Cash Against Documents / D/P – Documents Against Payment\n \t\t\t\t - Transactional Cycle under CAD (*)\n \t - D/A: Documents Against Acceptance\n \t\t\t\t - Transactional Cycle under D/A (*)\n \t - Risk involved under Above Payment Terms\n \t\t\t\t - Advances – Risk For Importer\n \t\t\t\t - CAD or D/A – Risk For Exporter\n </string>
 
-<string name="preli_impexp_title7">Introduction of Letter of Credit (L/C) – http://www.letterofcredit.biz</string>
+    <string name="preli_impexp_title7">Introduction of Letter of Credit (L/C) – http://www.letterofcredit.biz</string>
 
-<string name="preli_impexp_detail7"> \t - Also Known As Documentary Credit (UCP - DC)\n \t\t\t\t - Cycle for Receiving Letter of Credit\n \t\t\t\t - Safety for Exporter &amp; Importer\n \t - Types of L/C\n \t\t\t\t 1. Revocable Letter of Credit L/c\n \t\t\t\t 2. Irrevocable Letter of CreditL/c\n \t\t\t\t 3. Confirmed Letter of Credit L/c\n \t\t\t\t 4. Sight Credit and Usance Credit L/c\n \t\t\t\t 5. Back to Back Letter of Credit L/c\n \t\t\t\t 6. Transferable Letter of Credit L/c\n </string>
+    <string name="preli_impexp_detail7"> \t - Also Known As Documentary Credit (UCP - DC)\n \t\t\t\t - Cycle for Receiving Letter of Credit\n \t\t\t\t - Safety for Exporter &amp; Importer\n \t - Types of L/C\n \t\t\t\t 1. Revocable Letter of Credit L/c\n \t\t\t\t 2. Irrevocable Letter of CreditL/c\n \t\t\t\t 3. Confirmed Letter of Credit L/c\n \t\t\t\t 4. Sight Credit and Usance Credit L/c\n \t\t\t\t 5. Back to Back Letter of Credit L/c\n \t\t\t\t 6. Transferable Letter of Credit L/c\n </string>
 
-<string name="mode_of_trans_title1">Modes of transportation</string>
+    <!-- Mode of transport -->
+    <string name="mode_of_trans_title1">Modes of transportation</string>
 
 
-<string name="foreign_trade_title1">Why Exports?</string>
+    <string name="foreign_trade_title1">Why Exports?</string>
 
-<string name="foreign_trade_detail1"> \t - Increases the sales and profits of company,\n \t - Enables company to benchmark with their competitors and know their strategies and what they have done to increase their market share globally,\n \t - Reduces the risk of market fluctuations by depending on many markets,\n \t - Diminishes unit cost by adopting mass production strategy,\n \t - Enhances firms and countries’ competitive advantage by gaining new technologies,\n \t - Support countries' balance of trade.\n </string>
+    <string name="foreign_trade_detail1"> \t - Increases the sales and profits of company,\n \t - Enables company to benchmark with their competitors and know their strategies and what they have done to increase their market share globally,\n \t - Reduces the risk of market fluctuations by depending on many markets,\n \t - Diminishes unit cost by adopting mass production strategy,\n \t - Enhances firms and countries’ competitive advantage by gaining new technologies,\n \t - Support countries' balance of trade.\n </string>
 
-<string name="incoterms_title11">What are Incoterms?</string>
+    <!-- Incoterms -->
+    <string name="incoterms_title11">What are Incoterms?</string>
 
-<string name="incoterms_detail11"> \t - The term, Incoterms, is an abbreviation for International Commercial Terms.\n \t\t They are a common set of rules which define the responsibilities of sellers and\n \t\t buyers for the delivery of goods under sales contracts for domestic and international trade.\n \t - Initially created in 1936 by the International Chamber of Commerce (ICC) and have been periodically revised (Incoterms 2010 is the 8th revision)\n </string>
+    <string name="incoterms_detail1"> \t - The term, Incoterms, is an abbreviation for International Commercial Terms.\n \t\t They are a common set of rules which define the responsibilities of sellers and\n \t\t buyers for the delivery of goods under sales contracts for domestic and international trade.\n \t - Initially created in 1936 by the International Chamber of Commerce (ICC) and have been periodically revised (Incoterms 2010 is the 8th revision)\n </string>
 
-<string name="incoterms_title12">International Commercial Terms History</string>
+    <string name="incoterms_title12">International Commercial Terms History</string>
 
-<string name="incoterms_detail12"> \t - Initially created in 1936 by the International Chamber of Commerce (ICC) and have been periodically revised (Incoterms 2010 is the 8th revision)\n \t - Incoterms are generally good for approximately 10 years ~ not a magic number, but historically about accurate\n \t - Incoterms reflect world-wide trade practices, as practices change, Incoterm are revised\n \t - Incoterms 2010 were written by the ICC, represented by 8 individuals from various countries/areas of the world\n \t\t\t\t - Met 11 times in person\n \t\t\t\t - Received over 2000 suggestions in first request\n \t\t\t\t - Refined suggestions over 4 proposals\n \t\t\t\t - Controlling source document is written in British English and will be translated into 35+ languages over the next year.\n </string>
+    <string name="incoterms_detail12"> \t - Initially created in 1936 by the International Chamber of Commerce (ICC) and have been periodically revised (Incoterms 2010 is the 8th revision)\n \t - Incoterms are generally good for approximately 10 years ~ not a magic number, but historically about accurate\n \t - Incoterms reflect world-wide trade practices, as practices change, Incoterm are revised\n \t - Incoterms 2010 were written by the ICC, represented by 8 individuals from various countries/areas of the world\n \t\t\t\t - Met 11 times in person\n \t\t\t\t - Received over 2000 suggestions in first request\n \t\t\t\t - Refined suggestions over 4 proposals\n \t\t\t\t - Controlling source document is written in British English and will be translated into 35+ languages over the next year.\n </string>
 
-<string name="incoterms_title13">What are Incoterms ® 2010?</string>
+    <string name="incoterms_title13">What are Incoterms ® 2010?</string>
 
-<string name="incoterms_detail13"> \t - Eleven (11) Incoterms® 2010 (used to be 13 terms)\n \t\t\t\t - Four (4) terms were deleted and two (2) new terms were created\n \t - Incoterms® 2010 begun on January 1, 2011\n \t - Available worldwide through 100 International Chamber of Commerce National Committees\n \t\t\t\t - The terms aren’t law; no laws that require their use and are not all inclusive\n \t\t\t\t - Country neutral – they don’t favor one country over another\n \t\t\t\t - Self-contained – all information that determines responsibility and risk are in one place\n </string>
+    <string name="incoterms_detail13"> \t - Eleven (11) Incoterms® 2010 (used to be 13 terms)\n \t\t\t\t - Four (4) terms were deleted and two (2) new terms were created\n \t - Incoterms® 2010 begun on January 1, 2011\n \t - Available worldwide through 100 International Chamber of Commerce National Committees\n \t\t\t\t - The terms aren’t law; no laws that require their use and are not all inclusive\n \t\t\t\t - Country neutral – they don’t favor one country over another\n \t\t\t\t - Self-contained – all information that determines responsibility and risk are in one place\n </string>
 
-<string name="incoterms_title14">Key Definitions</string>
+    <string name="incoterms_title14">Key Definitions</string>
 
-<string name="incoterms_detail14"> \t What is Delivery?\n \t\t\t\t - As defined in Incoterms®,\n \t\t\t\t\t “it is used to indicate where the risk of loss of or damage to the goods passes from the seller to the buyer.”\n \t It is not always:\n \t\t\t\t - When the goods arrive in your customer’s hands or\n \t\t\t\t - When the goods leave your dock\n \t\t\t\t - Defined the same in all countries\n \t You must know your contract and your Incoterm®\n \t\t\t\t - Note: A Purchase Order and a matching Acknowledgement will constitute a “contract” if there isn’t a separate stand-alone contract related to the transaction.\n \t Pre-carriage: inland transportation on the seller’s side\n \t\t\t\t - Domestic: from the place where the shipment starts to any subsequent transportation carriage\n \t\t\t\t - International: from the place where the shipment starts to the departure point on the seller’s side\n </string>
+    <string name="incoterms_detail14"> \t What is Delivery?\n \t\t\t\t - As defined in Incoterms®,\n \t\t\t\t\t “it is used to indicate where the risk of loss of or damage to the goods passes from the seller to the buyer.”\n \t It is not always:\n \t\t\t\t - When the goods arrive in your customer’s hands or\n \t\t\t\t - When the goods leave your dock\n \t\t\t\t - Defined the same in all countries\n \t You must know your contract and your Incoterm®\n \t\t\t\t - Note: A Purchase Order and a matching Acknowledgement will constitute a “contract” if there isn’t a separate stand-alone contract related to the transaction.\n \t Pre-carriage: inland transportation on the seller’s side\n \t\t\t\t - Domestic: from the place where the shipment starts to any subsequent transportation carriage\n \t\t\t\t - International: from the place where the shipment starts to the departure point on the seller’s side\n </string>
 
-<string name="incoterms_title15">Transportation Definitions</string>
+    <string name="incoterms_title15">Transportation Definitions</string>
 
-<string name="incoterms_detail15"> \t Pre-carriage: inland transportation on the seller’s side\n \t\t\t\t - Domestic: from the place where the shipment starts to any subsequent transportation carriage\n \t\t\t\t - International: from the place where the shipment starts to the departure point on the seller’s side\n \t Main Carriage:\n \t\t\t\t - Domestic: subsequent transportation beyond pre-carriage\n \t\t\t\t - International: transportation from the point of departure on the seller’s side to the arrival pint on the buyer’s side\n \t On-carriage:\n \t\t\t\t - Domestic: subsequent transportation beyond main carriage\n \t\t\t\t - International: transportation from the arrival pint on the buyer’s side\n \t Transhipment\n \t\t\t\t - Transshipment or transhipment is the shipment of goods or containers to an intermediate destination, then to yet another destination.\n \t Door – to – Door\n \t\t\t\t - Contract of carriage that includes pre-carriage, main-carriage and on-carriage by the same carrier\n \t Door – to – (Air) Port:\n \t\t\t\t - Contract of carriage including pre-carriage and main-carriage to airport or ocean port or truck terminal port or rail port\n \t (Air) Port – to – (Air) Port:\n \t\t\t\t - Contract of carriage for main carriage only\n \t (Air) Port – to – Door:\n \t\t\t\t - Contract of carriage including main carriage and on-carriage\n </string>
+    <string name="incoterms_detail15"> \t Pre-carriage: inland transportation on the seller’s side\n \t\t\t\t - Domestic: from the place where the shipment starts to any subsequent transportation carriage\n \t\t\t\t - International: from the place where the shipment starts to the departure point on the seller’s side\n \t Main Carriage:\n \t\t\t\t - Domestic: subsequent transportation beyond pre-carriage\n \t\t\t\t - International: transportation from the point of departure on the seller’s side to the arrival pint on the buyer’s side\n \t On-carriage:\n \t\t\t\t - Domestic: subsequent transportation beyond main carriage\n \t\t\t\t - International: transportation from the arrival pint on the buyer’s side\n \t Transhipment\n \t\t\t\t - Transshipment or transhipment is the shipment of goods or containers to an intermediate destination, then to yet another destination.\n \t Door – to – Door\n \t\t\t\t - Contract of carriage that includes pre-carriage, main-carriage and on-carriage by the same carrier\n \t Door – to – (Air) Port:\n \t\t\t\t - Contract of carriage including pre-carriage and main-carriage to airport or ocean port or truck terminal port or rail port\n \t (Air) Port – to – (Air) Port:\n \t\t\t\t - Contract of carriage for main carriage only\n \t (Air) Port – to – Door:\n \t\t\t\t - Contract of carriage including main carriage and on-carriage\n </string>
 
-<string name="ins_risk_manage_title1">Types of Risk</string>
+    <!-- Insurance and risk management -->
+    <string name="ins_risk_manage_title1">Types of Risk</string>
 
-<string name="ins_risk_manage_detail1"> \t - PRODUCT RISK – Covered with Insurance\n \t - FOREIGN EXCHANGE RISK\n \t - CREDIT RISK – Payment Risk\n </string>
+    <string name="ins_risk_manage_detail1"> \t - PRODUCT RISK – Covered with Insurance\n \t - FOREIGN EXCHANGE RISK\n \t - CREDIT RISK – Payment Risk\n </string>
 
-<string name="ins_risk_manage_title2">PRODUCT RISK - INSURANCE</string>
+    <string name="ins_risk_manage_title2">PRODUCT RISK - INSURANCE</string>
 
-<string name="ins_risk_manage_detail2"> \t - Basics of insurance\n \t\t\t\t - Types of Risk involved to Product\n \t\t\t\t - Understanding International Clauses\n\n \t - Institute Cargo Clause “A”\n \t\t\t\t - All Risks Cover\n\n \t - Institute Cargo Clause “B”\n \t\t\t\t -Intermediate Cover\n \t\t\t\t - Earthquakes, Volcanic Eruptions or Lighting\n \t\t\t\t - Washing Overboard\n \t\t\t\t - Entry of Water in to the vessel, hold, conveyance, container or place of storage\n \t\t\t\t - Total Loss of any package lost overboard or dropped during loading and unloading operation\n\n \t - Institute Cargo Clause “C”\n \t\t\t\t - Minimum Cover\n \t\t\t\t - How &amp; when to Book Insurance\n \t\t\t\t - Why 110% of Invoice Value\n \t\t\t\t - Why Claims are Always Payable at Destination\n \t\t\t\t - Understanding Clauses of Insurance under L/C\n \t\t\t\t - Claim Formalities &amp; Procedure under Various Circumstances\n \t\t\t\t - Damage to the Cargo\n \t\t\t\t - Theft\n </string>
+    <string name="ins_risk_manage_detail2"> \t - Basics of insurance\n \t\t\t\t - Types of Risk involved to Product\n \t\t\t\t - Understanding International Clauses\n\n \t - Institute Cargo Clause “A”\n \t\t\t\t - All Risks Cover\n\n \t - Institute Cargo Clause “B”\n \t\t\t\t -Intermediate Cover\n \t\t\t\t - Earthquakes, Volcanic Eruptions or Lighting\n \t\t\t\t - Washing Overboard\n \t\t\t\t - Entry of Water in to the vessel, hold, conveyance, container or place of storage\n \t\t\t\t - Total Loss of any package lost overboard or dropped during loading and unloading operation\n\n \t - Institute Cargo Clause “C”\n \t\t\t\t - Minimum Cover\n \t\t\t\t - How &amp; when to Book Insurance\n \t\t\t\t - Why 110% of Invoice Value\n \t\t\t\t - Why Claims are Always Payable at Destination\n \t\t\t\t - Understanding Clauses of Insurance under L/C\n \t\t\t\t - Claim Formalities &amp; Procedure under Various Circumstances\n \t\t\t\t - Damage to the Cargo\n \t\t\t\t - Theft\n </string>
 
-<string name="ins_risk_manage_title3">FOREIGN EXCHANGE RISK</string>
+    <string name="ins_risk_manage_title3">FOREIGN EXCHANGE RISK</string>
 
-<string name="ins_risk_manage_detail3"> \t - FORWARD CONTRACT \t\t\t\t - What is Forward Contract? \t\t\t\t - How to Book Forward Contract/ \t\t\t\t - What is Spot Rate? \t - EEFC ACCOUNT \t\t\t\t - What is EEFC Account? \t\t\t\t - How to Open &amp; Manage EEFC Account/ </string>
+    <string name="ins_risk_manage_detail3"> \t - FORWARD CONTRACT \t\t\t\t - What is Forward Contract? \t\t\t\t - How to Book Forward Contract/ \t\t\t\t - What is Spot Rate? \t - EEFC ACCOUNT \t\t\t\t - What is EEFC Account? \t\t\t\t - How to Open &amp; Manage EEFC Account/ </string>
 
-<string name="ins_risk_manage_title4">CREDIT RISK – PAYMENT RISK</string>
+    <string name="ins_risk_manage_title4">CREDIT RISK – PAYMENT RISK</string>
 
-<string name="ins_risk_manage_detail4"> \t ECGC- Export Credit Guarantee Council \t\t\t\t - Role of ECGC in International Market \t\t\t\t - Categories of Countries \t\t\t\t - Procedure for Credit Policy \t\t\t\t - Types of Policies \t\t\t\t - Procedure for Claim \t\t\t\t - Credit Rating Agency – http://www.dnb.com/ </string>
+    <string name="ins_risk_manage_detail4"> \t ECGC- Export Credit Guarantee Council \t\t\t\t - Role of ECGC in International Market \t\t\t\t - Categories of Countries \t\t\t\t - Procedure for Credit Policy \t\t\t\t - Types of Policies \t\t\t\t - Procedure for Claim \t\t\t\t - Credit Rating Agency – http://www.dnb.com/ </string>
 
-<string name="gov_ben_inc_title1">Government Benefits on Exports</string>
+    <!-- Goverment benefits -->
+    <string name="gov_ben_inc_title1">Government Benefits on Exports</string>
 
-<string name="gov_ben_inc_detail1"> \t Pre Shipment Benefits\n \t\t\t\t - Advance License – http://dgftcom.nic.in/exim/2000/policy/chap-04.htm\n \t\t\t\t - EPCG – Export Promotion of Capital Goods – http://dgft.delhi.nic.in/dgftcla/PDF/EPCG.pdf\n </string>
+    <string name="gov_ben_inc_detail1"> \t Pre Shipment Benefits\n \t\t\t\t - Advance License – http://dgftcom.nic.in/exim/2000/policy/chap-04.htm\n \t\t\t\t - EPCG – Export Promotion of Capital Goods – http://dgft.delhi.nic.in/dgftcla/PDF/EPCG.pdf\n </string>
 
-<string name="gov_ben_inc_title2">Market &amp; Product Related Benefits</string>
+    <string name="gov_ben_inc_title2">Market &amp; Product Related Benefits</string>
 
-<string name="gov_ben_inc_detail2"> \t - MLFPS – Market Linked Focus Product Scheme – http://commerce.nic.in/publications/annual-report-pdf-2010-11/CHAPTER_3.pdf\n \t - MDA – Market Development Assistance\n \t - Serve From India - http://dgft.gov.in/exim/2000/Highlights1314E.pdf\n </string>
+    <string name="gov_ben_inc_detail2"> \t - MLFPS – Market Linked Focus Product Scheme – http://commerce.nic.in/publications/annual-report-pdf-2010-11/CHAPTER_3.pdf\n \t - MDA – Market Development Assistance\n \t - Serve From India - http://dgft.gov.in/exim/2000/Highlights1314E.pdf\n </string>
 
-<string name="gov_ben_inc_title3">Post Shipment Benefits</string>
+    <string name="gov_ben_inc_title3">Post Shipment Benefits</string>
 
-<string name="gov_ben_inc_detail3"> \t 1.Duty Drawback\n \t 2.VKGUY\n \t 3.Status Holder Certificate\n </string>
+    <string name="gov_ben_inc_detail3"> \t 1.Duty Drawback\n \t 2.VKGUY\n \t 3.Status Holder Certificate\n </string>
 
-<string name="gov_ben_inc_title4">Status Holder Certificate – http://dgft.delhi.nic.in/dgftcla/PDF/chapter3.pdf</string>
+    <string name="gov_ben_inc_title4">Status Holder Certificate – http://dgft.delhi.nic.in/dgftcla/PDF/chapter3.pdf</string>
 
-<string name="gov_ben_inc_detail4"> \t Categories \t\t\t\tValue in FOB INR\n \t -Export House \t\t\t 20 Cr.\n \t -Star Export House \t\t\t 100 Cr.\n \t -Trading House \t\t\t 500 Cr.\n \t -Start Trading House \t\t\t 2500 Cr.\n \t -Premier Trading House\t\t\t7500 Cr. &amp; Above\n </string>
+    <string name="gov_ben_inc_detail4"> \t Categories \t\t\t\tValue in FOB INR\n \t -Export House \t\t\t 20 Cr.\n \t -Star Export House \t\t\t 100 Cr.\n \t -Trading House \t\t\t 500 Cr.\n \t -Start Trading House \t\t\t 2500 Cr.\n \t -Premier Trading House\t\t\t7500 Cr. &amp; Above\n </string>
 
-<string name="title_activity_international_bodies">InternationalBodies</string>
+    <string name="title_activity_international_bodies">InternationalBodies</string>
 
 </resources>

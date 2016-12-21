@@ -28,7 +28,12 @@
         <activity android:name=".activities.ForignTradeActivity" />
         <activity android:name=".activities.IncotermsActivity" />
         <activity android:name=".activities.PaymentTermsActivity" />
-        <activity android:name=".activities.IdentifyingBuyersPaymentActivity"></activity>
+        <activity android:name=".activities.IdentifyingBuyersPaymentActivity" />
+        <activity android:name=".activities.InternationalBodiesActivity" />
+        <activity android:name=".activities.ImportExportCycleSctivity" />
+        <activity android:name=".activities.InsuAndRiskActivity" />
+        <activity android:name=".activities.GovermentBenefitsActivity" />
+        <activity android:name=".activities.ImportExportBasicsActivity"></activity>
     </application>
 
 </manifest>

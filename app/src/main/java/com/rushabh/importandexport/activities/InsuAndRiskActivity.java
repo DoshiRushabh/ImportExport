@@ -14,6 +14,7 @@ public class InsuAndRiskActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_insu_and_risk);
         overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out);
 
         ActionBar actionBar = getSupportActionBar();

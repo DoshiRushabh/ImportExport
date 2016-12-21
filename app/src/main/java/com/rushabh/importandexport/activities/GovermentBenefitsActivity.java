@@ -14,6 +14,7 @@ public class GovermentBenefitsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_goverment_benefits);
         overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out);
 
         ActionBar actionBar = getSupportActionBar();

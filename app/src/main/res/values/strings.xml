@@ -558,7 +558,7 @@
 
     <string name="foreign_trade_title1">Why Exports?</string>
 
-    <string name="foreign_trade_detail1"> \t - Increases the sales and profits of company,\n \t - Enables company to benchmark with their competitors and know their strategies and what they have done to increase their market share globally,\n \t - Reduces the risk of market fluctuations by depending on many markets,\n \t - Diminishes unit cost by adopting mass production strategy,\n \t - Enhances firms and countries’ competitive advantage by gaining new technologies,\n \t - Support countries' balance of trade.\n </string>
+    <string name="foreign_trade_detail1"> \t - Increases the sales and profits of company,\n \t - Enables company to benchmark with their competitors and know their strategies and what they have done to increase their market share globally,\n \t - Reduces the risk of market fluctuations by depending on many markets,\n \t - Diminishes unit cost by adopting mass production strategy,\n \t - Enhances firms and countries’ competitive advantage by gaining new technologies,\n \t - Support countries\' balance of trade.\n </string>
 
     <!-- Incoterms -->
     <string name="incoterms_title11">What are Incoterms?</string>

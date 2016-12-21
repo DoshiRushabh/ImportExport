@@ -14,7 +14,7 @@ public class ImportExportCycleSctivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_international_bodies);
+        setContentView(R.layout.activity_import_export_cycle_sctivity);
         overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out);
 
         ActionBar actionBar = getSupportActionBar();

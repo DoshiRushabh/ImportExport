@@ -109,7 +109,7 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
                 context.startActivity(new Intent(context,IncotermsActivity.class));
                 return;
             case 7:
-//                context.startActivity(new Intent(context,introActivity.class));
+//                context.startActivity(new Intent(context,introActivity.class)):
                 return;
             case 8:
                 context.startActivity(new Intent(context,PaymentTermsActivity.class));

@@ -745,4 +745,134 @@
     </string>
     <string name="call_us">Call us</string>
     <string name="mail_us">Mail us</string>
+      <string name="import_DOCUMENTATION">
+    </string>
+    <string name="import_DOCUMENTATION_title1">Product Selection</string>
+    <string name="import_DOCUMENTATION_detail1">
+        \t - Proper selection of the commodity market is an important factor before starting an import. Commodity market data and information collected  during research helps to prepare the commodity market report. The right market can be selected by answering the following the following questions. \n
+        \t - Is the product(s) an importer need to conducting his business available domestically?  \n
+        \t - Is there a lucrative and untapped domestic market for an imported product?  \n
+        \t - Does importing a product increase competitiveness as a business?  \n
+
+    </string>
+
+    <string name="import_DOCUMENTATION_title2">Categories of Imports</string>
+    <string name="import_DOCUMENTATION_detail2">
+        \t - Freely Importable Items \n
+		\t\t - As the name suggests the items under this category are free to be imported and do not require any License.  \n
+        \t - Canalised Imports \n
+		\t\t - Items under this category can be imported only through specified channels or Government agencies.   \n
+	\t - Restricted / Licensed Imports \n
+		\t\t - Items under this category are restricted and require License for importation.  \n
+        \t - Prohibited Items \n
+		\t\t - As the name suggests the items under this category are NOT permitted to be imported at all.  \n
+\t - Note: List of items under above categories are published in the Foreign Trade Policy.  Importer / Exporter must have IEC (Importer Exporter Code) issued by DGFT  (Director General Of Foreign Trade, Government of India).
+
+    </string>
+
+    <string name="import_DOCUMENTATION_title3">Govt. Bodies </string>
+    <string name="import_DOCUMENTATION_detail3">
+        \t - Ministry of Commerce and Industry \n
+        \t - DGFT \n
+ 	\t - Customs and Excise \n
+        \t - State Trading Enterprise \n
+    </string>
+
+    <string name="import_DOCUMENTATION_title4">Registration of Importers</string>
+    <string name="import_DOCUMENTATION_detail4">
+        \t - Following documents are required for Registering with Customs \n
+        \t - IEC License \n
+        \t - Bank Ad code letter  \n
+        \t - Proof of payment / remittance through Importer’s Bank \n
+        \t - Balance sheet of previous year \n
+        \t - Copy of Income tax return/ Vat or sales tax returns filed \n
+	\t - Pan Card \n
+	\t - Previous Bill of Entry (In case this is not the first time) \n
+	\t - KYC Document / Importers Profile \n
+    </string>
+
+    <string name="import_DOCUMENTATION_title5">Identification of Supplier</string>
+    <string name="import_DOCUMENTATION_detail5">
+        \t - Information on overseas supplier can generally be obtained from the following sources : \n
+		\t\t - As the name suggests the items under this category are free to be imported and do not require any License.  \n
+	\t\t - Trade Directories and Yellow Pages in origin countries  \n
+	\t\t - Embassies of trade representing countries in India and Abroad\n
+	\t\t - Friends and relatives in foreign countries  \n
+	\t\t - International Trade Promotion Organization, International Trade  and Exhibitions.  \n
+	\t\t - Various trade promotion council  \n
+	\t\t - Indenting Agents of foreign suppliers  \n
+	\t\t - Visiting popular websites \n
+	\t\t - Newsletters by various Export Promotion Councils, Commodity Boards, Authorities and Apex Chambers. \n
+	\t\t - State Trading Enterprises \n
+	\t\t - Seller’s representing office \n
+        </string>
+
+    <string name="import_DOCUMENTATION_title6">Verifying Genuineness </string>
+    <string name="import_DOCUMENTATION_detail6">
+	\t - Banks \n
+        \t - Indian Embassies abroad \n
+        \t - Credit Information Agencies for specific commercial information\n
+        \t - Trade Information Centres of origin country posted in India \n
+        \t - Overseas Suppliers Agents in India\n
+        </string>
+
+    <string name="import_DOCUMENTATION_title7">Finalizing the Terms of Import </string>
+    <string name="import_DOCUMENTATION_detail7">
+	\t - Call for samples \n
+        \t - Catalogues \n
+        \t - Other relevant literatures \n
+        \t - Specifications of the items to be imported \n
+        \t - Samples brought in India as personal baggage by bona fide
+commercial travellers and businessmen or imported by post or by air
+shipment are exempt from the customs duty.
+\n
+        </string>
+
+
+    <string name="import_DOCUMENTATION_title8">Important aspects of Import Contract </string>
+    <string name="import_DOCUMENTATION_detail8">
+	\t - Product, Standards and Specifications \n
+        \t - Quantity \n
+        \t - Inspection\n
+        \t - Total Value of the Contract \n
+        \t - Terms of Delivery e.g., type of packaging, replacement of defective goods, etc \n
+	\t - Taxes, Duties and Charges \n
+        \t - Period of Delivery / Shipment : Time, Place of delivery etc.,\n
+	\t - Packing, Labelling and Marking \n
+        \t - Terms of Payment – Amount, Mode and Currency\n
+	\t - Discounts and Commissions \n
+        \t - License and Permits\n
+	\t - Insurance \n
+	\t - Documentary Requirements \n
+        \t - Guarantee\n
+	\t - Non-performance of  Contract \n
+	\t - Remedies \n
+        \t - Arbitration and Dispute Resolution\n
+        </string>
+
+
+    <string name="import_DOCUMENTATION_title9">Payment Formalities</string>
+    <string name="import_DOCUMENTATION_detail9">
+	\t - Importer should be conversant with pricing and the manner of payment. The Importer should know the meaning of the technical definition. Please refer such terms as defined under International Chamber of Commerce “INCO TERMS”. These terms have universal acceptance.\n
+        </string>
+
+
+    <string name="import_DOCUMENTATION_title10">Mode of Settlement </string>
+    <string name="import_DOCUMENTATION_detail10">
+	\t - Generally following mode of settlement are carried out : \n
+		\t\t - Advance \n
+		\t\t - Payment against Documentary Collection \n
+		\t\t - Payment under Letter of Credit  \n
+	\t - Advance payment  : \n
+		\t\t - AD-1 Category, AD-II and AD-III categories. Advance payment can only be made through AD-1 category.\n
+		\t\t - All payments must be collected against imports through authorised banks in current account, as mentioned above. \n
+		\t\t - Currency of Invoicing : Indian Rupee or foreign currency. \n
+
+        </string>
+
+
+    <string name="import_DOCUMENTATION_title11">On site Inspection </string>
+    <string name="import_DOCUMENTATION_detail11">
+	\t - In order to ensure exact quantity and quality (as per specification) of cargo is shipped out, one can also appoint Inspection agencies like SGS, Intertek, CIG etc can be approached to conduct survey and submit you report before shipment is carried out. You can also insist on sealing by such inspection agencies to ensure no pilferage is done. \n
+        </string>
 </resources>

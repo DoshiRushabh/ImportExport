@@ -29,13 +29,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <LinearLayout
+                    android:id="@+id/callus"
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="30sp"
                     android:orientation="vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <ImageView
-                        android:id="@+id/callus"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/callus" />
@@ -45,13 +45,13 @@
                         android:layout_height="wrap_content" />
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/mailus"
                     android:layout_marginStart="50dp"
                     android:layout_marginTop="30sp"
                     android:orientation="vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <ImageView
-                        android:id="@+id/mailus"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/mailus" />

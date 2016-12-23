@@ -35,7 +35,20 @@ import com.rushabh.importandexport.activities.PaymentTermsActivity;
 import com.rushabh.importandexport.activities.ProductMarcetSelectActivity;
 import com.rushabh.importandexport.activities.introActivity;
 import com.rushabh.importandexport.dataObject.topic;
+import com.rushabh.importandexport.fragments.ForignTradeFragment;
+import com.rushabh.importandexport.fragments.GovermentBenefitsFragment;
+import com.rushabh.importandexport.fragments.IdentifyingBuyerFragment;
+import com.rushabh.importandexport.fragments.ImportDocumentFragment;
+import com.rushabh.importandexport.fragments.ImportExportBasicsFragment;
+import com.rushabh.importandexport.fragments.ImportExportCycleFragment;
+import com.rushabh.importandexport.fragments.IncotermsFragment;
+import com.rushabh.importandexport.fragments.InsuranceRiskFragment;
+import com.rushabh.importandexport.fragments.InternationalBodiesFragment;
 import com.rushabh.importandexport.fragments.IntroFragment;
+import com.rushabh.importandexport.fragments.LcChecklistFragment;
+import com.rushabh.importandexport.fragments.ModeOfTransportFragment;
+import com.rushabh.importandexport.fragments.PaymentTermsFragment;
+import com.rushabh.importandexport.fragments.ProductMarketFragment;
 
 import java.util.ArrayList;
 
@@ -110,43 +123,69 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
                         .commit();
                 return;
             case 1:
-                context.startActivity(new Intent(context,InternationalBodiesActivity.class));
+//                context.startActivity(new Intent(context,InternationalBodiesActivity.class));
+                fm.replace(R.id.MainLayout,new InternationalBodiesFragment())
+                        .commit();
                 return;
             case 2:
-                context.startActivity(new Intent(context,ImportExportCycleSctivity.class));
+//                context.startActivity(new Intent(context,ImportExportCycleSctivity.class));
+                fm.replace(R.id.MainLayout,new ImportExportCycleFragment())
+                        .commit();
                 return;
             case 3:
-                context.startActivity(new Intent(context,ImportExportBasicsActivity.class));
+//                context.startActivity(new Intent(context,ImportExportBasicsActivity.class));
+                fm.replace(R.id.MainLayout,new ImportExportBasicsFragment())
+                        .commit();
                 return;
             case 4:
-                context.startActivity(new Intent(context,ModeOfTransActivity.class));
+//                context.startActivity(new Intent(context,ModeOfTransActivity.class));
+                fm.replace(R.id.MainLayout,new ModeOfTransportFragment())
+                        .commit();
                 return;
             case 5:
-                context.startActivity(new Intent(context,ForignTradeActivity.class));
+//                context.startActivity(new Intent(context,ForignTradeActivity.class));
+                fm.replace(R.id.MainLayout,new ForignTradeFragment())
+                        .commit();
                 return;
             case 6:
-                context.startActivity(new Intent(context,IncotermsActivity.class));
+//                context.startActivity(new Intent(context,IncotermsActivity.class));
+                fm.replace(R.id.MainLayout,new IncotermsFragment())
+                        .commit();
                 return;
             case 7:
-                context.startActivity(new Intent(context,LcChecklistActivity.class));
+//                context.startActivity(new Intent(context,LcChecklistActivity.class));
+                fm.replace(R.id.MainLayout,new LcChecklistFragment())
+                        .commit();
                 return;
             case 8:
-                context.startActivity(new Intent(context,PaymentTermsActivity.class));
+//                context.startActivity(new Intent(context,PaymentTermsActivity.class));
+                fm.replace(R.id.MainLayout,new PaymentTermsFragment())
+                        .commit();
                 return;
             case 9:
-                context.startActivity(new Intent(context,ProductMarcetSelectActivity.class));
+//                context.startActivity(new Intent(context,ProductMarcetSelectActivity.class));
+                fm.replace(R.id.MainLayout,new ProductMarketFragment())
+                        .commit();
                 return;
             case 10:
-                context.startActivity(new Intent(context,IdentifyingBuyersPaymentActivity.class));
+//                context.startActivity(new Intent(context,IdentifyingBuyersPaymentActivity.class));
+                fm.replace(R.id.MainLayout,new IdentifyingBuyerFragment())
+                        .commit();
                 return;
             case 11:
-                context.startActivity(new Intent(context,InsuAndRiskActivity.class));
+//                context.startActivity(new Intent(context,InsuAndRiskActivity.class));
+                fm.replace(R.id.MainLayout,new InsuranceRiskFragment())
+                        .commit();
                 return;
             case 12:
-                context.startActivity(new Intent(context,GovermentBenefitsActivity.class));
+//                context.startActivity(new Intent(context,GovermentBenefitsActivity.class));
+                fm.replace(R.id.MainLayout,new GovermentBenefitsFragment())
+                        .commit();
                 return;
             case 13:
-                context.startActivity(new Intent(context,ImportDocumentActivity.class));
+//                context.startActivity(new Intent(context,ImportDocumentActivity.class));
+                fm.replace(R.id.MainLayout,new ImportDocumentFragment())
+                        .commit();
                 return;
             default:
                 return;

@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Import and Export</string>
 
+    <string name="banner_ad_unit_id">ca-app-pub-7609540248030426/4336667591</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 

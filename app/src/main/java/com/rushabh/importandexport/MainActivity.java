@@ -16,8 +16,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.rushabh.importandexport.activities.AboutUsActivity;
 import com.rushabh.importandexport.activities.CurrencyConverter;
 import com.rushabh.importandexport.fragments.MainFragment;
@@ -26,8 +30,9 @@ import com.rushabh.importandexport.fragments.MainFragment;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    TextView title;
+    AdView adView;
     ImageView shareImage;
+    LinearLayout MainLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,16 +44,6 @@ public class MainActivity extends AppCompatActivity
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("");
-
-        title = (TextView) findViewById(R.id.title);
-        title.setTextSize(20);
-
-        title.setTranslationY(-(600));
-        title.animate()
-                .translationY(0)
-                .setDuration(500)
-                .setStartDelay(500);
-
 
         toolbar.setTranslationY(-(500));
         toolbar.animate()
@@ -71,11 +66,37 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+//        ADs
+        adView = (AdView) findViewById(R.id.adView);
+
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        adView.loadAd(adRequest);
+
+        adView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                super.onAdLoaded();
+                MainLayout = (LinearLayout) findViewById(R.id.MainLayout);
+                RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(
+                        LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+
+                layoutParams.setMargins(0, 0, 0, 100);
+                MainLayout.setLayoutParams(layoutParams );
+            }
+        });
+
         getSupportFragmentManager()
                 .beginTransaction()
                 .add(R.id.MainLayout, new MainFragment())
                 .addToBackStack(null)
                 .commit();
+    }
+
+    public void setActionBarTitle(String title){
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle(title);
     }
 
     @Override

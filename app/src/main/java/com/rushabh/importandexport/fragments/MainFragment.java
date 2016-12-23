@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.rushabh.importandexport.MainActivity;
 import com.rushabh.importandexport.R;
 import com.rushabh.importandexport.adapter.MainListAdapter;
 import com.rushabh.importandexport.dataObject.topic;
@@ -33,6 +34,8 @@ public class MainFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_main, container, false);
+
+        ((MainActivity) getActivity()).setActionBarTitle("Import and Export");
 
         initializeDummyData();
 

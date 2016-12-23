@@ -3,6 +3,7 @@ package com.rushabh.importandexport.adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,11 +12,13 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.rushabh.importandexport.MainActivity;
 import com.rushabh.importandexport.R;
 import com.rushabh.importandexport.activities.ForignTradeActivity;
 import com.rushabh.importandexport.activities.GovermentBenefitsActivity;
@@ -32,6 +35,7 @@ import com.rushabh.importandexport.activities.PaymentTermsActivity;
 import com.rushabh.importandexport.activities.ProductMarcetSelectActivity;
 import com.rushabh.importandexport.activities.introActivity;
 import com.rushabh.importandexport.dataObject.topic;
+import com.rushabh.importandexport.fragments.IntroFragment;
 
 import java.util.ArrayList;
 
@@ -41,6 +45,7 @@ import java.util.ArrayList;
 
 public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.PersonViewHolder> implements View.OnClickListener {
 
+    LinearLayout MainLayout;
     private ArrayList<topic> topicList;
     private Context context;
 
@@ -66,7 +71,8 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
                 (position > lastPosition) ? R.anim.up_from_bottom
                         : R.anim.down_from_top);
         holder.itemView.startAnimation(animation);
-        lastPosition = position;
+
+//        ((MainActivity) context).getSupportFragmentManager()
 
         topic topic = topicList.get(position);
         holder.title.setText(topic.getTitle());
@@ -89,9 +95,19 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
         int position = (int) view.getTag(R.string.app_name);
 //        position start from 0
 
+
+        MainActivity myActivity = (MainActivity) context;
+        MainLayout = (LinearLayout) ((MainActivity) context).findViewById(R.id.MainLayout);
+
+        FragmentTransaction fm = ((MainActivity) context).getSupportFragmentManager()
+                .beginTransaction()
+                .setCustomAnimations(R.anim.trans_left_in, R.anim.trans_left_out,R.anim.trans_right_in, R.anim.trans_right_out)
+                .addToBackStack(null);
+
         switch (position){
             case 0:
-                context.startActivity(new Intent(context,introActivity.class));
+                fm.replace(R.id.MainLayout,new IntroFragment())
+                        .commit();
                 return;
             case 1:
                 context.startActivity(new Intent(context,InternationalBodiesActivity.class));

@@ -747,19 +747,19 @@
     </string>
     <string name="call_us">Call us</string>
     <string name="mail_us">Mail us</string>
-      <string name="import_DOCUMENTATION">
+  <string name="IMPORT_DOCUMENTATION">
     </string>
-    <string name="import_DOCUMENTATION_title1">Product Selection</string>
-    <string name="import_DOCUMENTATION_detail1">
+    <string name="IMPORT_DOCUMENTATION_title1">Product Selection</string>
+    <string name="IMPORT_DOCUMENTATION_detail1">
         \t - Proper selection of the commodity market is an important factor before starting an import. Commodity market data and information collected  during research helps to prepare the commodity market report. The right market can be selected by answering the following the following questions. \n
         \t - Is the product(s) an importer need to conducting his business available domestically?  \n
         \t - Is there a lucrative and untapped domestic market for an imported product?  \n
         \t - Does importing a product increase competitiveness as a business?  \n
-
+   
     </string>
 
-    <string name="import_DOCUMENTATION_title2">Categories of Imports</string>
-    <string name="import_DOCUMENTATION_detail2">
+    <string name="IMPORT_DOCUMENTATION_title2">Categories of Imports</string>
+    <string name="IMPORT_DOCUMENTATION_detail2">
         \t - Freely Importable Items \n
 		\t\t - As the name suggests the items under this category are free to be imported and do not require any License.  \n
         \t - Canalised Imports \n
@@ -768,20 +768,20 @@
 		\t\t - Items under this category are restricted and require License for importation.  \n
         \t - Prohibited Items \n
 		\t\t - As the name suggests the items under this category are NOT permitted to be imported at all.  \n
-\t - Note: List of items under above categories are published in the Foreign Trade Policy.  Importer / Exporter must have IEC (Importer Exporter Code) issued by DGFT  (Director General Of Foreign Trade, Government of India).
+\t - Note: List of items under above categories are published in the Foreign Trade Policy.  Importer / Exporter must have IEC (Importer Exporter Code) issued by DGFT  (Director General Of Foreign Trade, Government of India). 
 
     </string>
 
-    <string name="import_DOCUMENTATION_title3">Govt. Bodies </string>
-    <string name="import_DOCUMENTATION_detail3">
+    <string name="IMPORT_DOCUMENTATION_title3">Govt. Bodies </string>
+    <string name="IMPORT_DOCUMENTATION_detail3">
         \t - Ministry of Commerce and Industry \n
         \t - DGFT \n
  	\t - Customs and Excise \n
         \t - State Trading Enterprise \n
     </string>
 
-    <string name="import_DOCUMENTATION_title4">Registration of Importers</string>
-    <string name="import_DOCUMENTATION_detail4">
+    <string name="IMPORT_DOCUMENTATION_title4">Registration of Importers</string>
+    <string name="IMPORT_DOCUMENTATION_detail4">
         \t - Following documents are required for Registering with Customs \n
         \t - IEC License \n
         \t - Bank Ad code letter  \n
@@ -793,8 +793,8 @@
 	\t - KYC Document / Importers Profile \n
     </string>
 
-    <string name="import_DOCUMENTATION_title5">Identification of Supplier</string>
-    <string name="import_DOCUMENTATION_detail5">
+    <string name="IMPORT_DOCUMENTATION_title5">Identification of Supplier</string>
+    <string name="IMPORT_DOCUMENTATION_detail5">
         \t - Information on overseas supplier can generally be obtained from the following sources : \n
 		\t\t - As the name suggests the items under this category are free to be imported and do not require any License.  \n
 	\t\t - Trade Directories and Yellow Pages in origin countries  \n
@@ -809,8 +809,8 @@
 	\t\t - Seller’s representing office \n
         </string>
 
-    <string name="import_DOCUMENTATION_title6">Verifying Genuineness </string>
-    <string name="import_DOCUMENTATION_detail6">
+    <string name="IMPORT_DOCUMENTATION_title6">Verifying Genuineness </string>
+    <string name="IMPORT_DOCUMENTATION_detail6">
 	\t - Banks \n
         \t - Indian Embassies abroad \n
         \t - Credit Information Agencies for specific commercial information\n
@@ -818,21 +818,21 @@
         \t - Overseas Suppliers Agents in India\n
         </string>
 
-    <string name="import_DOCUMENTATION_title7">Finalizing the Terms of Import </string>
-    <string name="import_DOCUMENTATION_detail7">
+    <string name="IMPORT_DOCUMENTATION_title61">Finalizing the Terms of Import </string>
+    <string name="IMPORT_DOCUMENTATION_detail61">
 	\t - Call for samples \n
         \t - Catalogues \n
         \t - Other relevant literatures \n
         \t - Specifications of the items to be imported \n
-        \t - Samples brought in India as personal baggage by bona fide
-commercial travellers and businessmen or imported by post or by air
+        \t - Samples brought in India as personal baggage by bona fide 
+commercial travellers and businessmen or imported by post or by air 
 shipment are exempt from the customs duty.
 \n
         </string>
 
 
-    <string name="import_DOCUMENTATION_title8">Important aspects of Import Contract </string>
-    <string name="import_DOCUMENTATION_detail8">
+    <string name="IMPORT_DOCUMENTATION_title7">Important aspects of Import Contract </string>
+    <string name="IMPORT_DOCUMENTATION_detail7">
 	\t - Product, Standards and Specifications \n
         \t - Quantity \n
         \t - Inspection\n
@@ -853,14 +853,14 @@ shipment are exempt from the customs duty.
         </string>
 
 
-    <string name="import_DOCUMENTATION_title9">Payment Formalities</string>
-    <string name="import_DOCUMENTATION_detail9">
+    <string name="IMPORT_DOCUMENTATION_title8">Payment Formalities</string>
+    <string name="IMPORT_DOCUMENTATION_detail8">
 	\t - Importer should be conversant with pricing and the manner of payment. The Importer should know the meaning of the technical definition. Please refer such terms as defined under International Chamber of Commerce “INCO TERMS”. These terms have universal acceptance.\n
         </string>
 
 
-    <string name="import_DOCUMENTATION_title10">Mode of Settlement </string>
-    <string name="import_DOCUMENTATION_detail10">
+    <string name="IMPORT_DOCUMENTATION_title9">Mode of Settlement </string>
+    <string name="IMPORT_DOCUMENTATION_detail9">
 	\t - Generally following mode of settlement are carried out : \n
 		\t\t - Advance \n
 		\t\t - Payment against Documentary Collection \n
@@ -869,12 +869,333 @@ shipment are exempt from the customs duty.
 		\t\t - AD-1 Category, AD-II and AD-III categories. Advance payment can only be made through AD-1 category.\n
 		\t\t - All payments must be collected against imports through authorised banks in current account, as mentioned above. \n
 		\t\t - Currency of Invoicing : Indian Rupee or foreign currency. \n
-
+        
         </string>
 
 
-    <string name="import_DOCUMENTATION_title11">On site Inspection </string>
-    <string name="import_DOCUMENTATION_detail11">
+    <string name="IMPORT_DOCUMENTATION_title10">On site Inspection </string>
+    <string name="IMPORT_DOCUMENTATION_detail10">
 	\t - In order to ensure exact quantity and quality (as per specification) of cargo is shipped out, one can also appoint Inspection agencies like SGS, Intertek, CIG etc can be approached to conduct survey and submit you report before shipment is carried out. You can also insist on sealing by such inspection agencies to ensure no pilferage is done. \n
         </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title11">Follow up with Shipper </string>
+    <string name="IMPORT_DOCUMENTATION_detail11">
+	\t - Follow up with shipper and also check online tracking of cargo on internet, shipping line on ETA, etc.\n
+		
+	\t - Do\'s \n
+		\t\t - Open LC or import transactions only for customers and open only if the party has got sanction limit. 
+Allow import of restricted items as per procedure laid down in the Exim Policy. 
+Handover import documents only to drawee or his PA holder against property acknowledgement. 
+Allow payment for import by debit to customer’s account. 
+Allow payment for the bills beyond six months and also allow payment of overdue interest on sight bills for a period not exceeding six months. 
+Allow payment to local agents on commission basis. In case of overseas agent, allow commission as per FEMA guidelines. 
+Verify the imported items under the LC. 
+Issue amendments to LC only on the basis of written request. 
+Verify whether the payment method in Letter of Credit is done as per FEMA guidelines or not. 
+In case of default payment, crystallise the bill on 10th day of the month. 
+Open LC or import transactions only for customers and open only if the party has got sanction limit. 
+Allow import of restricted items as per procedure laid down in the Exim Policy. 
+Handover import documents only to drawee or his PA holder against property acknowledgement. 
+Allow payment for import by debit to customer’s account. 
+Allow payment for the bills beyond six months and also allow payment of overdue interest on sight bills for a period not exceeding six months. 
+Allow payment to local agents on commission basis. In case of overseas agent, allow commission as per FEMA guidelines. 
+Verify the imported items under the LC. 
+Issue amendments to LC only on the basis of written request. 
+Verify whether the payment method in Letter of Credit is done as per FEMA guidelines or not. 
+In case of default payment, crystallise the bill on 10th day of the month. 
+\n
+		\t - Don\'ts\n
+		\t\t - Issue the Letter of Credit if the customer doesn’t have IEC number. 
+
+Open LC without proper transport documents. 
+Allow advance payment without proper documentation. 
+Forward the documents to third party without permission from the importer. 
+Import prohibited or restricted items without import license.  
+Allow direct remittance of import bills beyond the limit and without EC copy of bill of entry. 
+Open revolving LC without safety clause. 
+Amendments to the Letter of Credit for import of those items which is either restricted or prohibited.  
+Allow import documents received under collection paid without verifying importers line of business and financial standing.
+ \n
+        
+        </string>
+
+
+
+    <string name="IMPORT_DOCUMENTATION_title12">Procedures on Customs Clearance </string>
+    <string name="IMPORT_DOCUMENTATION_detail12">
+	\t - Vessel Arrival \n
+        \t - Filing of BOE \n
+        \t - Filing of BOE\n
+        \t - Noting Date \n
+        \t - Examination \n
+	\t - Payment of Duty \n
+        \t - License Department\n
+	\t - Appraisal \n
+        \t - OOC \n
+	\t - Delivery of Goods\n
+        \t - FIRST CHECK – Examination is done at the Appraisement level. Cargo should be opened only in presence of Customs officer.\n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title13">Upon Cargo Arrival, the Importer has two options:  </string>
+    <string name="IMPORT_DOCUMENTATION_detail13">
+	\t - •To Clear immediately, or 
+	     • To Store under Bond and clear later \n
+        \t - BONDED WAREHOUSING\n
+		\t\t - Cargo is stored in Bonded Warehouse and cleared later on payment of import duty.     \n
+		\t\t - Bonded warehousing charges will be applicable during the period of storage.  \n
+        \t - CLEARANCE FOR HOME CONSUMPTION\n
+       		\t\t - Cargo is cleared for delivery on payment on applicable duties.\n
+		\t\t - Importer takes delivery of his cargo and no storage charges are applicable, if  delivery is taken during such free period.\n
+        </string>
+
+
+
+    <string name="IMPORT_DOCUMENTATION_title14">How to calculate Assessable Value</string>
+    <string name="IMPORT_DOCUMENTATION_detail14" formatted="false">
+	\t -   a.   Ex-Works : 
+ 		  This is the value of the goods at the factory gate at origin \n
+	\t -   b.   FOB (Free on Board)  : 
+		  This value is the ex-works value + charges at origin upto loaded on vessel / aircraft. Such origin charges include local transportation, customs clearance charges and  handling at origin port / airport   \n
+	\t -   c.   C &amp; F (Cost &amp; Freight) :
+		  This value comprises of the FOB value + air / ocean freight upto the airport / port of  discharge.   This value does not include the landing charge at the port of destination.  \n
+	\t -    d.   CIF (Cost Insurance Freight) : 
+ 		  This value comprises of the FOB value + air / ocean freight upto the airport / port of  discharge +   insurance cost for insurance of the goods upto the country of destination. The value does not include the landing charge at the port of destination.  \n
+	\t -    e.    Assessable Value :  The customs duty in India is charged on the assessable value which is 1.01 CIF value.   
+A standardized 1% landing charges are added to the CIF value for arriving at the assessable value.  If  any local commissions are payable by the importer to the indenting agent, such commissions are also to be added for arriving at the  assessable  
+value.  Assessable value is calculated after  converting the foreign currency CIF value    into Indian Rupee at the current customs      
+notified   exchange rate.     \n
+
+	\t - If the air freight amount is not ascertainable or if the actual air freight is more than 20% of FOB,  then 20% of FOB is considered as air freight for calculation of CIF value.    \n
+	\t - If insurance cost is not available, standard insurance charges equivalent of 1.125% of  FOB value  are considered by Indian Customs for calculation of CIF price \n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title15">INCOTERM </string>
+    <string name="IMPORT_DOCUMENTATION_detail15">
+	\t - Technical Terminology used by Importers \n
+        \t\t - Ex-work   \n
+	\t\t - Free on Rail (FOR)/Free on Truck (FOT) \n
+	\t\t - Free Alongside Ship (FAS) \n
+	\t\t - Free on Board (FOB)  \n
+	\t\t - Cost and Freight (C &amp; F)   \n
+	\t\t - Cost Insurance Freight (CIF) \n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title16">Documents to be submitted by Importers</string>
+    <string name="IMPORT_DOCUMENTATION_detail16">
+	\t - Commercial Invoice / Exporter’s Invoice \n
+        \t - Packing List   \n
+	\t - Bill of lading / Delivery order \n
+	\t - GATT declaration \n
+	\t - Letter of Credit  \n
+	\t - Certificate of Origin   \n
+	\t - Import Licence\n
+	\t - End user certificate \n
+	\t - High seas sales certificate etc  \n
+	\t - Catalogue  \n
+	\t - Insurance Certificate\n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title17">Commercial Invoice</string>
+    <string name="IMPORT_DOCUMENTATION_detail17">
+	\t - Invoice is the prime document in any business transactions. Invoice is one of the documents required for import customs clearance for value appraisal by concerned customs official. Assessable value is calculated on the basis of terms of delivery of goods mentioned in commercial invoice produced by importer at customs location.. The concerned appraising officer verifies the value mentioned in commercial invoice matches with the actual market value of same goods. This method of inspection by appraising officer of customs prevents fraudulent activities of importer or exporter by over invoicing or under invoicing. So Invoice plays a pivotal role in value assessment in import customs clearance procedures.  \n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title18">Import General Manifest</string>
+    <string name="IMPORT_DOCUMENTATION_detail18">
+	\t - The shipping line has to give a detailed report of all the goods on board in a report known as "Import General Manifest" \n
+        \t - Import manifest is required to be submitted before arrival of aircraft or vessel   \n
+	\t - Grant of Entry Inwards by Customs Officer \n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title19">Bill of lading / AWB </string>
+    <string name="IMPORT_DOCUMENTATION_detail19">
+	\t - BL/AWB is one of the documents required for import customs clearance. \n
+        \t -  Bill of lading under sea shipment or Airway bill under air shipment is carrier’s document required to be submitted with customs for import customs clearance purpose. Bill of lading or Airway bill issued by carrier provides the details of cargo with terms of delivery.  \n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title20">Import License </string>
+    <string name="IMPORT_DOCUMENTATION_detail20">
+	\t - As I have mentioned above, import license may be required as one of the documents for import customs clearance procedures and formalities under specific products. This license may be mandatory for importing specific goods as per guide lines provided by government. Import of such specific products may have been being regulated by government time to time. So government insist an import license as one of the documents required for import customs clearance to bring those materials from foreign countries. \n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title21">Insurance Certificate </string>
+    <string name="IMPORT_DOCUMENTATION_detail21">
+	\t - Insurance certificate is one of the documents required for import customs clearance procedures. Insurance certificate is a supporting document against importer’s declaration on terms of delivery. Insurance certificate under import shipment helps customs authorities to verify, whether selling price includes insurance or not. This is required to find assessable value which determines import duty amount.  \n
+        </string>
+
+
+
+    <string name="IMPORT_DOCUMENTATION_title22">Purchase Order/Letter of Credit</string>
+    <string name="IMPORT_DOCUMENTATION_detail22">
+	\t - Purchase order is one of the documents required for import customs clearance. A purchase order reflects almost all terms and conditions of sale contract which enables the customs official to confirm on value assessment. If an import consignment is under letter of credit basis, the importer can submit a copy of Letter of Credit along with the documents for import clearance.  \n
+        </string>
+
+
+
+    <string name="IMPORT_DOCUMENTATION_title23">Catalogue </string>
+    <string name="IMPORT_DOCUMENTATION_detail23">
+	\t - Technical write up, literature of imported goods or any other similar documents may be required as one of the documents for import clearance under some specific goods. For example, if a machinery is imported, a technical write up or literature explaining it’s function can be attached along with importing documents. This document helps customs official to derive exact market value of such imported machinery in turn helps for value assessment. \n
+        </string>
+
+
+
+    <string name="IMPORT_DOCUMENTATION_title24">Industrial License </string>
+    <string name="IMPORT_DOCUMENTATION_detail24">
+	\t - 	An industrial license copy may be required under specific goods importing. If Importer claims any import benefit as per guidelines of government, such Industrial License can be produced to avail the benefit. In such case, Industrial license copy can be submitted with customs authorities as one of the import clearance documents. \n
+        </string>
+
+
+
+    <string name="IMPORT_DOCUMENTATION_title25">RCMC. Registration cum Membership Certificate </string>
+    <string name="IMPORT_DOCUMENTATION_detail25">
+	\t - 	For the purpose of availing import duty exemption from government agencies under specific goods, production of RCMC with customs authorities is one of the requirements for import clearance. In such cases importer needs to submit Registration Cum Membership Certificate along with import customs clearance documents. \n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title26">Pre-shipment Inspection / Test Report</string>
+    <string name="IMPORT_DOCUMENTATION_detail26">
+	\t - It is the practice of employing specialized private companies to check shipment details. Analysis certificate/MSDS incase of Chemicals, Mill Test Certificate in case of Metal, Catalogue/Write up for plant, machinery and spares\n
+        \t - PSI helps to:  \n
+		\t\t - Detect over-invoicing to prevent unjustified transfer of foreign exchange abroad;  \n
+		\t\t - Determine the classification and valuation of goods; and \n
+		\t\t - Ensure the correct collection of import duties and taxes by Customs authorities\n
+        </string>
+
+
+
+    <string name="IMPORT_DOCUMENTATION_title27">BILL OF ENTRY</string>
+    <string name="IMPORT_DOCUMENTATION_detail27">
+	\t - It is a document certifying that the goods of specified description and value are entering into the country from abroad.\n
+        \t - The Bill of entry-different copy meant for different purposes with different color.   \n
+	\t - Bill of Entry for home consumption: \n
+	\t - Bill of Entry for Warehouses \n
+	\t - Bill of Entry for Ex-Bond Clearance \n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title28">DEEC/DEPB /ECGC or any other documents for duty benefits</string>
+    <string name="IMPORT_DOCUMENTATION_detail28">
+	\t - If importer avails any duty exemptions against imported goods under different schemes like DEEC/DEPB/ECGC etc., such license is produced along with other import clearance documents.\n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title29">GATT/DGFT declaration</string>
+    <string name="IMPORT_DOCUMENTATION_detail29">
+	\t - As per the guidelines of Government of India, every importer needs to file GATT declaration and DGFT declaration along with other import customs clearance documents with customs. GATT declaration has to be filed by Importer as per the terms of General Agreement on Tariff and Trade.\n
+        </string>
+
+
+    <string name="IMPORT_DOCUMENTATION_title30">Manufacturer Certificate</string>
+    <string name="IMPORT_DOCUMENTATION_detail30">
+	\t - CERTIFICATE OF ORIGIN\n
+        \t - CERTIFICATE OF WEIGHT  \n
+	\t - CERTIFICATE OF QUALITY  \n
+	\t - CERTIFICATE OF INSPECTION \n
+        </string>
+
+
+
+
+    <string name="IMPORT_DOCUMENTATION_title31">IMPORT RISK</string>
+    <string name="IMPORT_DOCUMENTATION_detail31">
+	\t - Transport Risk –loss of goods during transportation.  \n
+        \t - Quality Risk –final quality of the products.  \n
+	\t - Delivery Risk –goods are not delivered on time. \n
+	\t - Exchange Risk –the change in the value of currency. \n
+        </string>
+
+
+<string name="IMPORT_DOCUMENTATION_title32">DOCUMENTS REQUIRED FOR EPCG LICENCE  &amp;  EXPORT  OF DEFECTIVE PARTS
+Following  documents  are  required for preparing  CE  certificate for  EPCG  licence of  Govt. of India: 
+</string>
+    <string name="IMPORT_DOCUMENTATION_detail32">
+	\t - 1.Scanned  copies  of  PAN and  IEC  \n
+        \t - 2.Website  address  of  applicants  if available  \n
+	\t - 3. CA  certificate certifying last  3  years  exports , if available  \n
+	\t - 4.Details  of export  products , to which capital  goods , which have to be imported  are  related  \n
+	\t - 5.Step  wise  flow  chart  specifying clearly as to where the capital  good  to be imported ,  will be utilized   \n
+	\t - 6.Brief justification of quantity  of capital  goods required  to be imported and whether there is process/production  requirement of quantity  \n
+        </string>
+
+
+
+    <string name="IMPORT_DOCUMENTATION_title33">Following  documents  are  required for preparing CE  certificate for exporting part/equipment  for repairs and return after repairs </string>
+    <string name="IMPORT_DOCUMENTATION_detail33">
+	\t - 1.EXPORT  INVOICE of part/equipment being sent for repairs ; export invoice must state  name of capital  good of which this part belongs, serial  number/identification number of part/equipment and  Bill  of entry for home consumption details of capital  good \n
+        \t - 2.IMPORT  INVOICE of capital good of which the part/equipment has become defective   \n
+	\t - 3.Bill  of entry for home  consumption of capital  good   \n
+	\t - 4.Any E  mails  exchanged  with the repairers \n
+        </string>
+
+
+
+
+
+    <!--LC checklist-->
+    <string name="LC_title1">TOPICS</string>
+    <string name="LC_detail1">
+        \t - L/C Check List \n
+        \t - Export Documentation \n
+        \t - Pre Shipment Documents  \n
+        \t - Post Shipment Documents  \n
+	\t - Post Shipment Documents under various Payment Terms  \n
+
+    </string>
+
+
+    <string name="LC_title2">L/C CHECK LIST</string>
+    <string name="LC_detail2">
+        \t - Importance of L/C Check List \n
+        \t - Understanding Clauses &amp; Its Importance \n
+    </string>
+
+
+    <string name="LC_title3">EXPORT DOCUMENTATION</string>
+    <string name="LC_detail3">
+        \t - IImportance of Export Documentation  \n
+        \t - Understanding of Pre Shipment &amp; Post Shipment Documents \n
+    </string>
+
+
+    <string name="LC_title4">PRE SHIPMENT DOCUMENTS</string>
+    <string name="LC_detail4">
+        \t - 1.Pro-Forma Invoice  \n
+        \t - 2.Letter of Credit \n
+	\t - 3.Excise Clearance Documents \n
+		\t\t - Pre Shipment Invoice \n
+		\t\t - Packing List \n
+		\t\t - ARE 1  \n
+	\t - 4.Custom Clearance Documents \n
+		\t\t - Shipping Bill \n
+			\t\t\t\t - Exchange Control Copy – For Bank \n
+			\t\t\t\t - Export Promotion Copy – Export Incentive \n
+			\t\t\t\t - Exporter’s Copy – For Exporter \n
+			\t\t\t\t - Scheme Copy – Schemes Offered by DGFT \n
+	\t - EVD - Export Value Declaration Form\n
+	\t - SDF – Statutory Declaration Form\n
+    </string>
+
+
+    <string name="LC_title5">POST SHIPMENT DOCUMENTS</string>
+    <string name="LC_detail5">
+        \t - Bill of Lading / Air way Bill / Lorry Receipt  \n
+        \t - Commercial Invoice \n
+	\t - Packing List \n
+	\t - Certification of Origin \n
+	\t - Insurance Policy \n
+	\t - Test Reports \n
+	\t - Quality Certificate\n
+	\t - Bill of Exchange \n
+	\t - Other Documents as per Letter of Credit or Sales Contract \n
+
+</string>
 </resources>

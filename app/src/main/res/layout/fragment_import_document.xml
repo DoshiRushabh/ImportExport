@@ -14,114 +14,349 @@
             android:layout_height="wrap_content">
             <TextView
                 style="@style/style_title"
-                android:text="@string/import_DOCUMENTATION_title1"
+                android:text="@string/IMPORT_DOCUMENTATION_title1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/import_DOCUMENTATION_detail1"
+                android:text="@string/IMPORT_DOCUMENTATION_detail1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/import_DOCUMENTATION_title2"
+                android:text="@string/IMPORT_DOCUMENTATION_title2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/import_DOCUMENTATION_detail2"
+                android:text="@string/IMPORT_DOCUMENTATION_detail2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/import_DOCUMENTATION_title3"
+                android:text="@string/IMPORT_DOCUMENTATION_title3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/import_DOCUMENTATION_detail3"
+                android:text="@string/IMPORT_DOCUMENTATION_detail3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/import_DOCUMENTATION_title4"
+                android:text="@string/IMPORT_DOCUMENTATION_title4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/import_DOCUMENTATION_detail4"
+                android:text="@string/IMPORT_DOCUMENTATION_detail4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/import_DOCUMENTATION_title5"
+                android:text="@string/IMPORT_DOCUMENTATION_title5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/import_DOCUMENTATION_detail5"
+                android:text="@string/IMPORT_DOCUMENTATION_detail5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/import_DOCUMENTATION_title6"
+                android:text="@string/IMPORT_DOCUMENTATION_title6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/import_DOCUMENTATION_detail6"
+                android:text="@string/IMPORT_DOCUMENTATION_detail6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/import_DOCUMENTATION_title7"
+                android:text="@string/IMPORT_DOCUMENTATION_title61"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/import_DOCUMENTATION_detail7"
+                android:text="@string/IMPORT_DOCUMENTATION_detail61"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/import_DOCUMENTATION_title8"
+                android:text="@string/IMPORT_DOCUMENTATION_title7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/import_DOCUMENTATION_detail8"
+                android:text="@string/IMPORT_DOCUMENTATION_detail7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/import_DOCUMENTATION_title9"
+                android:text="@string/IMPORT_DOCUMENTATION_title8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/import_DOCUMENTATION_detail9"
+                android:text="@string/IMPORT_DOCUMENTATION_detail8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/import_DOCUMENTATION_title10"
+                android:text="@string/IMPORT_DOCUMENTATION_title9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/import_DOCUMENTATION_detail10"
+                android:text="@string/IMPORT_DOCUMENTATION_detail9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/import_DOCUMENTATION_title11"
+                android:text="@string/IMPORT_DOCUMENTATION_title11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/import_DOCUMENTATION_detail11"
+                android:text="@string/IMPORT_DOCUMENTATION_detail11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:text="@string/IMPORT_DOCUMENTATION_title33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/IMPORT_DOCUMENTATION_detail33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
         </LinearLayout>
     </ScrollView>
 

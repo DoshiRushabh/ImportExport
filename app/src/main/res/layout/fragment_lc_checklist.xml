@@ -14,52 +14,52 @@
             android:layout_height="wrap_content">
             <TextView
                 style="@style/style_title"
-                android:text="@string/incoterms_title11"
+                android:text="@string/LC_title1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/incoterms_detail1"
+                android:text="@string/LC_detail1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/incoterms_title12"
+                android:text="@string/LC_title2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/incoterms_detail12"
+                android:text="@string/LC_detail2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/incoterms_title13"
+                android:text="@string/LC_title3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/incoterms_detail13"
+                android:text="@string/LC_detail3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/incoterms_title14"
+                android:text="@string/LC_title4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/incoterms_detail14"
+                android:text="@string/LC_detail4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_title"
-                android:text="@string/incoterms_title15"
+                android:text="@string/LC_title5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <TextView
                 style="@style/style_detail"
-                android:text="@string/incoterms_detail15"
+                android:text="@string/LC_detail5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>

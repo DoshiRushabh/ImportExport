@@ -26,6 +26,7 @@ import com.google.android.gms.ads.AdView;
 import com.rushabh.importandexport.activities.AboutUsActivity;
 import com.rushabh.importandexport.activities.CurrencyConverter;
 import com.rushabh.importandexport.fragments.MainFragment;
+import com.rushabh.importandexport.fragments.WebViewFragment;
 
 
 public class MainActivity extends AppCompatActivity
@@ -117,7 +118,16 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.currancyconverter) {
-            startActivity(new Intent(MainActivity.this, CurrencyConverter.class));
+            WebViewFragment webViewFragment = new WebViewFragment();
+            Bundle bundle = new Bundle();
+            bundle.putString("title","Currancy conberter");
+            bundle.putString("url", "https://www.google.com/finance/converter?a=1&from=COP&to=BBD&meta=ei%3DfLxTWJjvAs2nuATxtK-QAw");
+            webViewFragment.setArguments(bundle);
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.MainLayout, webViewFragment)
+                    .addToBackStack(null)
+                    .commit();
         } else if (id == R.id.rateapp) {
 
         } else if (id == R.id.feedback) {

@@ -26,6 +26,8 @@ import com.rushabh.importandexport.R;
 public class WebViewFragment extends Fragment {
 
     WebView webView;
+    Bundle bundle;
+    String url;
 
     public WebViewFragment() {
         // Required empty public constructor
@@ -40,8 +42,10 @@ public class WebViewFragment extends Fragment {
 
         webView = (WebView) v.findViewById(R.id.webview);
 
-        Bundle bundle = getArguments();
+        bundle = getArguments();
 
+
+        url = bundle.getString("url");
         ((MainActivity) getActivity()).setActionBarTitle(bundle.getString("title"));
 
         webView = (WebView) v.findViewById(R.id.webview);
@@ -75,7 +79,7 @@ public class WebViewFragment extends Fragment {
                 return true;
             }
         });
-        webView.loadUrl((String) bundle.get("url"));
+        webView.loadUrl(url);
 
         return v;
     }

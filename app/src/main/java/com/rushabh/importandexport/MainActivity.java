@@ -18,6 +18,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -120,7 +121,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.rateapp) {
 
         } else if (id == R.id.feedback) {
-
+            sendFeedback();
         } else if (id == R.id.aboutus) {
             startActivity(new Intent(MainActivity.this, AboutUsActivity.class));
         }
@@ -128,5 +129,14 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void sendFeedback() {
+        Intent Email = new Intent(Intent.ACTION_SEND);
+        Email.setType("text/email");
+        Email.putExtra(Intent.EXTRA_EMAIL, new String[] { "contacticodedevelopers@gmail.com" });
+        Email.putExtra(Intent.EXTRA_SUBJECT, "Feedback");
+        Email.putExtra(Intent.EXTRA_TEXT, " ");
+        startActivity(Intent.createChooser(Email, "Send Feedback:"));
     }
 }

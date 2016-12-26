@@ -1,8 +1,6 @@
 package com.rushabh.importandexport.adapter;
 
 import android.content.Context;
-import android.content.Intent;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
@@ -13,27 +11,11 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.Switch;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.rushabh.importandexport.MainActivity;
 import com.rushabh.importandexport.R;
-import com.rushabh.importandexport.activities.ForignTradeActivity;
-import com.rushabh.importandexport.activities.GovermentBenefitsActivity;
-import com.rushabh.importandexport.activities.IdentifyingBuyersPaymentActivity;
-import com.rushabh.importandexport.activities.ImportDocumentActivity;
-import com.rushabh.importandexport.activities.ImportExportBasicsActivity;
-import com.rushabh.importandexport.activities.ImportExportCycleSctivity;
-import com.rushabh.importandexport.activities.IncotermsActivity;
-import com.rushabh.importandexport.activities.InsuAndRiskActivity;
-import com.rushabh.importandexport.activities.InternationalBodiesActivity;
-import com.rushabh.importandexport.activities.LcChecklistActivity;
-import com.rushabh.importandexport.activities.ModeOfTransActivity;
-import com.rushabh.importandexport.activities.PaymentTermsActivity;
-import com.rushabh.importandexport.activities.ProductMarcetSelectActivity;
-import com.rushabh.importandexport.activities.introActivity;
 import com.rushabh.importandexport.dataObject.topic;
 import com.rushabh.importandexport.fragments.ForignTradeFragment;
 import com.rushabh.importandexport.fragments.GovermentBenefitsFragment;

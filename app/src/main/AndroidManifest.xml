@@ -22,7 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.CurrencyConverter" />
         <activity android:name=".activities.ModeOfTransActivity" />
         <activity android:name=".activities.ForignTradeActivity" />
         <activity android:name=".activities.IncotermsActivity" />
@@ -36,7 +35,7 @@
         <activity android:name=".activities.LcChecklistActivity" />
         <activity android:name=".activities.ProductMarcetSelectActivity" />
         <activity android:name=".activities.ImportDocumentActivity" />
-        <activity android:name=".activities.AboutUsActivity"></activity>
+        <activity android:name=".activities.AboutUsActivity" />
     </application>
 
 </manifest>

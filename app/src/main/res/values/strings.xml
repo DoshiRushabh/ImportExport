@@ -928,7 +928,6 @@ Allow import documents received under collection paid without verifying importer
         </string>
 
 
-
     <string name="IMPORT_DOCUMENTATION_title12">Procedures on Customs Clearance </string>
     <string name="IMPORT_DOCUMENTATION_detail12">
 	\t - Vessel Arrival \n
@@ -956,7 +955,6 @@ Allow import documents received under collection paid without verifying importer
        		\t\t - Cargo is cleared for delivery on payment on applicable duties.\n
 		\t\t - Importer takes delivery of his cargo and no storage charges are applicable, if  delivery is taken during such free period.\n
         </string>
-
 
 
     <string name="IMPORT_DOCUMENTATION_title14">How to calculate Assessable Value</string>
@@ -1040,12 +1038,10 @@ notified   exchange rate.     \n
         </string>
 
 
-
     <string name="IMPORT_DOCUMENTATION_title22">Purchase Order/Letter of Credit</string>
     <string name="IMPORT_DOCUMENTATION_detail22">
 	\t - Purchase order is one of the documents required for import customs clearance. A purchase order reflects almost all terms and conditions of sale contract which enables the customs official to confirm on value assessment. If an import consignment is under letter of credit basis, the importer can submit a copy of Letter of Credit along with the documents for import clearance.  \n
         </string>
-
 
 
     <string name="IMPORT_DOCUMENTATION_title23">Catalogue </string>
@@ -1054,12 +1050,10 @@ notified   exchange rate.     \n
         </string>
 
 
-
     <string name="IMPORT_DOCUMENTATION_title24">Industrial License </string>
     <string name="IMPORT_DOCUMENTATION_detail24">
 	\t - 	An industrial license copy may be required under specific goods importing. If Importer claims any import benefit as per guidelines of government, such Industrial License can be produced to avail the benefit. In such case, Industrial license copy can be submitted with customs authorities as one of the import clearance documents. \n
         </string>
-
 
 
     <string name="IMPORT_DOCUMENTATION_title25">RCMC. Registration cum Membership Certificate </string>
@@ -1076,7 +1070,6 @@ notified   exchange rate.     \n
 		\t\t - Determine the classification and valuation of goods; and \n
 		\t\t - Ensure the correct collection of import duties and taxes by Customs authorities\n
         </string>
-
 
 
     <string name="IMPORT_DOCUMENTATION_title27">BILL OF ENTRY</string>
@@ -1110,8 +1103,6 @@ notified   exchange rate.     \n
         </string>
 
 
-
-
     <string name="IMPORT_DOCUMENTATION_title31">IMPORT RISK</string>
     <string name="IMPORT_DOCUMENTATION_detail31">
 	\t - Transport Risk –loss of goods during transportation.  \n
@@ -1134,7 +1125,6 @@ Following  documents  are  required for preparing  CE  certificate for  EP
         </string>
 
 
-
     <string name="IMPORT_DOCUMENTATION_title33">Following  documents  are  required for preparing CE  certificate for exporting part/equipment  for repairs and return after repairs </string>
     <string name="IMPORT_DOCUMENTATION_detail33">
 	\t - 1.EXPORT  INVOICE of part/equipment being sent for repairs ; export invoice must state  name of capital  good of which this part belongs, serial  number/identification number of part/equipment and  Bill  of entry for home consumption details of capital  good \n
@@ -1142,9 +1132,6 @@ Following  documents  are  required for preparing  CE  certificate for  EP
 	\t - 3.Bill  of entry for home  consumption of capital  good   \n
 	\t - 4.Any E  mails  exchanged  with the repairers \n
         </string>
-
-
-
 
 
     <!--LC checklist-->

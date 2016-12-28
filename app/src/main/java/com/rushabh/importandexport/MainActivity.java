@@ -86,7 +86,6 @@ public class MainActivity extends AppCompatActivity
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.MainLayout, new MainFragment())
-                .addToBackStack(null)
                 .commit();
     }
 
@@ -114,7 +113,6 @@ public class MainActivity extends AppCompatActivity
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.MainLayout,new MainFragment())
-                    .addToBackStack(null)
                     .commit();
         }
         else if (id == R.id.currancyconverter) {

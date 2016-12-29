@@ -82,6 +82,57 @@
                 android:text="@string/Online_Marketing_detail1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Links..." />
+
+
+            <!--Links Start-->
+            <TextView
+                android:id="@+id/Link1"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Participation in Exhibition / Trade Fairs" />
+
+            <TextView
+                android:id="@+id/Link2"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Databases from Govt. Trade Promotion Bodies" />
+
+            <TextView
+                android:id="@+id/Link3"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 List of Trade Directories World Wide" />
+
+            <TextView
+                android:id="@+id/Link4"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Yellow Pages " />
+
+            <TextView
+                android:id="@+id/Link5"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 List of Top B2B Websites Worldwide:" />
+
+            <TextView
+                android:id="@+id/Link6"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Indian Embassy Abroad “OUR FIRST RELATIVE" />
+
+
         </LinearLayout>
     </ScrollView>
 

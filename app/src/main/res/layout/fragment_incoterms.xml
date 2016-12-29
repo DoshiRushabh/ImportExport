@@ -62,6 +62,50 @@
                 android:text="@string/incoterms_detail15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/style_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Links..." />
+
+
+            <!--Links Start-->
+            <TextView
+                android:id="@+id/Link1"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 What is INCOTERMS?" />
+
+            <TextView
+                android:id="@+id/Link2"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 SEA PORT" />
+
+            <TextView
+                android:id="@+id/Link3"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 AIR PORT" />
+
+            <TextView
+                android:id="@+id/Link4"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 DRY PORT" />
+
+            <TextView
+                android:id="@+id/Link5"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Introduction of Letter of Credit (L/C)" />
+
         </LinearLayout>
     </ScrollView>
 

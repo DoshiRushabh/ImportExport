@@ -356,7 +356,27 @@
                 android:text="@string/IMPORT_DOCUMENTATION_detail33"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Links..." />
 
+
+            <!--Links Start-->
+            <TextView
+                android:id="@+id/Link1"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Advance License" />
+
+            <TextView
+                android:id="@+id/Link2"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u2022 Serve From India" />
         </LinearLayout>
     </ScrollView>
 

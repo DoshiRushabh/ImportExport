@@ -8,4 +8,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="main_card_margin">7dp</dimen>
     <dimen name="scroll_view_margin">5dp</dimen>
+    <dimen name="company_logo_margin">15dp</dimen>
 </resources>

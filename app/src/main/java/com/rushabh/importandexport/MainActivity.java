@@ -125,6 +125,7 @@ public class MainActivity extends AppCompatActivity
             if (fragment instanceof MainFragment) {
                 if (exit) {
                     finish(); // finish activity
+                    overridePendingTransition(R.anim.fadeout, R.anim.fadein);
                 } else {
                     Toast.makeText(this, "Press Back again to Exit.",
                             Toast.LENGTH_SHORT).show();

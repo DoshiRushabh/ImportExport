@@ -36,30 +36,20 @@ public class MainActivity extends AppCompatActivity
     AdView adView;
     ImageView shareImage;
     LinearLayout MainLayout;
+    ActionBar actionBar;
+    Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         shareImage = (ImageView) findViewById(R.id.shareImage);
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("");
+        actionBar = getSupportActionBar();
 
-        toolbar.setTranslationY(-(500));
-        toolbar.animate()
-                .translationY(0)
-                .setDuration(500)
-                .setStartDelay(300);
-
-        shareImage.setTranslationY(-(700));
-        shareImage.animate()
-                .translationY(0)
-                .setDuration(500)
-                .setStartDelay(700);
         shareImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,8 +70,27 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
 
-//        ADs
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        actionBar.setTitle("");
+
+        toolbar.setTranslationY(-(500));
+        toolbar.animate()
+                .translationY(0)
+                .setDuration(500)
+                .setStartDelay(300);
+
+        shareImage.setTranslationY(-(700));
+        shareImage.animate()
+                .translationY(0)
+                .setDuration(500)
+                .setStartDelay(700);
+
+        //        ADs
         adView = (AdView) findViewById(R.id.adView);
 
         AdRequest adRequest = new AdRequest.Builder()
@@ -106,6 +115,7 @@ public class MainActivity extends AppCompatActivity
                 .beginTransaction()
                 .replace(R.id.MainLayout, new MainFragment())
                 .commit();
+
     }
 
     public void setActionBarTitle(String title) {

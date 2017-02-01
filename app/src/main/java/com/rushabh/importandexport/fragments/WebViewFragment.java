@@ -8,13 +8,12 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.rushabh.importandexport.MainActivity;
@@ -73,7 +72,7 @@ public class WebViewFragment extends Fragment {
 
 
             @Override
-            public boolean shouldOverrideUrlLoading(WebView view, String url)
+            public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request)
             {
                 view.loadUrl(url);
                 return true;

@@ -5,11 +5,10 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.rushabh.importandexport.fragments.HvdDetailsFragment;
-import com.rushabh.importandexport.fragments.SpecialThanksFragment;
 import com.rushabh.importandexport.fragments.companyDetailsFragment;
 
 /**
- * Created by Rushabh on 12/21/2016.
+ * Created on date 12/14/2016 by Rushabh
  */
 
 public class pagerAdapter extends FragmentPagerAdapter {
@@ -26,8 +25,6 @@ public class pagerAdapter extends FragmentPagerAdapter {
                 return new companyDetailsFragment();
             case 1:
                 return new HvdDetailsFragment();
-            case 2:
-                return new SpecialThanksFragment();
             default:
                 return null;
         }

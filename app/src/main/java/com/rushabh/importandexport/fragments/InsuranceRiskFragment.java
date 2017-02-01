@@ -47,5 +47,8 @@ public class InsuranceRiskFragment extends Fragment implements View.OnClickListe
             bundle.putString("url", "http://www.dnb.com/");
             bundle.putString("title", "Credit Rating Agency");
         }
+        webViewFragment.setArguments(bundle);
+        fm.replace(R.id.MainLayout,webViewFragment)
+                .commit();
     }
 }

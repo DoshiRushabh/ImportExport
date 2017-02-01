@@ -3,7 +3,7 @@ package com.rushabh.importandexport.activities;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.support.design.widget.TabLayout;
-import android.support.v4.view.PagerAdapter;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -22,14 +22,16 @@ public class AboutUsActivity extends AppCompatActivity {
         overridePendingTransition(R.anim.trans_left_in, R.anim.trans_left_out);
 
         ActionBar actionBar = getSupportActionBar();
+        assert actionBar != null;
         actionBar.setTitle("About us");
 
-        final Drawable upArrow = getResources().getDrawable(R.drawable.back_arrow);
-        upArrow.setColorFilter(getResources().getColor(R.color.white), PorterDuff.Mode.SRC_ATOP);
+        final Drawable upArrow =
+                ContextCompat.getDrawable(this, R.drawable.back_arrow);
+        assert upArrow != null;
+        upArrow.setColorFilter(ContextCompat.getColor(this, R.color.white), PorterDuff.Mode.SRC_ATOP);
         actionBar.setHomeAsUpIndicator(upArrow);
-        if (actionBar != null) {
-            actionBar.setDisplayHomeAsUpEnabled(true);
-        }
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
 
 //        Init view pager
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);

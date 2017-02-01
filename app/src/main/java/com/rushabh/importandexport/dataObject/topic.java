@@ -1,11 +1,7 @@
 package com.rushabh.importandexport.dataObject;
 
-import android.graphics.drawable.Drawable;
-
-import com.bumptech.glide.load.engine.Resource;
-
 /**
- * Created by Rushabh on 12/14/2016.
+ * Created on date 12/14/2016 by Rushabh
  */
 
 public class topic {
@@ -37,9 +33,5 @@ public class topic {
 
     public String getDescription() {
         return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 }

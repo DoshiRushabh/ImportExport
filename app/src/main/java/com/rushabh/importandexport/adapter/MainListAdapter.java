@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -35,12 +34,11 @@ import com.rushabh.importandexport.fragments.ProductMarketFragment;
 import java.util.ArrayList;
 
 /**
- * Created by Rushabh on 12/14/2016.
+ * Created on date 12/14/2016 by Rushabh
  */
 
 public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.PersonViewHolder> implements View.OnClickListener {
 
-    LinearLayout MainLayout;
     private ArrayList<topic> topicList;
     private Context context;
 
@@ -52,8 +50,7 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
     @Override
     public MainListAdapter.PersonViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.topic_list_card, parent, false);
-        PersonViewHolder pvh = new PersonViewHolder(v);
-        return pvh;
+        return new PersonViewHolder(v);
     }
 
     @Override
@@ -72,9 +69,9 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
         holder.description.setText(topic.getDescription());
         Glide.with(context)
                 .load(topic.getImage())
-                .override(250,250)
+                .override(250, 250)
                 .into(holder.image);
-        holder.cv.setTag(R.string.app_name,position);
+        holder.cv.setTag(R.string.app_name, position);
         holder.cv.setOnClickListener(this);
     }
 
@@ -88,76 +85,74 @@ public class MainListAdapter extends RecyclerView.Adapter<MainListAdapter.Person
         int position = (int) view.getTag(R.string.app_name);
 //        position start from 0
 
-        MainLayout = (LinearLayout) ((MainActivity) context).findViewById(R.id.MainLayout);
-
         FragmentTransaction ft = ((MainActivity) context).getSupportFragmentManager()
                 .beginTransaction()
-                .setCustomAnimations(R.anim.trans_left_in, R.anim.trans_left_out,R.anim.trans_right_in, R.anim.trans_right_out)
+                .setCustomAnimations(R.anim.trans_left_in, R.anim.trans_left_out, R.anim.trans_right_in, R.anim.trans_right_out)
                 .addToBackStack(null);
-
-        switch (position){
+        switch (position) {
             case 0:
-                ft.replace(R.id.MainLayout,new IntroFragment())
+                ft.replace(R.id.MainLayout, new IntroFragment())
                         .commit();
                 return;
             case 1:
-                ft.replace(R.id.MainLayout,new InternationalBodiesFragment())
+                ft.replace(R.id.MainLayout, new InternationalBodiesFragment())
                         .commit();
                 return;
             case 2:
-                ft.replace(R.id.MainLayout,new ImportExportCycleFragment())
+                ft.replace(R.id.MainLayout, new ImportExportCycleFragment())
                         .commit();
                 return;
             case 3:
-                ft.replace(R.id.MainLayout,new ImportExportBasicsFragment())
+                ft.replace(R.id.MainLayout, new ImportExportBasicsFragment())
                         .commit();
                 return;
             case 4:
-                ft.replace(R.id.MainLayout,new ModeOfTransportFragment())
+                ft.replace(R.id.MainLayout, new ModeOfTransportFragment())
                         .commit();
                 return;
             case 5:
-                ft.replace(R.id.MainLayout,new ForignTradeFragment())
+                ft.replace(R.id.MainLayout, new ForignTradeFragment())
                         .commit();
                 return;
             case 6:
-                ft.replace(R.id.MainLayout,new IncotermsFragment())
+                ft.replace(R.id.MainLayout, new IncotermsFragment())
                         .commit();
                 return;
             case 7:
-                ft.replace(R.id.MainLayout,new LcChecklistFragment())
+                ft.replace(R.id.MainLayout, new LcChecklistFragment())
                         .commit();
                 return;
             case 8:
-                ft.replace(R.id.MainLayout,new PaymentTermsFragment())
+                ft.replace(R.id.MainLayout, new PaymentTermsFragment())
                         .commit();
                 return;
             case 9:
-                ft.replace(R.id.MainLayout,new ProductMarketFragment())
+                ft.replace(R.id.MainLayout, new ProductMarketFragment())
                         .commit();
                 return;
             case 10:
-                ft.replace(R.id.MainLayout,new IdentifyingBuyerFragment())
+                ft.replace(R.id.MainLayout, new IdentifyingBuyerFragment())
                         .commit();
                 return;
             case 11:
-                ft.replace(R.id.MainLayout,new InsuranceRiskFragment())
+                ft.replace(R.id.MainLayout, new InsuranceRiskFragment())
                         .commit();
                 return;
             case 12:
-                ft.replace(R.id.MainLayout,new GovermentBenefitsFragment())
+                ft.replace(R.id.MainLayout, new GovermentBenefitsFragment())
                         .commit();
                 return;
             case 13:
-                ft.replace(R.id.MainLayout,new ImportDocumentFragment())
+                ft.replace(R.id.MainLayout, new ImportDocumentFragment())
                         .commit();
         }
     }
-
+    @SuppressWarnings("WeakerAccess")
     public class PersonViewHolder extends RecyclerView.ViewHolder {
-        TextView title,description;
+        TextView title, description;
         ImageView image;
         CardView cv;
+
         public PersonViewHolder(View itemView) {
             super(itemView);
             title = (TextView) itemView.findViewById(R.id.title);

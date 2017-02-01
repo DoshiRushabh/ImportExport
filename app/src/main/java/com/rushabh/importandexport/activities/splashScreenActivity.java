@@ -16,13 +16,13 @@ public class splashScreenActivity extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-        Thread welcomeThread = new Thread() {
+        new Thread() {
 
             @Override
             public void run() {
                 try {
                     super.run();
-                    sleep(5000);  //Delay of 10 seconds
+                    sleep(4000);  //Delay of 2 seconds
                 } catch (Exception e) {
 
                 } finally {
@@ -31,7 +31,6 @@ public class splashScreenActivity extends AppCompatActivity {
                     finish();
                 }
             }
-        };
-        welcomeThread.start();
+        }.start();
     }
 }

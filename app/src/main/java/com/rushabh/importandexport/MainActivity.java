@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity
     LinearLayout MainLayout;
     ActionBar actionBar;
     Toolbar toolbar;
+    private Boolean exit = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,11 +71,6 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
 
         actionBar.setTitle("");
 
@@ -110,6 +106,11 @@ public class MainActivity extends AppCompatActivity
                 MainLayout.setLayoutParams(layoutParams);
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
 
         getSupportFragmentManager()
                 .beginTransaction()
@@ -123,7 +124,6 @@ public class MainActivity extends AppCompatActivity
         actionBar.setTitle(title);
     }
 
-    private Boolean exit = false;
 
     @Override
     public void onBackPressed() {
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity
             if (fragment instanceof MainFragment) {
                 if (exit) {
                     finish(); // finish activity
-                    overridePendingTransition(R.anim.fadeout, R.anim.fadein);
+                    overridePendingTransition(R.anim.fadein, R.anim.fadeout);
                 } else {
                     Toast.makeText(this, "Press Back again to Exit.",
                             Toast.LENGTH_SHORT).show();

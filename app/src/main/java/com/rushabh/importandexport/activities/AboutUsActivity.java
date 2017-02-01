@@ -57,6 +57,4 @@ public class AboutUsActivity extends AppCompatActivity {
         super.onBackPressed();
         overridePendingTransition(R.anim.trans_right_in, R.anim.trans_right_out);
     }
-
-
 }

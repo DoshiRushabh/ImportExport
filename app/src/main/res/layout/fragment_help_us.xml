@@ -6,7 +6,7 @@
 
     <Button
         android:enabled="false"
-        android:text="loading ad....."
+        android:text="@string/loading_ad"
         android:id="@+id/showAd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

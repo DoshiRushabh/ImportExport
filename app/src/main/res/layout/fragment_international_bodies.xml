@@ -1,13 +1,8 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.rushabh.importandexport.fragments.InternationalBodiesFragment">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="@dimen/scroll_view_margin">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -90,262 +85,261 @@
                 style="@style/style_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Links..." />
+                android:text="@string/links" />
             <!--Links Start-->
             <TextView
                 android:id="@+id/Link1"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 ICC" />
+                android:text="@string/international_bodies_link_1" />
 
             <TextView
                 android:id="@+id/Link2"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 What is H.S Code?" />
+                android:text="@string/international_bodies_link_2" />
 
             <TextView
                 android:id="@+id/Link3"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Indian Trade Classifications (ITC-H.S CODE)" />
+                android:text="@string/international_bodies_link_3" />
 
             <TextView
                 android:id="@+id/Link4"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 WORLD TRADE ORGANIZATION" />
+                android:text="@string/international_bodies_link_4" />
 
             <TextView
                 android:id="@+id/Link5"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Ministry of Commerce &amp; Finance" />
+                android:text="@string/international_bodies_link_5" />
 
             <TextView
                 android:id="@+id/Link6"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 RBI" />
+                android:text="@string/international_bodies_link_6" />
 
             <TextView
                 android:id="@+id/Link7"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 CII – Confederation of Indian Industries)" />
+                android:text="@string/international_bodies_link_7" />
 
             <TextView
                 android:id="@+id/Link8"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Trade Associations" />
+                android:text="@string/international_bodies_link_8" />
 
             <TextView
                 android:id="@+id/Link9"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 FICCI – Federation of Indian Chamber of Commerce &amp; Industries" />
+                android:text="@string/international_bodies_link_9" />
 
             <TextView
                 android:id="@+id/Link10"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 FIEO – Federation of Indian Exporter Organization" />
+                android:text="@string/international_bodies_link_10" />
 
             <TextView
                 android:id="@+id/Link11"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Export Promotion Councils" />
+                android:text="@string/international_bodies_link_11" />
 
             <TextView
                 android:id="@+id/Link12"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Engineering Goods" />
+                android:text="@string/international_bodies_link_12" />
 
             <TextView
                 android:id="@+id/Link13"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Chemicals &amp; Cosmetics" />
+                android:text="@string/international_bodies_link_13" />
 
             <TextView
                 android:id="@+id/Link14"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Chemicals &amp; Allied Products" />
+                android:text="@string/international_bodies_link_14" />
 
             <TextView
                 android:id="@+id/Link15"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Leather Products" />
+                android:text="@string/international_bodies_link_15" />
 
             <TextView
                 android:id="@+id/Link16"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Gems &amp; Jewellery Products" />
+                android:text="@string/international_bodies_link_16" />
 
             <TextView
                 android:id="@+id/Link17"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Shellac Products" />
+                android:text="@string/international_bodies_link_17" />
 
             <TextView
                 android:id="@+id/Link18"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Cashew Products" />
+                android:text="@string/international_bodies_link_18" />
 
             <TextView
                 android:id="@+id/Link19"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Plastic Industry Products" />
+                android:text="@string/international_bodies_link_19" />
 
             <TextView
                 android:id="@+id/Link20"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Sports Goods Products" />
+                android:text="@string/international_bodies_link_20" />
 
             <TextView
                 android:id="@+id/Link21"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Pharmaceuticals Products" />
+                android:text="@string/international_bodies_link_21" />
 
             <TextView
                 android:id="@+id/Link22"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Commodity Board" />
+                android:text="@string/international_bodies_link_22" />
 
             <TextView
                 android:id="@+id/Link23"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Rubber Board" />
+                android:text="@string/international_bodies_link_23" />
 
             <TextView
                 android:id="@+id/Link24"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Coffee Board" />
+                android:text="@string/international_bodies_link_24" />
 
             <TextView
                 android:id="@+id/Link25"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Tobacco Board" />
+                android:text="@string/international_bodies_link_25" />
 
             <TextView
                 android:id="@+id/Link26"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Spices Board" />
+                android:text="@string/international_bodies_link_26" />
 
             <TextView
                 android:id="@+id/Link260"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Jute Board" />
+                android:text="@string/international_bodies_link_27" />
 
             <TextView
                 android:id="@+id/Link27"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Agricultural and Processed Food Products Expor" />
+                android:text="@string/international_bodies_link_28" />
 
             <TextView
                 android:id="@+id/Link28"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Marine Products Export Development Authority" />
+                android:text="@string/international_bodies_link_29" />
 
             <TextView
                 android:id="@+id/Link29"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Foreign Trade Act" />
+                android:text="@string/international_bodies_link_30" />
 
             <TextView
                 android:id="@+id/Link30"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 FEMA" />
+                android:text="@string/international_bodies_link_31" />
 
             <TextView
                 android:id="@+id/Link31"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Foreign Trade Policy 2014 – 2019" />
+                android:text="@string/international_bodies_link_32" />
 
             <TextView
                 android:id="@+id/Link32"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Handbook of Procedures" />
+                android:text="@string/international_bodies_link_34" />
 
             <TextView
                 android:id="@+id/Link33"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 Appendices &amp; Aayat Niryat Forms" />
+                android:text="@string/international_bodies_link_35" />
 
             <TextView
                 android:id="@+id/Link34"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 SION - Standard Input Output Norms" />
+                android:text="@string/international_bodies_link_36" />
 
             <TextView
                 android:id="@+id/Link35"
                 style="@style/style_link"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="\u2022 DGFT – Director General of Foreign Trade" />
+                android:text="@string/international_bodies_link_37" />
             <!--Links End-->
         </LinearLayout>
     </ScrollView>
 
 
-</FrameLayout>

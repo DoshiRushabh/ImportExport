@@ -1,79 +1,85 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.rushabh.importandexport.fragments.ImportExportBasicsFragment">
 
-    <ScrollView
-        android:layout_margin="@dimen/scroll_view_margin"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_title1" />
+
+        <TextView
+            style="@style/style_detail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                style="@style/style_title"
-                android:text="@string/preli_impexp_title1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/preli_impexp_detail1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/preli_impexp_title2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/preli_impexp_detail2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/preli_impexp_title3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/preli_impexp_detail3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/preli_impexp_title4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/preli_impexp_detail4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/preli_impexp_title5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/preli_impexp_detail5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/preli_impexp_title6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/preli_impexp_detail6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
-    </ScrollView>
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_detail1" />
 
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_title2" />
 
-</FrameLayout>
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_detail2" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_title3" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_detail3" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_title4" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_detail4" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_title5" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_detail5" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_title6" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preli_impexp_detail6" />
+    </LinearLayout>
+</ScrollView>
+

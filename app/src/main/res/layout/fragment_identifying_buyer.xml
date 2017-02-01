@@ -1,139 +1,149 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.rushabh.importandexport.fragments.IdentifyingBuyerFragment">
 
-    <ScrollView
-        android:layout_margin="@dimen/scroll_view_margin"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Identifying_Buyers_title1" />
+
+        <TextView
+            style="@style/style_detail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                style="@style/style_title"
-                android:text="@string/Identifying_Buyers_title1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/Identifying_Buyers_detail1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/Identifying_Buyers_Offline_title1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/Identifying_Buyers_Offline_detail1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/Identifying_Buyers_Online_title1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/Identifying_Buyers_Online_detail1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/find_Buyers_Online_title1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/find_Buyers_Online_detail1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/Importance_of_Communication_title1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/Importance_of_Communication_detail1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/Genuinity_of_Buyers_title1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/Genuinity_of_Buyers_detail1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/Online_Marketing_title1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/Online_Marketing_detail1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Links..." />
+            android:layout_height="wrap_content"
+            android:text="@string/Identifying_Buyers_detail1" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Identifying_Buyers_Offline_title1" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Identifying_Buyers_Offline_detail1" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Identifying_Buyers_Online_title1" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Identifying_Buyers_Online_detail1" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/find_Buyers_Online_title1" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/find_Buyers_Online_detail1" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Importance_of_Communication_title1" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Importance_of_Communication_detail1" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Genuinity_of_Buyers_title1" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Genuinity_of_Buyers_detail1" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Online_Marketing_title1" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Online_Marketing_detail1" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/links" />
 
 
-            <!--Links Start-->
-            <TextView
-                android:id="@+id/Link1"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="\u2022 Participation in Exhibition / Trade Fairs" />
+        <!--Links Start-->
+        <TextView
+            android:id="@+id/Link1"
+            style="@style/style_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/identifying_buyers_link_1" />
 
-            <TextView
-                android:id="@+id/Link2"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="\u2022 Databases from Govt. Trade Promotion Bodies" />
+        <TextView
+            android:id="@+id/Link2"
+            style="@style/style_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/identifying_buyers_link_2" />
 
-            <TextView
-                android:id="@+id/Link3"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="\u2022 List of Trade Directories World Wide" />
+        <TextView
+            android:id="@+id/Link3"
+            style="@style/style_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/identifying_buyers_link_3" />
 
-            <TextView
-                android:id="@+id/Link4"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="\u2022 Yellow Pages " />
+        <TextView
+            android:id="@+id/Link4"
+            style="@style/style_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/identifying_buyers_link_4" />
 
-            <TextView
-                android:id="@+id/Link5"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="\u2022 List of Top B2B Websites Worldwide:" />
+        <TextView
+            android:id="@+id/Link5"
+            style="@style/style_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/identifying_buyers_link_5" />
 
-            <TextView
-                android:id="@+id/Link6"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="\u2022 Indian Embassy Abroad “OUR FIRST RELATIVE" />
+        <TextView
+            android:id="@+id/Link6"
+            style="@style/style_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/identifying_buyers_link_6" />
 
 
-        </LinearLayout>
-    </ScrollView>
+    </LinearLayout>
+</ScrollView>
 
-</FrameLayout>

@@ -1,112 +1,117 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.rushabh.importandexport.fragments.IncotermsFragment">
 
-    <ScrollView
-        android:layout_margin="@dimen/scroll_view_margin"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
-            android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incoterms_title11" />
+
+        <TextView
+            style="@style/style_detail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                style="@style/style_title"
-                android:text="@string/incoterms_title11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/incoterms_detail1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/incoterms_title12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/incoterms_detail12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/incoterms_title13"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/incoterms_detail13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/incoterms_title14"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/incoterms_detail14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_title"
-                android:text="@string/incoterms_title15"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                style="@style/style_detail"
-                android:text="@string/incoterms_detail15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:text="@string/incoterms_detail1" />
 
-            <TextView
-                style="@style/style_title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Links..." />
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incoterms_title12" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/incoterms_detail12" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incoterms_title13" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/incoterms_detail13" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incoterms_title14" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/incoterms_detail14" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incoterms_title15" />
+
+        <TextView
+            style="@style/style_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/incoterms_detail15" />
+
+        <TextView
+            style="@style/style_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/links" />
 
 
-            <!--Links Start-->
-            <TextView
-                android:id="@+id/Link1"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="\u2022 What is INCOTERMS?" />
+        <!--Links Start-->
+        <TextView
+            android:id="@+id/Link1"
+            style="@style/style_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inoterms_link_1" />
 
-            <TextView
-                android:id="@+id/Link2"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="\u2022 SEA PORT" />
+        <TextView
+            android:id="@+id/Link2"
+            style="@style/style_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inoterms_link_2" />
 
-            <TextView
-                android:id="@+id/Link3"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="\u2022 AIR PORT" />
+        <TextView
+            android:id="@+id/Link3"
+            style="@style/style_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inoterms_link_3" />
 
-            <TextView
-                android:id="@+id/Link4"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="\u2022 DRY PORT" />
+        <TextView
+            android:id="@+id/Link4"
+            style="@style/style_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inoterms_link_4" />
 
-            <TextView
-                android:id="@+id/Link5"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="\u2022 Introduction of Letter of Credit (L/C)" />
+        <TextView
+            android:id="@+id/Link5"
+            style="@style/style_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inoterms_link_5" />
 
-        </LinearLayout>
-    </ScrollView>
+    </LinearLayout>
+</ScrollView>
 
-</FrameLayout>

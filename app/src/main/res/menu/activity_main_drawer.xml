@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-        <group android:id="@+id/firstGroup">
-            <item
-                android:id="@+id/homepage"
-                android:icon="@drawable/home"
-                android:title="Main Page" />
-            <item
-                android:id="@+id/currancyconverter"
-                android:icon="@drawable/converter"
-                android:title="Currency converter" />
-        </group>
+    <group android:id="@+id/firstGroup">
+        <item
+            android:id="@+id/homepage"
+            android:icon="@drawable/home"
+            android:title="@string/main_page" />
+        <item
+            android:id="@+id/currancyconverter"
+            android:icon="@drawable/converter"
+            android:title="@string/currency_converter" />
+    </group>
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/helpus"
             android:icon="@drawable/helpus"
-            android:title="Help us out"
-            android:id="@+id/helpus"/>
+            android:title="@string/help_us_out" />
         <item
             android:id="@+id/rateapp"
             android:icon="@drawable/rateapp"
-            android:title="Rate app" />
+            android:title="@string/rate_app" />
         <item
             android:id="@+id/feedback"
             android:icon="@drawable/feedback"
-            android:title="Feedback" />
+            android:title="@string/feedback" />
         <item
             android:id="@+id/aboutus"
             android:icon="@drawable/aboutus"
-            android:title="About us" />
+            android:title="@string/about_us" />
     </group>
-
 
 
 </menu>

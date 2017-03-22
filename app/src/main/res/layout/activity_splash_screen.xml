@@ -17,19 +17,15 @@
             android:src="@drawable/app_logo"
             android:layout_width="200dp"
             android:layout_height="200dp" />
-        <ProgressBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:gravity="bottom|right"
+        android:gravity="bottom|end"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <ImageView
             android:layout_marginBottom="@dimen/company_logo_margin"
-            android:layout_marginEnd="@dimen/company_logo_margin"
             android:foregroundGravity="bottom"
             android:src="@drawable/icodelogo"
             android:layout_width="150dp"

@@ -47,6 +47,16 @@
                 android:text="@string/gov_ben_inc_detail4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
+
+            <!--Links Start-->
+            <TextView
+                android:id="@+id/Link1"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/govenmentbenifitlink1" />
+
         </LinearLayout>
     </ScrollView>
 

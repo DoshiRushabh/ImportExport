@@ -482,15 +482,15 @@
     <!-- New data -->
     <string name="intl_bodies_title1">International Bodies</string>
 
-    <string name="intl_bodies_detail1"> \t - ICC – International Chamber of Commerce\n \t\t\t\t - Role\n \t\t\t\t - Framework\n \t\t\t\t - UCP – Uniform Customs &amp; Practice\n \t\t\t\t - What is H.S Code? - Click\n \t\t\t\t - Indian Trade Classifications (ITC-H.S CODE) - Click\n \t - WORLD TRADE ORGANIZATION – Click\n \t\t\t\t A. Role in World Trade\n \t\t\t\t B. Frame Work\n \t\t\t\t C. Achievements\n </string>
+    <string name="intl_bodies_detail1"> \t - ICC – International Chamber of Commerce\n \t\t\t\t - Role\n \t\t\t\t - Framework\n \t\t\t\t - UCP – Uniform Customs &amp; Practice\n \t\t\t\t - What is H.S Code?\n \t\t\t\t - Indian Trade Classifications (ITC-H.S CODE)\n \t - WORLD TRADE ORGANIZATION \n \t\t\t\t A. Role in World Trade\n \t\t\t\t B. Frame Work\n \t\t\t\t C. Achievements\n </string>
 
     <string name="intl_bodies_title2">Local Bodies</string>
 
-    <string name="intl_bodies_detail2"> \t\t\t\t - Ministry of Commerce &amp; Finance – Click\n \t\t\t\t - DGFT – Director General of Foreign Trade – Click\n \t\t\t\t - RBI – Click\n \t\t\t\t - Central Excise &amp; Customs Act - Click\n \t\t\t\t - Shipping Lines\n \t\t\t\t - Airlines\n \t\t\t\t - Insurance Companies\n \t\t\t\t - Inspection Agencies\n \t\t\t\t - Test Laboratories\n </string>
+    <string name="intl_bodies_detail2"> \t\t\t\t - Ministry of Commerce &amp; Finance \n \t\t\t\t - DGFT – Director General of Foreign Trade \n \t\t\t\t - RBI \n \t\t\t\t - Central Excise &amp; Customs Act\n \t\t\t\t - Shipping Lines\n \t\t\t\t - Airlines\n \t\t\t\t - Insurance Companies\n \t\t\t\t - Inspection Agencies\n \t\t\t\t - Test Laboratories\n </string>
 
     <string name="intl_bodies_title3">Trade Promotion Agencies</string>
 
-    <string name="intl_bodies_detail3"> \t - CII – Confederation of Indian Industries - Click\n \t - Trade Associations - Click\n \t - FICCI – Federation of Indian Chamber of Commerce &amp; Industries – Click\n \t - FIEO – Federation of Indian Exporter Organization - Click\n \t - Export Promotion Councils – Click\n \t\t\t\t - Engineering Goods – Click\n \t\t\t\t - Chemicals &amp; Cosmetics – Click\n \t\t\t\t - Chemicals &amp; Allied Products – Click\n \t\t\t\t - Leather Products – Click\n \t\t\t\t - Gems &amp; Jewellery Products – Click\n \t - Shellac Products – Click\n \t\t\t\t - Cashew Products – Click\n \t\t\t\t - Plastic Industry Products – Click\n \t\t\t\t - Sports Goods Products – Click\n \t\t\t\t - Pharmaceuticals Products - Click\n \t - Commodity Board – Click\n \t\t\t\t - Rubber Board – Click\n \t\t\t\t - Coffee Board – Click\n \t\t\t\t - Tea Board – Click\n \t\t\t\t - Tobacco Board – Click\n \t\t\t\t - Spices Board – Click\n \t\t\t\t - Jute Board - Click\n </string>
+    <string name="intl_bodies_detail3"> \t - CII – Confederation of Indian Industries\n \t - Trade Associations\n \t - FICCI – Federation of Indian Chamber of Commerce &amp; Industries \n \t - FIEO – Federation of Indian Exporter Organization\n \t - Export Promotion Councils \n \t\t\t\t - Engineering Goods \n \t\t\t\t - Chemicals &amp; Cosmetics \n \t\t\t\t - Chemicals &amp; Allied Products \n \t\t\t\t - Leather Products \n \t\t\t\t - Gems &amp; Jewellery Products \n \t - Shellac Products \n \t\t\t\t - Cashew Products \n \t\t\t\t - Plastic Industry Products \n \t\t\t\t - Sports Goods Products \n \t\t\t\t - Pharmaceuticals Products\n \t - Commodity Board \n \t\t\t\t - Rubber Board \n \t\t\t\t - Coffee Board \n \t\t\t\t - Tea Board \n \t\t\t\t - Tobacco Board \n \t\t\t\t - Spices Board \n \t\t\t\t - Jute Board\n </string>
 
     <string name="intl_bodies_title4">Development Authoroties</string>
 
@@ -498,11 +498,11 @@
 
     <string name="intl_bodies_title5">Indian Government Laws</string>
 
-    <string name="intl_bodies_detail5"> \t - Foreign Trade Act – Click\n \t - FEMA – Foreign Exchange Management Act – Click\n </string>
+    <string name="intl_bodies_detail5"> \t - Foreign Trade Act \n \t - FEMA – Foreign Exchange Management Act \n </string>
 
     <string name="intl_bodies_title6">Foreign Trade Policy and Framework</string>
 
-    <string name="intl_bodies_detail6"> \t - Foreign Trade Policy 2014–2019 – Click\n \t - Handbook of Procedures – Click\n \t - Appendices &amp; Aayat Niryat Forms – Click\n \t - SION - Standard Input Output Norms - Click\n </string>
+    <string name="intl_bodies_detail6"> \t - Foreign Trade Policy 2014–2019 \n \t - Handbook of Procedures \n \t - Appendices &amp; Aayat Niryat Forms \n \t - SION - Standard Input Output Norms\n </string>
 
     <!-- Import Export Cycle -->
     <string name="imp_exp_cycle_title1">Issuance of Import Exxport Cycle - IE Code</string>
@@ -603,17 +603,17 @@
     <!-- Goverment benefits -->
     <string name="gov_ben_inc_title1">Government Benefits on Exports</string>
 
-    <string name="gov_ben_inc_detail1"> \t Pre Shipment Benefits\n \t\t\t\t - Advance License – http://dgftcom.nic.in/exim/2000/policy/chap-04.htm\n \t\t\t\t - EPCG – Export Promotion of Capital Goods – http://dgft.delhi.nic.in/dgftcla/PDF/EPCG.pdf\n </string>
+    <string name="gov_ben_inc_detail1"> \t Pre Shipment Benefits\n \t\t\t\t - Advance License \n \t\t\t\t - EPCG – Export Promotion of Capital Goods \n </string>
 
     <string name="gov_ben_inc_title2">Market &amp; Product Related Benefits</string>
 
-    <string name="gov_ben_inc_detail2"> \t - MLFPS – Market Linked Focus Product Scheme – http://commerce.nic.in/publications/annual-report-pdf-2010-11/CHAPTER_3.pdf\n \t - MDA – Market Development Assistance\n \t - Serve From India - http://dgft.gov.in/exim/2000/Highlights1314E.pdf\n </string>
+    <string name="gov_ben_inc_detail2"> \t - MLFPS – Market Linked Focus Product Scheme –\n \t - MDA – Market Development Assistance\n \t - Serve From India\n </string>
 
     <string name="gov_ben_inc_title3">Post Shipment Benefits</string>
 
     <string name="gov_ben_inc_detail3"> \t 1.Duty Drawback\n \t 2.VKGUY\n \t 3.Status Holder Certificate\n </string>
 
-    <string name="gov_ben_inc_title4">Status Holder Certificate – http://dgft.delhi.nic.in/dgftcla/PDF/chapter3.pdf</string>
+    <string name="gov_ben_inc_title4">Status Holder Certificate</string>
 
     <string name="gov_ben_inc_detail4"> \t Categories \t\t\t\tValue in FOB INR\n \t -Export House \t\t\t 20 Cr.\n \t -Star Export House \t\t\t 100 Cr.\n \t -Trading House \t\t\t 500 Cr.\n \t -Start Trading House \t\t\t 2500 Cr.\n \t -Premier Trading House\t\t\t7500 Cr. &amp; Above\n </string>
 
@@ -651,7 +651,7 @@
                     \t\t\t\t - Import Data for other countries \n
                     \t\t\t\t - Export Data of Indian Products \n
                     \t\t\t\t - Search for more Labor intensive Product \n
-            \t\t - Trade Promotional Bodies - Click \n
+            \t\t - Trade Promotional Bodies \n
              \t\t - Conference &amp; Seminars  \n
 
         \t - MEIS - Merchandise Export from India Scheme - http://dgft.gov.in/\n
@@ -687,7 +687,7 @@
             \t\t - Plastic Industry Products – http://www.plexconcil.org/  \n
             \t\t - Sports Goods Products – http://www.sportsgoodsindia.org/  \n
             \t\t - Pharmaceuticals Products - http://www.pharmexcil.com/  \n
-        \t - Commodity Board – Click  \n
+        \t - Commodity Board   \n
             \t\t - Rubber Board – http://rubberboard.org.in/  \n
             \t\t - Coffee Board – http://www.indiacoffee.org/  \n
             \t\t - Tea Board – http://www.teaboard.gov.in/  \n
@@ -1299,4 +1299,7 @@ Following  documents  are  required for preparing  CE  certificate for  EP
     <string name="feedback">Feedback</string>
     <string name="about_us">About us</string>
     <string name="loading_ad">loading ad.....</string>
+    <string name="icode_developers">iCODE developers</string>
+    <string name="navigation_image">navigation image</string>
+    <string name="govenmentbenifitlink1">Advance License</string>
 </resources>

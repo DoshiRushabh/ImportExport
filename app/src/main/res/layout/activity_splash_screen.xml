@@ -31,7 +31,7 @@
             android:layout_marginBottom="@dimen/company_logo_margin"
             android:layout_marginEnd="@dimen/company_logo_margin"
             android:foregroundGravity="bottom"
-            android:src="@drawable/company_logo"
+            android:src="@drawable/icodelogo"
             android:layout_width="150dp"
             android:layout_height="50dp" />
     </LinearLayout>

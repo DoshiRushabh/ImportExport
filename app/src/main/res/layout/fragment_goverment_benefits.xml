@@ -54,8 +54,7 @@
                 android:id="@+id/Link1"
                 style="@style/style_link"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/govenmentbenifitlink1" />
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
     </ScrollView>

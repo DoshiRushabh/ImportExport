@@ -69,12 +69,27 @@
             android:layout_height="wrap_content"
             android:text="@string/incoterms_detail15" />
 
+        <!--Image view start-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/incoterms_image"
+            android:src="@drawable/incotermsimgone" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/incoterms_image"
+            android:src="@drawable/incotermsimgtwo" />
+
+
         <TextView
             style="@style/style_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/links" />
-
 
         <!--Links Start-->
         <TextView

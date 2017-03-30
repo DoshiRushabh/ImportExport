@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebResourceRequest;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
@@ -49,6 +50,8 @@ public class WebViewFragment extends Fragment {
 
         webView = (WebView) v.findViewById(R.id.webview);
 
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setBuiltInZoomControls(true);
 
         webView.setWebViewClient(new WebViewClient(){
 

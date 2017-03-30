@@ -10,6 +10,16 @@
             android:layout_height="wrap_content">
             <TextView
                 style="@style/style_title"
+                android:text="@string/LC_title0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_detail"
+                android:text="@string/LC_detail0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                style="@style/style_title"
                 android:text="@string/LC_title1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />

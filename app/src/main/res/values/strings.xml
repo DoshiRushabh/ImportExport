@@ -181,7 +181,7 @@
     <string name="link">Link</string>
 
     //forign Trade
-<string name="forign_trade">
+    <string name="forign_trade">
     </string>
     <string name="forign_title1">Why Exports?</string>
     <string name="forigtn_detail1">
@@ -296,7 +296,7 @@
 
 
     //Payment Terms
-<string name="Payment_Terms">
+    <string name="Payment_Terms">
     </string>
     <string name="Payment_Terms_title">Payment Terms</string>
     <string name="Payment_Terms_detail1">
@@ -341,7 +341,7 @@
                     \t\t\t\t - 20% balance at 60 days from date of shipment, etc.\n
         </string>
     <string name="Other_type_of_Payment_title">Other type of Payment :</string>
-        <string name="Other_type_of_Payment_detail1">
+    <string name="Other_type_of_Payment_detail1">
         \t - Free of Cost – allowed up to Rs.5 lacs for non-status Holders and Rs.10 lacs for Status holders.\n
         \t - Status holders\n
                 \t\t\t\t- - Export House            \t\t - 20\n
@@ -353,7 +353,7 @@
     </string>
 
     //Identifying Buyers
-<string name="Identifying_Buyers">
+    <string name="Identifying_Buyers">
     </string>
     <string name="Identifying_Buyers_title1">Identifying Buyers</string>
     <string name="Identifying_Buyers_detail1">
@@ -762,7 +762,7 @@
 </string>
     <string name="call_us">Call us</string>
     <string name="mail_us">Mail us</string>
-  <string name="IMPORT_DOCUMENTATION">
+    <string name="IMPORT_DOCUMENTATION">
     </string>
     <string name="IMPORT_DOCUMENTATION_title1">Product Selection</string>
     <string name="IMPORT_DOCUMENTATION_detail1">
@@ -1120,7 +1120,7 @@ notified   exchange rate.     \n
         </string>
 
 
-<string name="IMPORT_DOCUMENTATION_title32">DOCUMENTS REQUIRED FOR EPCG LICENCE  &amp;  EXPORT  OF DEFECTIVE PARTS
+    <string name="IMPORT_DOCUMENTATION_title32">DOCUMENTS REQUIRED FOR EPCG LICENCE  &amp;  EXPORT  OF DEFECTIVE PARTS
 Following  documents  are  required for preparing  CE  certificate for  EPCG  licence of  Govt. of India: 
 </string>
     <string name="IMPORT_DOCUMENTATION_detail32">
@@ -1299,4 +1299,14 @@ Following  documents  are  required for preparing  CE  certificate for  EP
     <string name="feedback">Feedback</string>
     <string name="about_us">About us</string>
     <string name="loading_ad">loading ad.....</string>
+    <string name="LC_title0">TYPES OF L/C</string>
+    <string name="LC_detail0">
+        \t- Revocable L/C / Irrevocable L/C\n
+        \t- At Sight L/C / It Usance L/C\n
+        \t- Restricted L/C\n
+        \t- Transferable L/C / Back to Back L/C\n
+        \t- Revolving L/C\n
+        \t- Confirmed L/C\n
+    </string>
+    <string name="incoterms_image">incoterms image</string>
 </resources>

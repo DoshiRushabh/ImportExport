@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.rushabh.importandexport.MainActivity;
 import com.rushabh.importandexport.R;
 
 public class splashScreenActivity extends AppCompatActivity {

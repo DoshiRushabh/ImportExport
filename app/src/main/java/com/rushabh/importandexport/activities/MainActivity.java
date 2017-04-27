@@ -1,4 +1,4 @@
-package com.rushabh.importandexport;
+package com.rushabh.importandexport.activities;
 
 import android.annotation.TargetApi;
 import android.content.ActivityNotFoundException;
@@ -26,7 +26,7 @@ import android.widget.Toast;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.rushabh.importandexport.activities.AboutUsActivity;
+import com.rushabh.importandexport.R;
 import com.rushabh.importandexport.fragments.HelpUsFragment;
 import com.rushabh.importandexport.fragments.MainFragment;
 import com.rushabh.importandexport.fragments.WebViewFragment;
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                 Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                 sharingIntent.setType("text/plain");
-                String shareBody = "Add details here";
+                String shareBody = "Try this new app to learn about Import and Export.\n Link : https://play.google.com/store/apps/details?id=com.rushabh.importandexport";
                 sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
                 sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
                 startActivity(Intent.createChooser(sharingIntent, "Share via"));

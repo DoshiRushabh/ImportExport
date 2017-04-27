@@ -9,7 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.rushabh.importandexport.MainActivity;
+import com.rushabh.importandexport.activities.MainActivity;
 import com.rushabh.importandexport.R;
 import com.rushabh.importandexport.adapter.MainListAdapter;
 import com.rushabh.importandexport.dataObject.topic;

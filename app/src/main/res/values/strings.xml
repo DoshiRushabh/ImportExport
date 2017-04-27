@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Import and Export</string>
+    <string name="app_name">Import Export info</string>
 
     <string name="banner_ad_unit_id">ca-app-pub-7609540248030426/4336667591</string>
 
@@ -482,15 +482,15 @@
     <!-- New data -->
     <string name="intl_bodies_title1">International Bodies</string>
 
-    <string name="intl_bodies_detail1"> \t - ICC – International Chamber of Commerce\n \t\t\t\t - Role\n \t\t\t\t - Framework\n \t\t\t\t - UCP – Uniform Customs &amp; Practice\n \t\t\t\t - What is H.S Code? - Click\n \t\t\t\t - Indian Trade Classifications (ITC-H.S CODE) - Click\n \t - WORLD TRADE ORGANIZATION – Click\n \t\t\t\t A. Role in World Trade\n \t\t\t\t B. Frame Work\n \t\t\t\t C. Achievements\n </string>
+    <string name="intl_bodies_detail1"> \t - ICC – International Chamber of Commerce\n \t\t\t\t - Role\n \t\t\t\t - Framework\n \t\t\t\t - UCP – Uniform Customs &amp; Practice\n \t\t\t\t - What is H.S Code? \n \t\t\t\t - Indian Trade Classifications (ITC-H.S CODE) \n \t - WORLD TRADE ORGANIZATION \n \t\t\t\t A. Role in World Trade\n \t\t\t\t B. Frame Work\n \t\t\t\t C. Achievements\n </string>
 
     <string name="intl_bodies_title2">Local Bodies</string>
 
-    <string name="intl_bodies_detail2"> \t\t\t\t - Ministry of Commerce &amp; Finance – Click\n \t\t\t\t - DGFT – Director General of Foreign Trade – Click\n \t\t\t\t - RBI – Click\n \t\t\t\t - Central Excise &amp; Customs Act - Click\n \t\t\t\t - Shipping Lines\n \t\t\t\t - Airlines\n \t\t\t\t - Insurance Companies\n \t\t\t\t - Inspection Agencies\n \t\t\t\t - Test Laboratories\n </string>
+    <string name="intl_bodies_detail2"> \t\t\t\t - Ministry of Commerce &amp; Finance \n \t\t\t\t - DGFT – Director General of Foreign Trade \n \t\t\t\t - RBI \n \t\t\t\t - Central Excise &amp; Customs Act \n \t\t\t\t - Shipping Lines\n \t\t\t\t - Airlines\n \t\t\t\t - Insurance Companies\n \t\t\t\t - Inspection Agencies\n \t\t\t\t - Test Laboratories\n </string>
 
     <string name="intl_bodies_title3">Trade Promotion Agencies</string>
 
-    <string name="intl_bodies_detail3"> \t - CII – Confederation of Indian Industries - Click\n \t - Trade Associations - Click\n \t - FICCI – Federation of Indian Chamber of Commerce &amp; Industries – Click\n \t - FIEO – Federation of Indian Exporter Organization - Click\n \t - Export Promotion Councils – Click\n \t\t\t\t - Engineering Goods – Click\n \t\t\t\t - Chemicals &amp; Cosmetics – Click\n \t\t\t\t - Chemicals &amp; Allied Products – Click\n \t\t\t\t - Leather Products – Click\n \t\t\t\t - Gems &amp; Jewellery Products – Click\n \t - Shellac Products – Click\n \t\t\t\t - Cashew Products – Click\n \t\t\t\t - Plastic Industry Products – Click\n \t\t\t\t - Sports Goods Products – Click\n \t\t\t\t - Pharmaceuticals Products - Click\n \t - Commodity Board – Click\n \t\t\t\t - Rubber Board – Click\n \t\t\t\t - Coffee Board – Click\n \t\t\t\t - Tea Board – Click\n \t\t\t\t - Tobacco Board – Click\n \t\t\t\t - Spices Board – Click\n \t\t\t\t - Jute Board - Click\n </string>
+    <string name="intl_bodies_detail3"> \t - CII – Confederation of Indian Industries \n \t - Trade Associations \n \t - FICCI – Federation of Indian Chamber of Commerce &amp; Industries \n \t - FIEO – Federation of Indian Exporter Organization \n \t - Export Promotion Councils \n \t\t\t\t - Engineering Goods \n \t\t\t\t - Chemicals &amp; Cosmetics \n \t\t\t\t - Chemicals &amp; Allied Products \n \t\t\t\t - Leather Products \n \t\t\t\t - Gems &amp; Jewellery Products \n \t - Shellac Products \n \t\t\t\t - Cashew Products \n \t\t\t\t - Plastic Industry Products \n \t\t\t\t - Sports Goods Products \n \t\t\t\t - Pharmaceuticals Products \n \t - Commodity Board \n \t\t\t\t - Rubber Board \n \t\t\t\t - Coffee Board \n \t\t\t\t - Tea Board \n \t\t\t\t - Tobacco Board \n \t\t\t\t - Spices Board \n \t\t\t\t - Jute Board \n </string>
 
     <string name="intl_bodies_title4">Development Authoroties</string>
 
@@ -498,11 +498,11 @@
 
     <string name="intl_bodies_title5">Indian Government Laws</string>
 
-    <string name="intl_bodies_detail5"> \t - Foreign Trade Act – Click\n \t - FEMA – Foreign Exchange Management Act – Click\n </string>
+    <string name="intl_bodies_detail5"> \t - Foreign Trade Act \n \t - FEMA – Foreign Exchange Management Act \n </string>
 
     <string name="intl_bodies_title6">Foreign Trade Policy and Framework</string>
 
-    <string name="intl_bodies_detail6"> \t - Foreign Trade Policy 2014–2019 – Click\n \t - Handbook of Procedures – Click\n \t - Appendices &amp; Aayat Niryat Forms – Click\n \t - SION - Standard Input Output Norms - Click\n </string>
+    <string name="intl_bodies_detail6"> \t - Foreign Trade Policy 2014–2019 \n \t - Handbook of Procedures \n \t - Appendices &amp; Aayat Niryat Forms \n \t - SION - Standard Input Output Norms \n </string>
 
     <!-- Import Export Cycle -->
     <string name="imp_exp_cycle_title1">Issuance of Import Exxport Cycle - IE Code</string>
@@ -651,7 +651,7 @@
                     \t\t\t\t - Import Data for other countries \n
                     \t\t\t\t - Export Data of Indian Products \n
                     \t\t\t\t - Search for more Labor intensive Product \n
-            \t\t - Trade Promotional Bodies - Click \n
+            \t\t - Trade Promotional Bodies  \n
              \t\t - Conference &amp; Seminars  \n
 
         \t - MEIS - Merchandise Export from India Scheme - http://dgft.gov.in/\n
@@ -687,7 +687,7 @@
             \t\t - Plastic Industry Products – http://www.plexconcil.org/  \n
             \t\t - Sports Goods Products – http://www.sportsgoodsindia.org/  \n
             \t\t - Pharmaceuticals Products - http://www.pharmexcil.com/  \n
-        \t - Commodity Board – Click  \n
+        \t - Commodity Board   \n
             \t\t - Rubber Board – http://rubberboard.org.in/  \n
             \t\t - Coffee Board – http://www.indiacoffee.org/  \n
             \t\t - Tea Board – http://www.teaboard.gov.in/  \n
@@ -1223,35 +1223,33 @@ Following  documents  are  required for preparing  CE  certificate for  EP
     <string name="international_bodies_link_3">• Indian Trade Classifications (ITC-H.S CODE)</string>
     <string name="international_bodies_link_4">• WORLD TRADE ORGANIZATION</string>
     <string name="international_bodies_link_5"><![CDATA[• Ministry of Commerce & Finance]]></string>
-    <string name="international_bodies_link_6">• RBI</string>
-    <string name="international_bodies_link_7">• CII – Confederation of Indian Industries)</string>
-    <string name="international_bodies_link_8">• Trade Associations</string>
-    <string name="international_bodies_link_9"><![CDATA[• FICCI – Federation of Indian Chamber of Commerce & Industries]]></string>
-    <string name="international_bodies_link_10">• FIEO – Federation of Indian Exporter Organization</string>
-    <string name="international_bodies_link_11">• Export Promotion Councils</string>
-    <string name="international_bodies_link_12">• Engineering Goods</string>
-    <string name="international_bodies_link_13"><![CDATA[• Chemicals & Cosmetics]]></string>
-    <string name="international_bodies_link_14"><![CDATA[• Chemicals & Allied Products]]></string>
-    <string name="international_bodies_link_15">• Leather Products</string>
-    <string name="international_bodies_link_16"><![CDATA[• Gems & Jewellery Products]]></string>
-    <string name="international_bodies_link_17">• Shellac Products</string>
-    <string name="international_bodies_link_18">• Cashew Products</string>
-    <string name="international_bodies_link_19">• Plastic Industry Products</string>
-    <string name="international_bodies_link_20">• Sports Goods Products</string>
-    <string name="international_bodies_link_21">• Pharmaceuticals Products</string>
-    <string name="international_bodies_link_22">• Commodity Board</string>
-    <string name="international_bodies_link_23">• Rubber Board</string>
-    <string name="international_bodies_link_24">• Coffee Board</string>
-    <string name="international_bodies_link_25">• Tobacco Board</string>
-    <string name="international_bodies_link_26">• Spices Board</string>
-    <string name="international_bodies_link_27">• Jute Board</string>
-    <string name="international_bodies_link_28">• Agricultural and Processed Food Products Expor</string>
-    <string name="international_bodies_link_29">• Marine Products Export Development Authority</string>
-    <string name="international_bodies_link_30">• Foreign Trade Act</string>
-    <string name="international_bodies_link_31">• FEMA</string>
-    <string name="international_bodies_link_32">• Foreign Trade Policy 2014 – 2019</string>
-    <string name="international_bodies_link_34">• Handbook of Procedures</string>
-    <string name="international_bodies_link_35"><![CDATA[• Appendices & Aayat Niryat Forms]]></string>
+    <string name="international_bodies_link_7">• RBI</string>
+    <string name="international_bodies_link_8">• CII – Confederation of Indian Industries)</string>
+    <string name="international_bodies_link_9">• Trade Associations</string>
+    <string name="international_bodies_link_10"><![CDATA[• FICCI – Federation of Indian Chamber of Commerce & Industries]]></string>
+    <string name="international_bodies_link_11">• FIEO – Federation of Indian Exporter Organization</string>
+    <string name="international_bodies_link_12">• Export Promotion Councils</string>
+    <string name="international_bodies_link_13">• Engineering Goods</string>
+    <string name="international_bodies_link_14"><![CDATA[• Chemicals & Cosmetics]]></string>
+    <string name="international_bodies_link_15"><![CDATA[• Chemicals & Allied Products]]></string>
+    <string name="international_bodies_link_16">• Leather Products</string>
+    <string name="international_bodies_link_17"><![CDATA[• Gems & Jewellery Products]]></string>
+    <string name="international_bodies_link_18">• Shellac Products</string>
+    <string name="international_bodies_link_19">• Cashew Products</string>
+    <string name="international_bodies_link_20">• Plastic Industry Products</string>
+    <string name="international_bodies_link_21">• Sports Goods Products</string>
+    <string name="international_bodies_link_22">• Pharmaceuticals Products</string>
+    <string name="international_bodies_link_23">• Commodity Board</string>
+    <string name="international_bodies_link_24">• Rubber Board</string>
+    <string name="international_bodies_link_25">• Coffee Board</string>
+    <string name="international_bodies_link_26">• Tobacco Board</string>
+    <string name="international_bodies_link_27">• Spices Board</string>
+    <string name="international_bodies_link_28">• Jute Board</string>
+    <string name="international_bodies_link_29">• Agricultural and Processed Food Products Expor</string>
+    <string name="international_bodies_link_30">• Marine Products Export Development Authority</string>
+    <string name="international_bodies_link_31">• Foreign Trade Act</string>
+    <string name="international_bodies_link_32">• FEMA</string>
+    <string name="international_bodies_link_33">• Foreign Trade Policy 2014 – 2019</string>
     <string name="international_bodies_link_36">• SION - Standard Input Output Norms</string>
     <string name="international_bodies_link_37">• DGFT – Director General of Foreign Trade</string>
     <string name="loading">Loading...</string>

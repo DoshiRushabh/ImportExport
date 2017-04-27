@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.rushabh.importandexport.MainActivity;
+import com.rushabh.importandexport.activities.MainActivity;
 import com.rushabh.importandexport.R;
 
 /**
@@ -34,7 +34,6 @@ public class InternationalBodiesFragment extends Fragment implements View.OnClic
         v.findViewById(R.id.Link3).setOnClickListener(this);
         v.findViewById(R.id.Link4).setOnClickListener(this);
         v.findViewById(R.id.Link5).setOnClickListener(this);
-        v.findViewById(R.id.Link6).setOnClickListener(this);
         v.findViewById(R.id.Link7).setOnClickListener(this);
         v.findViewById(R.id.Link8).setOnClickListener(this);
         v.findViewById(R.id.Link9).setOnClickListener(this);
@@ -60,8 +59,6 @@ public class InternationalBodiesFragment extends Fragment implements View.OnClic
         v.findViewById(R.id.Link29).setOnClickListener(this);
         v.findViewById(R.id.Link30).setOnClickListener(this);
         v.findViewById(R.id.Link31).setOnClickListener(this);
-        v.findViewById(R.id.Link32).setOnClickListener(this);
-        v.findViewById(R.id.Link33).setOnClickListener(this);
         v.findViewById(R.id.Link34).setOnClickListener(this);
         v.findViewById(R.id.Link35).setOnClickListener(this);
 
@@ -89,11 +86,8 @@ public class InternationalBodiesFragment extends Fragment implements View.OnClic
             bundle.putString("url","https://www.wto.org/");
             bundle.putString("title","WORLD TRADE ORGANIZATION");
         }else if (view.getId() == R.id.Link5){
-            bundle.putString("url","http://commerce.gov.in/DOC/index.aspx");
+            bundle.putString("url","http://commerce.gov.in/");
             bundle.putString("title","Ministry of Commerce & Finance");
-        }else if (view.getId() == R.id.Link6){
-            bundle.putString("url","http://www.dgft.gov.in/");
-            bundle.putString("title","DGFT – Director General of Foreign Trade");
         }else if (view.getId() == R.id.Link7){
             bundle.putString("url","https://www.rbi.org.in/");
             bundle.putString("title","RBI");
@@ -169,18 +163,12 @@ public class InternationalBodiesFragment extends Fragment implements View.OnClic
         }else if (view.getId() == R.id.Link31){
             bundle.putString("url","https://www.rbi.org.in/scripts/FS_Overview.aspx?fn=5");
             bundle.putString("title","FEMA – Foreign Exchange Management Act");
-        }else if (view.getId() == R.id.Link32){
-            bundle.putString("url","Foreign Trade Policy 2014 – 2019");
-            bundle.putString("title","http://www.howtoexportimport.com/Foreign-Trade-Policy-2014-19/default.aspx");
-        }else if (view.getId() == R.id.Link33){
-            bundle.putString("url","Handbook of Procedures");
-            bundle.putString("title","dgft.gov.in/exim/2000/dn/ftpdnl/eproc1213.zip");
         }else if (view.getId() == R.id.Link34){
             bundle.putString("url","dgft.gov.in/exim/2000/dn/ftpdnl/anfapnd.zip");
-            bundle.putString("title","Appendices & Aayat Niryat Forms");
-        }else if (view.getId() == R.id.Link35){
-            bundle.putString("url","http://dgft.gov.in/exim/2000/download-ftp1213.htm");
             bundle.putString("title","SION - Standard Input Output Norms");
+        }else if (view.getId() == R.id.Link35){
+            bundle.putString("url","dgft.gov.in/");
+            bundle.putString("title","DGFT – Director General of Foreign Trade");
         }
         webViewFragment.setArguments(bundle);
         fm.replace(R.id.MainLayout,webViewFragment)

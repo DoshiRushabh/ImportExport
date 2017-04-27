@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.rushabh.importandexport.MainActivity;
+import com.rushabh.importandexport.activities.MainActivity;
 import com.rushabh.importandexport.R;
 import com.rushabh.importandexport.dataObject.topic;
 import com.rushabh.importandexport.fragments.ForignTradeFragment;

@@ -123,13 +123,6 @@
                 android:text="@string/international_bodies_link_5" />
 
             <TextView
-                android:id="@+id/Link6"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/international_bodies_link_6" />
-
-            <TextView
                 android:id="@+id/Link7"
                 style="@style/style_link"
                 android:layout_width="match_parent"
@@ -310,20 +303,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/international_bodies_link_32" />
-
-            <TextView
-                android:id="@+id/Link32"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/international_bodies_link_34" />
-
-            <TextView
-                android:id="@+id/Link33"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/international_bodies_link_35" />
 
             <TextView
                 android:id="@+id/Link34"

@@ -95,13 +95,6 @@
                 android:text="@string/product_market_link_4" />
 
             <TextView
-                android:id="@+id/Link5"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/product_market_link_5" />
-
-            <TextView
                 android:id="@+id/Link6"
                 style="@style/style_link"
                 android:layout_width="match_parent"
@@ -156,6 +149,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/product_market_link_13" />
+
+            <TextView
+                android:id="@+id/Link14"
+                style="@style/style_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/product_market_link_14" />
 
 
             <TextView
@@ -269,27 +269,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/product_market_link_29" />
-
-            <TextView
-                android:id="@+id/Link31"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/product_market_link_30" />
-
-            <TextView
-                android:id="@+id/Link32"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/product_market_link_31" />
-
-            <TextView
-                android:id="@+id/Link33"
-                style="@style/style_link"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/product_market_link_32" />
 
             <TextView
                 android:id="@+id/Link34"

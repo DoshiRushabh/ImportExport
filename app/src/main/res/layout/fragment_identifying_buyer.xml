@@ -109,40 +109,11 @@
             android:text="@string/identifying_buyers_link_1" />
 
         <TextView
-            android:id="@+id/Link2"
-            style="@style/style_link"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/identifying_buyers_link_2" />
-
-        <TextView
-            android:id="@+id/Link3"
-            style="@style/style_link"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/identifying_buyers_link_3" />
-
-        <TextView
             android:id="@+id/Link4"
             style="@style/style_link"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/identifying_buyers_link_4" />
-
-        <TextView
-            android:id="@+id/Link5"
-            style="@style/style_link"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/identifying_buyers_link_5" />
-
-        <TextView
-            android:id="@+id/Link6"
-            style="@style/style_link"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/identifying_buyers_link_6" />
-
 
     </LinearLayout>
 </ScrollView>

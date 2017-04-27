@@ -17,7 +17,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-import com.rushabh.importandexport.MainActivity;
+import com.rushabh.importandexport.activities.MainActivity;
 import com.rushabh.importandexport.R;
 
 /**

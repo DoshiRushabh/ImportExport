@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -16,6 +17,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
@@ -30,6 +32,10 @@ import com.rushabh.importandexport.R;
 import com.rushabh.importandexport.fragments.HelpUsFragment;
 import com.rushabh.importandexport.fragments.MainFragment;
 import com.rushabh.importandexport.fragments.WebViewFragment;
+import com.rushabh.importandexport.fragments.documentFormateFragment;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 
 public class MainActivity extends AppCompatActivity
@@ -88,11 +94,18 @@ public class MainActivity extends AppCompatActivity
                 .setDuration(500)
                 .setStartDelay(700);
 
+
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.MainLayout, new MainFragment())
+                .commit();
+
         //        ADs
         adView = (AdView) findViewById(R.id.adView);
 
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .addTestDevice("534E961287FF5EE75719F93E605436E6")
                 .build();
         adView.loadAd(adRequest);
 
@@ -107,17 +120,18 @@ public class MainActivity extends AppCompatActivity
                 layoutParams.setMargins(0, 0, 0, adView.getHeight());
                 MainLayout.setLayoutParams(layoutParams);
             }
+
+            @Override
+            public void onAdFailedToLoad(int i) {
+                super.onAdFailedToLoad(i);
+                Log.e("error",String.valueOf(i));
+            }
         });
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-
-        getSupportFragmentManager()
-                .beginTransaction()
-                .replace(R.id.MainLayout, new MainFragment())
-                .commit();
 
     }
 
@@ -151,10 +165,11 @@ public class MainActivity extends AppCompatActivity
                     }, 3 * 1000);
                 }
             } else {
-                getSupportFragmentManager()
-                        .beginTransaction()
-                        .replace(R.id.MainLayout, new MainFragment())
-                        .commit();
+                super.onBackPressed();
+//                getSupportFragmentManager()
+//                        .beginTransaction()
+//                        .replace(R.id.MainLayout, new MainFragment())
+//                        .commit();
             }
         }
     }
@@ -188,7 +203,15 @@ public class MainActivity extends AppCompatActivity
                     .replace(R.id.MainLayout, new HelpUsFragment())
                     .addToBackStack(null)
                     .commit();
-        } else if (id == R.id.rateapp) {
+        }else if (id == R.id.document) {
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .setCustomAnimations(R.anim.trans_left_in, R.anim.trans_left_out, R.anim.trans_right_in, R.anim.trans_right_out)
+                    .replace(R.id.MainLayout, new documentFormateFragment())
+                    .addToBackStack(null)
+                    .commit();
+        }
+        else if (id == R.id.rateapp) {
             Uri uri = Uri.parse("market://details?id=" + getBaseContext().getPackageName());
             Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
             // To count with Play market backstack, After pressing back button,
@@ -221,6 +244,5 @@ public class MainActivity extends AppCompatActivity
         Email.putExtra(Intent.EXTRA_TEXT, " ");
         startActivity(Intent.createChooser(Email, "Send Feedback:"));
     }
-
 
 }

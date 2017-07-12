@@ -38,7 +38,7 @@ public class HelpUsFragment extends Fragment implements View.OnClickListener {
         showAd.setOnClickListener(this);
 
         interstitialAd = new InterstitialAd(getActivity());
-        interstitialAd.setAdUnitId("ca-app-pub-7609540248030426/6510757998");
+        interstitialAd.setAdUnitId(getResources().getString(R.string.help_us_out_adsid));
 
         LoadAd();
 
@@ -48,6 +48,7 @@ public class HelpUsFragment extends Fragment implements View.OnClickListener {
     private void LoadAd() {
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .addTestDevice("534E961287FF5EE75719F93E605436E6")
                 .build();
         interstitialAd.loadAd(adRequest);
 

@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Import Export info</string>
 
-    <string name="banner_ad_unit_id">ca-app-pub-7609540248030426/4336667591</string>
+    <string name="app_id">ca-app-pub-7609540248030426~7569335595</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7609540248030426/3171287597</string>
+    <string name="help_us_out_adsid">ca-app-pub-7609540248030426/3171287597</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -742,16 +744,11 @@
             \t\t - BRICS \n
     </string>
     <string name="hvd_details">
-    \tHVD INTERNATIONAL “worldwide Export – Import – Representatives” company of agricultural commodities. From procurement to delivery HVD INTERNATIONAL, is actively taking care in all aspects of the phase. Our mission is to provide the essence of the agro resources to International Market.\n\n
+    \tWe, HVD INTERNATIONAL “worldwide Export – Import – Representatives” company of agricultural commodities. From procurement to delivery HVD INTERNATIONAL, is actively taking care in all aspects of the phase. Our mission is to provide the essence of the agro resources to International Market.\n
 
-    \tWe are pleased to introduce ourselves as one of the leading Export Import Representatives from the Mother of Agro Land – India.\n\n
+    \tToday, HVD INTERNATIONAL is the source behind many globally recognized foodstuff brands. Our constant and main focus on quality and consistency, joined with our value additional services, has certified us as one of the best service providers of Agricultural Commodities.\n
 
-    \tWe offer our sincere efforts and services to make a bridge between buyers and suppliers that helps them in running their business smoothly and profitably. We have sources for all kinds of agriculture commodities from all major countries of the World. i.e.,  India, Nigeria, Ethiopia, Sudan, Mozambique, Tanzania, Togo, Mali, Burkina Faso, Vietnam, Thailand, Sri Lanka, Myanmar, Morocco, Argentina, Bolivia, Paraguay, Venezuela, Mexico, Bulgaria and China.\n\n
-
-    \tOur back bone and strengths include our leading suppliers from across the globe. They deliver quality products and hard core services, all time easy availability and accessibility, timely response to our clients and value their time.\n\n
-
-
-</string>
+    \tWe generally dealing in Spices (Coriander seed, Cumin seed, Fenugreek seed, Mustard seed,Etc.), Sesame seed (Natural and Hulled Sesame seed), Peanut (In shell and shelled),Processed Spice, Rice (Non Basmati and Basmati) and Kesar Mango (Queen of Mango) - Seasonal and representative of well known rice mill here in India. So we assures you best quality in affordable price.\n\n</string>
     <string name="Company_details">
     \t We strives customer through our proffessional and quality services and having ability to sustain professionalism through
 	the work. \n
@@ -1307,4 +1304,5 @@ Following  documents  are  required for preparing  CE  certificate for  EP
         \t- Confirmed L/C\n
     </string>
     <string name="incoterms_image">incoterms image</string>
+    <string name="document_image">document image</string>
 </resources>

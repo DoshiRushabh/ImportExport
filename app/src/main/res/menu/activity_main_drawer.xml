@@ -10,6 +10,10 @@
             android:id="@+id/currancyconverter"
             android:icon="@drawable/converter"
             android:title="@string/currency_converter" />
+        <item
+            android:id="@+id/document"
+            android:icon="@drawable/document"
+            android:title="Document formates"/>
     </group>
 
     <group android:checkableBehavior="single">

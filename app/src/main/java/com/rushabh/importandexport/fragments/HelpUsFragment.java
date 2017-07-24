@@ -48,7 +48,8 @@ public class HelpUsFragment extends Fragment implements View.OnClickListener {
     private void LoadAd() {
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .addTestDevice("534E961287FF5EE75719F93E605436E6")
+//                .addTestDevice("534E961287FF5EE75719F93E605436E6")
+//                .addTestDevice("B71EDBE67DDC4536B8DEC45FD2F0CC6F")
                 .build();
         interstitialAd.loadAd(adRequest);
 
@@ -75,8 +76,6 @@ public class HelpUsFragment extends Fragment implements View.OnClickListener {
         if (view.getId() == R.id.showAd) {
             if (interstitialAd.isLoaded()) {
                 interstitialAd.show();
-            } else {
-                Toast.makeText(getActivity(), "Ad is not loaded yet", Toast.LENGTH_SHORT).show();
             }
         }
     }

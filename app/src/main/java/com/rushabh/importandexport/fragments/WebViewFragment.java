@@ -27,7 +27,7 @@ public class WebViewFragment extends Fragment {
 
     WebView webView;
     Bundle bundle;
-    String url;
+    String url,title;
 
     public WebViewFragment() {
         // Required empty public constructor
@@ -46,7 +46,8 @@ public class WebViewFragment extends Fragment {
 
 
         url = bundle.getString("url");
-        ((MainActivity) getActivity()).setActionBarTitle(bundle.getString("title"));
+        title = bundle.getString("title");
+        ((MainActivity) getActivity()).setActionBarTitle(title);
 
         webView = (WebView) v.findViewById(R.id.webview);
 

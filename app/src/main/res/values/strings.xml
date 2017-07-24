@@ -3,7 +3,8 @@
 
     <string name="app_id">ca-app-pub-7609540248030426~7569335595</string>
     <string name="banner_ad_unit_id">ca-app-pub-7609540248030426/3171287597</string>
-    <string name="help_us_out_adsid">ca-app-pub-7609540248030426/3171287597</string>
+    <!--<string name="help_us_out_adsid">ca-app-pub-7609540248030426/3031686796</string>-->
+    <string name="help_us_out_adsid">ca-app-pub-7609540248030426/9078220392</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -193,7 +194,7 @@
         \t - Diminishes unit cost by adopting mass production strategy,\n
         \t - Enhances firms and countries’ competitive advantage by gaining new technologies,\n
         \t - Support countries\' balance of trade.\n
-        
+
     </string>
 
     <string name="Export_pro_title2">Export Process</string>
@@ -204,7 +205,7 @@
         \t - Engage Buyer\n
         \t - Meet Specifications\n
         \t - Ask for order\n
-        
+
     </string>
 
     <string name="Buyer_want_title3">What buyer wants?</string>
@@ -216,7 +217,7 @@
         \t - On time shipment\n
         \t - Longtime  business relationship\n
         \t - Trust is the thread which connects all people!\n
-        
+
     </string>
 
     <string name="International_Institution_title4">International Institution</string>
@@ -231,7 +232,7 @@
         \t - WIPO (World Intellectual Property Organization)\n
         \t - Institute of International Commercial Law (Pace)\n
         \t - Lex Mercatoria\n
-        
+
     </string>
 
 
@@ -243,7 +244,7 @@
         \t - RBI\n
         \t - EXIM BANK\n
         \t - NCDPD (National Centre for Product &amp; Design Development)\n
-        
+
     </string>
 
     <string name="Trade_Institutions_title6">Trade Institutions </string>
@@ -254,7 +255,7 @@
         \t - FIEO\n
         \t - EPCs\n
         \t - Commodities Boards\n
-        
+
     </string>
 
 
@@ -268,7 +269,7 @@
         \t - The Customs Tariff Act, 1975\n
         \t - The Customs, Central Excise Duties and Service Tax Drawback (Amendment) Rules, 2006.\n
 
-        
+
     </string>
 
 
@@ -282,7 +283,7 @@
         \t - All type of manufacturing concerns,\n
         \t - ExIm Consultancy, etc.\n
 
-        
+
     </string>
 
 
@@ -293,7 +294,7 @@
             \t\t\t\t - competitive conditions in their current markets, \n
             \t\t\t\t - scan opportunities for new or emerging markets,\n
             \t\t\t\t - look for opportunities to diversify or value-add to your existing product range.\n
-        
+
     </string>
 
 
@@ -305,7 +306,7 @@
         \t - Payment terms depend on the credit standing of the importer i.e. buyer and exporter (Seller).\n
         \t - Today’s International Trade &amp; competition is no longer  confined only to price, quality or delivery schedule, but payment term as well.\n
         \t - More export orders come due to attractive payment terms.\n
-        
+
     </string>
 
 
@@ -362,7 +363,7 @@
         \t - There are two ways available for Identifying Buyers :- \n
              \t\t - Offline \n
              \t\t - Online \n
-        
+
     </string>
 
     <string name="Identifying_Buyers_Offline_title1">Identifying Buyers Offline</string>
@@ -388,7 +389,7 @@
                     \t\t\t\t - No attachments – As their Email Accounts are Sensitive\n
 
         \t\t - Personal Visits\n
-    
+
     </string>
 
     <string name="Identifying_Buyers_Online_title1">Identifying Buyers Online</string>
@@ -401,7 +402,7 @@
              \t\t - www.exportersindia.com \n
 
         \t - List of Top B2B Websites Worldwide -http://dragon-guide.net/ \n
-        
+
     </string>
 
     <string name="find_Buyers_Online_title1">How to Find Online Buyers</string>
@@ -417,7 +418,7 @@
              \t\t - Trade Associations Directories in Targeted Countries \n
              \t\t - Exhibition / Trade Fairs Exhibitors Directory - http://www.tradefairdates.com/ \n
              \t\t - Local Chamber of Commerce in your Targeted Countries \n
-        
+
     </string>
 
     <string name="Importance_of_Communication_title1">Importance of Communication</string>
@@ -451,7 +452,7 @@
                     \t\t\t\t - Packaging of the Samples \n
                     \t\t\t\t - Prepare Pro-forma Invoice showing “SAMPLES FOR EVALUATION PURPOSE NOT FOR SELL” \n
 
-        
+
     </string>
 
 
@@ -462,7 +463,7 @@
              \t\t - Ask for Govt. Registration Documents \n
              \t\t - Take Support from Indian Embassy \n
              \t\t - Check Credit Reports \n
-        
+
     </string>
 
 
@@ -478,7 +479,7 @@
              \t\t - Improved customer service \n
              \t\t - Competitive advantage \n
          \t - Online marketing is also known as Internet marketing, Web marketing, digital marketing and search engine marketing (SEM). \n
-        
+
     </string>
 
     <!-- New data -->
@@ -609,7 +610,7 @@
 
     <string name="gov_ben_inc_title2">Market &amp; Product Related Benefits</string>
 
-    <string name="gov_ben_inc_detail2"> \t - MLFPS – Market Linked Focus Product Scheme – http://commerce.nic.in/publications/annual-report-pdf-2010-11/CHAPTER_3.pdf\n \t - MDA – Market Development Assistance\n \t - Serve From India - http://dgft.gov.in/exim/2000/Highlights1314E.pdf\n </string>
+    <string name="gov_ben_inc_detail2"> \t – MLFPS – Market Linked Focus Product Scheme &#8211; http://commerce.nic.in/publications/annual–report–pdf-2010-11/CHAPTER_3.pdf\n \t - MDA – Market Development Assistance\n \t - Serve From India - http://dgft.gov.in/exim/2000/Highlights1314E.pdf\n </string>
 
     <string name="gov_ben_inc_title3">Post Shipment Benefits</string>
 
@@ -767,7 +768,7 @@
         \t - Is the product(s) an importer need to conducting his business available domestically?  \n
         \t - Is there a lucrative and untapped domestic market for an imported product?  \n
         \t - Does importing a product increase competitiveness as a business?  \n
-   
+
     </string>
 
     <string name="IMPORT_DOCUMENTATION_title2">Categories of Imports</string>
@@ -780,7 +781,7 @@
 		\t\t - Items under this category are restricted and require License for importation.  \n
         \t - Prohibited Items \n
 		\t\t - As the name suggests the items under this category are NOT permitted to be imported at all.  \n
-\t - Note: List of items under above categories are published in the Foreign Trade Policy.  Importer / Exporter must have IEC (Importer Exporter Code) issued by DGFT  (Director General Of Foreign Trade, Government of India). 
+\t - Note: List of items under above categories are published in the Foreign Trade Policy.  Importer / Exporter must have IEC (Importer Exporter Code) issued by DGFT  (Director General Of Foreign Trade, Government of India).
 
     </string>
 
@@ -836,8 +837,8 @@
         \t - Catalogues \n
         \t - Other relevant literatures \n
         \t - Specifications of the items to be imported \n
-        \t - Samples brought in India as personal baggage by bona fide 
-commercial travellers and businessmen or imported by post or by air 
+        \t - Samples brought in India as personal baggage by bona fide
+commercial travellers and businessmen or imported by post or by air
 shipment are exempt from the customs duty.
 \n
         </string>
@@ -881,7 +882,7 @@ shipment are exempt from the customs duty.
 		\t\t - AD-1 Category, AD-II and AD-III categories. Advance payment can only be made through AD-1 category.\n
 		\t\t - All payments must be collected against imports through authorised banks in current account, as mentioned above. \n
 		\t\t - Currency of Invoicing : Indian Rupee or foreign currency. \n
-        
+
         </string>
 
 
@@ -894,42 +895,42 @@ shipment are exempt from the customs duty.
     <string name="IMPORT_DOCUMENTATION_title11">Follow up with Shipper </string>
     <string name="IMPORT_DOCUMENTATION_detail11">
 	\t - Follow up with shipper and also check online tracking of cargo on internet, shipping line on ETA, etc.\n
-		
+
 	\t - Do\'s \n
-		\t\t - Open LC or import transactions only for customers and open only if the party has got sanction limit. 
-Allow import of restricted items as per procedure laid down in the Exim Policy. 
-Handover import documents only to drawee or his PA holder against property acknowledgement. 
-Allow payment for import by debit to customer’s account. 
-Allow payment for the bills beyond six months and also allow payment of overdue interest on sight bills for a period not exceeding six months. 
-Allow payment to local agents on commission basis. In case of overseas agent, allow commission as per FEMA guidelines. 
-Verify the imported items under the LC. 
-Issue amendments to LC only on the basis of written request. 
-Verify whether the payment method in Letter of Credit is done as per FEMA guidelines or not. 
-In case of default payment, crystallise the bill on 10th day of the month. 
-Open LC or import transactions only for customers and open only if the party has got sanction limit. 
-Allow import of restricted items as per procedure laid down in the Exim Policy. 
-Handover import documents only to drawee or his PA holder against property acknowledgement. 
-Allow payment for import by debit to customer’s account. 
-Allow payment for the bills beyond six months and also allow payment of overdue interest on sight bills for a period not exceeding six months. 
-Allow payment to local agents on commission basis. In case of overseas agent, allow commission as per FEMA guidelines. 
-Verify the imported items under the LC. 
-Issue amendments to LC only on the basis of written request. 
-Verify whether the payment method in Letter of Credit is done as per FEMA guidelines or not. 
-In case of default payment, crystallise the bill on 10th day of the month. 
+		\t\t - Open LC or import transactions only for customers and open only if the party has got sanction limit.
+Allow import of restricted items as per procedure laid down in the Exim Policy.
+Handover import documents only to drawee or his PA holder against property acknowledgement.
+Allow payment for import by debit to customer’s account.
+Allow payment for the bills beyond six months and also allow payment of overdue interest on sight bills for a period not exceeding six months.
+Allow payment to local agents on commission basis. In case of overseas agent, allow commission as per FEMA guidelines.
+Verify the imported items under the LC.
+Issue amendments to LC only on the basis of written request.
+Verify whether the payment method in Letter of Credit is done as per FEMA guidelines or not.
+In case of default payment, crystallise the bill on 10th day of the month.
+Open LC or import transactions only for customers and open only if the party has got sanction limit.
+Allow import of restricted items as per procedure laid down in the Exim Policy.
+Handover import documents only to drawee or his PA holder against property acknowledgement.
+Allow payment for import by debit to customer’s account.
+Allow payment for the bills beyond six months and also allow payment of overdue interest on sight bills for a period not exceeding six months.
+Allow payment to local agents on commission basis. In case of overseas agent, allow commission as per FEMA guidelines.
+Verify the imported items under the LC.
+Issue amendments to LC only on the basis of written request.
+Verify whether the payment method in Letter of Credit is done as per FEMA guidelines or not.
+In case of default payment, crystallise the bill on 10th day of the month.
 \n
 		\t - Don\'ts\n
-		\t\t - Issue the Letter of Credit if the customer doesn’t have IEC number. 
+		\t\t - Issue the Letter of Credit if the customer doesn’t have IEC number.
 
-Open LC without proper transport documents. 
-Allow advance payment without proper documentation. 
-Forward the documents to third party without permission from the importer. 
-Import prohibited or restricted items without import license.  
-Allow direct remittance of import bills beyond the limit and without EC copy of bill of entry. 
-Open revolving LC without safety clause. 
-Amendments to the Letter of Credit for import of those items which is either restricted or prohibited.  
+Open LC without proper transport documents.
+Allow advance payment without proper documentation.
+Forward the documents to third party without permission from the importer.
+Import prohibited or restricted items without import license. 
+Allow direct remittance of import bills beyond the limit and without EC copy of bill of entry.
+Open revolving LC without safety clause.
+Amendments to the Letter of Credit for import of those items which is either restricted or prohibited. 
 Allow import documents received under collection paid without verifying importers line of business and financial standing.
  \n
-        
+
         </string>
 
 
@@ -951,7 +952,7 @@ Allow import documents received under collection paid without verifying importer
 
     <string name="IMPORT_DOCUMENTATION_title13">Upon Cargo Arrival, the Importer has two options:  </string>
     <string name="IMPORT_DOCUMENTATION_detail13">
-	\t - •To Clear immediately, or 
+	\t - •To Clear immediately, or
 	     • To Store under Bond and clear later \n
         \t - BONDED WAREHOUSING\n
 		\t\t - Cargo is stored in Bonded Warehouse and cleared later on payment of import duty.     \n
@@ -964,17 +965,17 @@ Allow import documents received under collection paid without verifying importer
 
     <string name="IMPORT_DOCUMENTATION_title14">How to calculate Assessable Value</string>
     <string name="IMPORT_DOCUMENTATION_detail14" formatted="false">
-	\t -   a.   Ex-Works : 
+	\t -   a.   Ex-Works :
  		  This is the value of the goods at the factory gate at origin \n
-	\t -   b.   FOB (Free on Board)  : 
-		  This value is the ex-works value + charges at origin upto loaded on vessel / aircraft. Such origin charges include local transportation, customs clearance charges and  handling at origin port / airport   \n
+	\t -   b.   FOB (Free on Board)  :
+		  This value is the ex-works value + charges at origin up to loaded on vessel / aircraft. Such origin charges include local transportation, customs clearance charges and  handling at origin port / airport   \n
 	\t -   c.   C &amp; F (Cost &amp; Freight) :
-		  This value comprises of the FOB value + air / ocean freight upto the airport / port of  discharge.   This value does not include the landing charge at the port of destination.  \n
-	\t -    d.   CIF (Cost Insurance Freight) : 
- 		  This value comprises of the FOB value + air / ocean freight upto the airport / port of  discharge +   insurance cost for insurance of the goods upto the country of destination. The value does not include the landing charge at the port of destination.  \n
-	\t -    e.    Assessable Value :  The customs duty in India is charged on the assessable value which is 1.01 CIF value.   
-A standardized 1% landing charges are added to the CIF value for arriving at the assessable value.  If  any local commissions are payable by the importer to the indenting agent, such commissions are also to be added for arriving at the  assessable  
-value.  Assessable value is calculated after  converting the foreign currency CIF value    into Indian Rupee at the current customs      
+		  This value comprises of the FOB value + air / ocean freight up to the airport / port of  discharge.   This value does not include the landing charge at the port of destination.  \n
+	\t -    d.   CIF (Cost Insurance Freight) :
+ 		  This value comprises of the FOB value + air / ocean freight up to the airport / port of  discharge +   insurance cost for insurance of the goods upto the country of destination. The value does not include the landing charge at the port of destination.  \n
+	\t -    e.    Assessable Value :  The customs duty in India is charged on the assessable value which is 1.01 CIF value.
+A standardized 1% landing charges are added to the CIF value for arriving at the assessable value.  If  any local commissions are payable by the importer to the indenting agent, such commissions are also to be added for arriving at the  assessable
+value.  Assessable value is calculated after  converting the foreign currency CIF value    into Indian Rupee at the current customs
 notified   exchange rate.     \n
 
 	\t - If the air freight amount is not ascertainable or if the actual air freight is more than 20% of FOB,  then 20% of FOB is considered as air freight for calculation of CIF value.    \n
@@ -1118,7 +1119,7 @@ notified   exchange rate.     \n
 
 
     <string name="IMPORT_DOCUMENTATION_title32">DOCUMENTS REQUIRED FOR EPCG LICENCE  &amp;  EXPORT  OF DEFECTIVE PARTS
-Following  documents  are  required for preparing  CE  certificate for  EPCG  licence of  Govt. of India: 
+Following  documents  are  required for preparing  CE  certificate for  EPCG  licence of  Govt. of India:
 </string>
     <string name="IMPORT_DOCUMENTATION_detail32">
 	\t - 1.Scanned  copies  of  PAN and  IEC  \n
@@ -1200,7 +1201,7 @@ Following  documents  are  required for preparing  CE  certificate for  EP
     <string name="share_button">Share button</string>
     <string name="hvd_company_main_image">hvd company main image</string>
     <string name="mail_us_image">mail us image</string>
-    <string name="links">Links...</string>
+    <string name="links">Links…</string>
     <string name="identifying_buyers_link_1">• Participation in Exhibition / Trade Fairs</string>
     <string name="identifying_buyers_link_2">• Databases from Govt. Trade Promotion Bodies</string>
     <string name="identifying_buyers_link_3">• List of Trade Directories World Wide</string>
@@ -1249,7 +1250,7 @@ Following  documents  are  required for preparing  CE  certificate for  EP
     <string name="international_bodies_link_33">• Foreign Trade Policy 2014 – 2019</string>
     <string name="international_bodies_link_36">• SION - Standard Input Output Norms</string>
     <string name="international_bodies_link_37">• DGFT – Director General of Foreign Trade</string>
-    <string name="loading">Loading...</string>
+    <string name="loading">Loading…</string>
     <string name="company_logo">company logo</string>
     <string name="main_list_logo">main list logo</string>
     <string name="product_market_link_1">• Prohibited Products</string>
@@ -1305,4 +1306,6 @@ Following  documents  are  required for preparing  CE  certificate for  EP
     </string>
     <string name="incoterms_image">incoterms image</string>
     <string name="document_image">document image</string>
+    <string name="help_us_by_watching_the_ad">Help us by watching the ad…</string>
+    <string name="suggession">If you have any suggession regarding this application or anything else, please feel free to contact us…</string>
 </resources>

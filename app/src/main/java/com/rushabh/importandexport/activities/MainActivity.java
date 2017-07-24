@@ -32,10 +32,9 @@ import com.rushabh.importandexport.R;
 import com.rushabh.importandexport.fragments.HelpUsFragment;
 import com.rushabh.importandexport.fragments.MainFragment;
 import com.rushabh.importandexport.fragments.WebViewFragment;
+import com.rushabh.importandexport.fragments.detailsFragment;
 import com.rushabh.importandexport.fragments.documentFormateFragment;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 
 
 public class MainActivity extends AppCompatActivity
@@ -47,7 +46,8 @@ public class MainActivity extends AppCompatActivity
     ActionBar actionBar;
     Toolbar toolbar;
     private Boolean exit = false;
-
+    NavigationView navigationView;
+    Boolean isConverter = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
         actionBar.setTitle("");
@@ -105,7 +105,8 @@ public class MainActivity extends AppCompatActivity
 
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .addTestDevice("534E961287FF5EE75719F93E605436E6")
+//                .addTestDevice("534E961287FF5EE75719F93E605436E6")
+//                .addTestDevice("B71EDBE67DDC4536B8DEC45FD2F0CC6F")
                 .build();
         adView.loadAd(adRequest);
 
@@ -124,7 +125,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onAdFailedToLoad(int i) {
                 super.onAdFailedToLoad(i);
-                Log.e("error",String.valueOf(i));
+                Log.e("error", String.valueOf(i));
             }
         });
     }
@@ -148,8 +149,8 @@ public class MainActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            Fragment fragment = getSupportFragmentManager().findFragmentById(R.id.MainLayout);
-            if (fragment instanceof MainFragment) {
+            Fragment mainLayout = getSupportFragmentManager().findFragmentById(R.id.MainLayout);
+            if (mainLayout instanceof MainFragment || mainLayout instanceof detailsFragment || mainLayout instanceof HelpUsFragment || mainLayout instanceof documentFormateFragment || isConverter) {
                 if (exit) {
                     finish(); // finish activity
                     overridePendingTransition(R.anim.fadein, R.anim.fadeout);
@@ -166,10 +167,6 @@ public class MainActivity extends AppCompatActivity
                 }
             } else {
                 super.onBackPressed();
-//                getSupportFragmentManager()
-//                        .beginTransaction()
-//                        .replace(R.id.MainLayout, new MainFragment())
-//                        .commit();
             }
         }
     }
@@ -180,12 +177,17 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        navigationView.setCheckedItem(id);
+        if (id != R.id.currancyconverter){
+            isConverter = false;
+        }
         if (id == R.id.homepage) {
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.MainLayout, new MainFragment())
                     .commit();
         } else if (id == R.id.currancyconverter) {
+            isConverter = true;
             WebViewFragment webViewFragment = new WebViewFragment();
             Bundle bundle = new Bundle();
             bundle.putString("title", "Currancy converter");
@@ -194,24 +196,20 @@ public class MainActivity extends AppCompatActivity
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.MainLayout, webViewFragment)
-                    .addToBackStack(null)
                     .commit();
         } else if (id == R.id.helpus) {
             getSupportFragmentManager()
                     .beginTransaction()
                     .setCustomAnimations(R.anim.trans_left_in, R.anim.trans_left_out, R.anim.trans_right_in, R.anim.trans_right_out)
                     .replace(R.id.MainLayout, new HelpUsFragment())
-                    .addToBackStack(null)
                     .commit();
-        }else if (id == R.id.document) {
+        } else if (id == R.id.document) {
             getSupportFragmentManager()
                     .beginTransaction()
                     .setCustomAnimations(R.anim.trans_left_in, R.anim.trans_left_out, R.anim.trans_right_in, R.anim.trans_right_out)
                     .replace(R.id.MainLayout, new documentFormateFragment())
-                    .addToBackStack(null)
                     .commit();
-        }
-        else if (id == R.id.rateapp) {
+        } else if (id == R.id.rateapp) {
             Uri uri = Uri.parse("market://details?id=" + getBaseContext().getPackageName());
             Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
             // To count with Play market backstack, After pressing back button,
@@ -244,5 +242,4 @@ public class MainActivity extends AppCompatActivity
         Email.putExtra(Intent.EXTRA_TEXT, " ");
         startActivity(Intent.createChooser(Email, "Send Feedback:"));
     }
-
 }
